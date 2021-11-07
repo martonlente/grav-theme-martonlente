@@ -1,0 +1,19 @@
+# ignore everything in the root except the "user" directory.
+/*
+!user/
+
+# ignore everything in the "user" directory, except:
+# pages, and themes directories
+user/*
+!user/pages/
+!user/themes/
+
+# ignore all themes
+# unless explicitly whitelisted at the end of this file
+user/themes/*
+
+# ignore node dependency directories
+node_modules/
+
+# track these files, if they exist
+!.gitignore
