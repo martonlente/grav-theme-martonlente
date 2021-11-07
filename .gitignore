@@ -17,8 +17,14 @@ user/themes/*
 # ignore node dependency directories
 node_modules/
 
+# ignore image files
+*.jpg
+*.png
+*.svg
+
 # track these files, if they exist
 !.gitignore
 
 # track these config, and themes
 !user/config/system.yaml
+!user/themes/martonlente/
