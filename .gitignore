@@ -17,6 +17,10 @@ user/themes/*
 # ignore node dependency directories
 node_modules/
 
+#ignore Editor files
+pinegrow*
+_pginfo/
+
 # ignore image files
 *.jpg
 *.png
