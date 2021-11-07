@@ -3,13 +3,15 @@
 !user/
 
 # ignore everything in the "user" directory, except:
-# pages, and themes directories
+# config, pages, and themes directories
 user/*
+!user/config/
 !user/pages/
 !user/themes/
 
-# ignore all themes
+# ignore all config, and themes
 # unless explicitly whitelisted at the end of this file
+user/config/*
 user/themes/*
 
 # ignore node dependency directories
@@ -17,3 +19,6 @@ node_modules/
 
 # track these files, if they exist
 !.gitignore
+
+# track these config, and themes
+!user/config/system.yaml
