@@ -1,0 +1,26 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    {{ page.content|raw }}
+    <section>
+        <div class="container">
+            {% for p in page.collection %}
+              <div class="row">
+                <div class="col-7">
+                  <a href="{{ p.url|e }}">
+                    <div class="bg-grey-95 ratio-16x9"></div>
+                    <div class="grey-70">
+                      {{ p.date|nicetime(false) }}
+                    </div>
+                    <h2>{{ p.title|e }}</h2>
+                    <div class="">
+                      {{ p.header.test|e }}
+                    </div>
+                  </a>
+                </div>
+                <div class="col-5"></div>
+              </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}
