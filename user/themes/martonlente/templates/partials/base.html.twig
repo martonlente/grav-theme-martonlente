@@ -49,6 +49,27 @@
             {% endblock %}
         </div>
     </div>
+    <header>
+      <div class="container">
+        <div class="h-12 row">
+            <div class="align-items-center col-4 d-flex">
+                <a class="lh-1" href="/">
+                    <img class="d-block h-7 mb-0" src="{{ url('theme://images/marton-lente-logo-primary.svg')|e }}" alt="Márton Lente logo primary">
+                </a>
+            </div>
+            <div class="col-8 d-flex flex-column justify-content-end pb-2">
+                <nav class="d-flex justify-content-end">
+                    <a class="text-decoration-none ms-3 primary" href="#">Brand design</a>
+                    <a class="text-decoration-none ms-3 primary" href="#">Development</a>
+                    <a class="text-decoration-none ms-3 primary" href="#">Work</a>
+                    <a class="text-decoration-none ms-3 primary" href="#">About</a>
+                    <a class="text-decoration-none ms-3 primary" href="#">Contact</a>
+                    <a class="text-decoration-none ms-3 primary" href="#">Blog</a>
+                </nav>
+            </div>
+        </div>
+      </div>
+    </header>
 {% endblock %}
 
 {% block body %}
