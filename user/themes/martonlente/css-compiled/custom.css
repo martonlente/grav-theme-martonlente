@@ -1,0 +1,33 @@
+:root {
+  --primary: #0d0033;
+  --tertiary: #7300e6; }
+
+/*Variables Grid
+ */
+:root {
+  --grid-gutter-width: 1.2rem;
+  --spacer: 0.8rem; }
+
+/*Variables Type
+ */
+:root {
+  --font-monospace: 'Ubuntu Mono', monospace;
+  --font-sans-serif: 'Rutan-Medium', sans-serif;
+  --font-sans-serif-2: 'Rutan-DemiBold', sans-serif;
+  --lh-base: 1.5; }
+
+/*Type
+ */
+b,
+strong {
+  font-family: var(--font-sans-serif-2);
+  font-weight: var(--fw-normal); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-sans-serif-2);
+  font-weight: var(--fw-normal); }
