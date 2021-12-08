@@ -42,3 +42,6 @@ h6 {
 
 .h-54 {
   height: calc(var(--spacer) * 54); }
+
+.mix-blend-mode-multiply {
+  mix-blend-mode: multiply; }
