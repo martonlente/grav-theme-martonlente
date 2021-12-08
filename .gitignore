@@ -17,6 +17,9 @@ user/themes/*
 # ignore node dependency directories
 node_modules/
 
+# ignore lib directory
+lib/
+
 #ignore Editor files
 pinegrow*
 _pginfo/
