@@ -31,3 +31,14 @@ h5,
 h6 {
   font-family: var(--font-sans-serif-2);
   font-weight: var(--fw-normal); }
+
+/*Utilities
+ */
+.bg-gradient {
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary)), to(var(--tertiary)));
+  background-image: -webkit-linear-gradient(left, var(--secondary) 0%, var(--tertiary) 100%);
+  background-image: -o-linear-gradient(left, var(--secondary) 0%, var(--tertiary) 100%);
+  background-image: linear-gradient(90deg, var(--secondary) 0%, var(--tertiary) 100%); }
+
+.h-54 {
+  height: calc(var(--spacer) * 54); }
