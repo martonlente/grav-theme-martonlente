@@ -18,6 +18,9 @@
 
 /*Type
  */
+a {
+  text-decoration: none; }
+
 b,
 strong {
   font-family: var(--font-sans-serif-2);
