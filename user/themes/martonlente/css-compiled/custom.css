@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --primary: #0d0033;
   --tertiary: #7300e6; }
@@ -108,3 +109,6 @@ h6 {
 
 .mix-blend-mode-multiply {
   mix-blend-mode: multiply; }
+
+.text-delimiter:after {
+  content: " • "; }
