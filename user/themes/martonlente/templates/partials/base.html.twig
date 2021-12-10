@@ -26,6 +26,8 @@
 
 {% block javascripts %}
     {% do assets.addJs('jquery', 100) %}
+    {% do assets.addJs('theme://node_modules/svg-injector/dist/svg-injector.min.js', {'priority':99, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://js/jquery.site.js', {'priority':98, 'group':'bottom'}) %}
 {% endblock %}
 
 {% block assets deferred %}
@@ -93,7 +95,7 @@
         </section>
         <div class="bottom-3 end-3 position-fixed">
           <a class="lh-1" href="#">
-            <img alt="" class="d-block h-8 mb-0" src="{{ url('theme://images/asset-period.svg') }}">
+            <img alt="" class="d-block h-8 js-svg-injector-item mb-0" src="{{ url('theme://images/asset-period.svg') }}">
           </a>
         </div>
         {% block content %}{% endblock %}
