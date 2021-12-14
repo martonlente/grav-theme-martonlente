@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluroverlay.js": "^1.0.1",
     "reset-css": "^5.0.1"
   }
 }
