@@ -1,6 +1,12 @@
 $(function() {
   var $window = $(window);
 
+  /*Bluroverlay.js
+   */
+  var blurOverlay = $('.js-bluroverlay').bluroverlay({
+    contentWrapperClass: "js-bluroverlay-back",
+  });
+
   /*Svg injector
    */
   var $svgInjectorItems = $('.js-svg-injector-item');
