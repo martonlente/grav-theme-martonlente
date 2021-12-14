@@ -26,8 +26,9 @@
 
 {% block javascripts %}
     {% do assets.addJs('jquery', 100) %}
-    {% do assets.addJs('theme://node_modules/svg-injector/dist/svg-injector.min.js', {'priority':99, 'group':'bottom'}) %}
-    {% do assets.addJs('theme://js/jquery.site.js', {'priority':98, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://node_modules/bluroverlay.js/dist/bluroverlay.min.js', {'priority':99, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://node_modules/svg-injector/dist/svg-injector.min.js', {'priority':98, 'group':'bottom'}) %}
+    {% do assets.addJs('theme://js/jquery.site.js', {'priority':97, 'group':'bottom'}) %}
 {% endblock %}
 
 {% block assets deferred %}
@@ -51,7 +52,7 @@
             {% endblock %}
         </div>
     </div>
-    <header class="position-fixed start-0 top-0 w-100">
+    <header class="js-bluroverlay position-fixed start-0 top-0 w-100">
       <div class="container">
         <div class="h-12 row">
             <div class="align-items-center col-4 d-flex">
@@ -78,7 +79,7 @@
 {% endblock %}
 
 {% block body %}
-    <main>
+    <main class="js-bluroverlay-back">
         <section class="mb-6">
             <div class="bg-gradient d-flex flex-column h-54 justify-content-center">
               <div class="h-54 mix-blend-mode-multiply opacity-20 position-absolute w-100" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
