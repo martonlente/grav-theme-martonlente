@@ -39,6 +39,7 @@
 <body id="top" class="{{ page.header.body_classes|e }}">
 
 {% block header %}
+    <!--
     <div class="header">
         <div class="wrapper padding">
             <a class="logo left" href="{{ home_url|e }}">
@@ -52,8 +53,10 @@
             {% endblock %}
         </div>
     </div>
-    <header class="js-bluroverlay position-fixed start-0 top-0 w-100">
-      <div class="container">
+    -->
+    <div class="h-12 js-bluroverlay position-fixed w-100"></div>
+    <header class="position-fixed start-0 top-0 w-100 z-index-10000">
+      <div class="container position-relative">
         <div class="h-12 row">
             <div class="align-items-center col-4 d-flex">
                 <a class="lh-1" href="/">
@@ -75,11 +78,11 @@
         </div>
       </div>
     </header>
-    <div class="h-12"></div>
 {% endblock %}
 
 {% block body %}
     <main class="js-bluroverlay-back">
+        <div class="h-12"></div>
         <section class="mb-6">
             <div class="bg-gradient d-flex flex-column h-54 justify-content-center">
               <div class="h-54 mix-blend-mode-multiply opacity-20 position-absolute w-100" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
