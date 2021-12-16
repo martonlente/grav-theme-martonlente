@@ -138,6 +138,10 @@ h6 {
   content: " • ";
 }
 
+.text-delimiter:last-child:after {
+  content: "";
+}
+
 .z-index-10000 {
   z-index: 10000;
 }
