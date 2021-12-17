@@ -127,3 +127,18 @@ h6 {
 
 .z-index-10000 {
   z-index: 10000; }
+
+/*Compontents
+ */
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after,
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: var(--primary); }
+
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+  border-radius: 0; }
