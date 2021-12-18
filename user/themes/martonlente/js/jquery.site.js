@@ -10,9 +10,12 @@ $(function() {
   /*Nav md
    */
   var $btnNavMd = $('.js-btn-nav-md');
+  var $navMd = $('.js-nav-md');
 
   $btnNavMd.click(function() {
     $(this).toggleClass('is-active');
+
+    $navMd.toggleClass('h-0 opacity-0 transition-fade-in')
   });
 
   /*Svg injector
