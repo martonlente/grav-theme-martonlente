@@ -171,8 +171,10 @@ h1,
   top: calc(var(--spacer) * 10);
 }
 
-.top-8-xs {
-  top: calc(var(--spacer) * 8);
+@media (max-width: 575px) {
+  .top-8-xs {
+    top: calc(var(--spacer) * 8);
+  }
 }
 
 .z-index-10000 {
