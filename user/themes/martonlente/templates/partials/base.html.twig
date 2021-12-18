@@ -112,7 +112,7 @@
                               <div class="col-1"></div>
                               <div class="col-10">
                                   <div class="fs-7 grey-98 letter-spacing-lg mb-3 text-uppercase">Blog</div>
-                                  <h1 class="grey-98 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim</h1>
+                                  <h1 class="fs-2-xs grey-98 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim</h1>
                               </div>
                               <div class="col-1"></div>
                           </div>
@@ -130,23 +130,25 @@
 {% endblock %}
 
 {% block footer %}
+    <!--
     <div class="footer text-center">
         <div class="wrapper padding">
             <p><a href="https://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://trilby.media">Trilby Media, LLC</a>.</p>
         </div>
     </div>
+  -->
     <footer>
         <div class="position-relative">
-            <div class="h-8 mix-blend-mode-multiply opacity-10 position-absolute w-100"  style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
+            <div class="h-8 h-15-xs mix-blend-mode-multiply opacity-10 position-absolute w-100"  style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
             <div class="container position-relative">
-                <div class="h-8 row">
-                    <div class="col-9 col-9-md d-flex justify-content-center flex-column">
-                        <div>
+                <div class="h-8 h-15-xs row">
+                    <div class="col-9 col-9-md col-12-xs d-flex justify-content-center flex-column">
+                        <div class="d-flex-xs justify-content-center">
                             <span class="fs-7-lg me-1-5">Copyright © 2021 Márton Lente</span>
                             <a href="#" target="_blank" class="me-1-5 primary"><i class="fa fa-facebook"></i></a><a href="#" target="_blank" class="me-1-5 primary"><i class="fa fa-github"></i></a><a href="#" target="_blank" class="me-1-5 primary"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="align-items-end col-3 col-3-md d-flex fs-7-lg justify-content-center flex-column">
+                    <div class="align-items-end align-items-center-xs col-3 col-3-md col-12-xs d-flex fs-7-lg justify-content-center flex-column">
                         <a class="primary" href="#">Privacy policy</a>
                     </div>
                 </div>
