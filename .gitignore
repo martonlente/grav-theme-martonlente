@@ -34,6 +34,7 @@ _pginfo/
 
 # track these files, if they exist
 !.gitignore
+!robots.txt
 
 # track these config, and themes
 !user/config/system.yaml
