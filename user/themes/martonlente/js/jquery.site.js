@@ -20,10 +20,17 @@ $(function() {
 
   /*Scroll
    */
+  var $imgLogo = $('.js-img-logo');
   var $linkTop = $('.js-link-top');
 
   $window.scroll(function() {
     var scrollTopCurrent = $window.scrollTop();
+
+    if (scrollTopCurrent == 0) {
+      $imgLogo.toggleClass('transition-fade-in transition-fade-out');
+    } else {
+      $imgLogo.addClass('transition-fade-out').removeClass('transition-fade-in');
+    }
 
     $linkTop.css('transform', 'rotate(' + scrollTopCurrent / 3 + 'deg)');
   });
