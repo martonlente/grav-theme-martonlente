@@ -15,7 +15,7 @@ $(function() {
   $btnNavMd.click(function() {
     $(this).toggleClass('is-active');
 
-    $navMd.toggleClass('h-0 opacity-0 transition-fade-in')
+    $navMd.toggleClass('nav-md-active opacity-0 transition-fade-in')
   });
 
   /*Svg injector
