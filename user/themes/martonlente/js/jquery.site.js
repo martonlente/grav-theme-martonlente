@@ -18,12 +18,8 @@ $(function() {
     $navMd.toggleClass('nav-md-active opacity-0 transition-fade-in')
   });
 
-  /*Svg injector
+  /*Scroll
    */
-  var $svgInjectorItems = $('.js-svg-injector-item');
-
-  SVGInjector($svgInjectorItems);
-
   var $linkTop = $('.js-link-top');
 
   $window.scroll(function() {
@@ -31,4 +27,11 @@ $(function() {
 
     $linkTop.css('transform', 'rotate(' + scrollTopCurrent / 3 + 'deg)');
   });
+
+  /*Svg injector
+   */
+  var $svgInjectorItems = $('.js-svg-injector-item');
+
+  SVGInjector($svgInjectorItems);
+
 });
