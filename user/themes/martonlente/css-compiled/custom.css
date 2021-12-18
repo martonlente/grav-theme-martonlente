@@ -9,6 +9,10 @@
   --grid-gutter-width: 1.2rem;
   --spacer: 0.8rem; }
 
+@media (max-width: 1399px) {
+  :root {
+    --container-max-width: 90%; } }
+
 /*Variables Type
  */
 :root {
