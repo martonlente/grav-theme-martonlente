@@ -7,6 +7,14 @@ $(function() {
     contentWrapperClass: "js-bluroverlay-back",
   });
 
+  /*Nav md
+   */
+  var $btnNavMd = $('.js-btn-nav-md');
+
+  $btnNavMd.click(function() {
+    $(this).toggleClass('is-active');
+  });
+
   /*Svg injector
    */
   var $svgInjectorItems = $('.js-svg-injector-item');
