@@ -125,6 +125,9 @@ h6 {
 .text-delimiter:last-child:after {
   content: ""; }
 
+.top-10 {
+  top: calc(var(--spacer) * 10); }
+
 .z-index-10000 {
   z-index: 10000; }
 
@@ -142,3 +145,7 @@ h6 {
 .hamburger-inner::after,
 .hamburger-inner::before {
   border-radius: 0; }
+
+.nav-md,
+.nav-md-inner {
+  height: calc(100vh - var(--spacer) * 10); }

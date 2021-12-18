@@ -89,6 +89,15 @@
         </div>
       </div>
     </header>
+    <div class="bg-white d-flex nav-md position-fixed start-0 top-10 w-100 z-index-10000">
+        <div class="mix-blend-mode-multiply opacity-10 w-100"  style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
+        <nav class="d-flex flex-column justify-content-center nav-md-inner position-absolute start-0 top-0 w-100">
+            <ul class="w-100">
+                <li class="list-style-none mb-3 text-center"><a class="fs-3 primary" href=#>Brand design</a></li>
+                <li class="list-style-none mb-3 text-center"><a class="fs-3 primary" href=#>Development</a></li>
+            </ul>
+        </nav>
+    </div>
 {% endblock %}
 
 {% block body %}
