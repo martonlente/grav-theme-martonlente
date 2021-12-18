@@ -1,86 +1,86 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    {{ page.content|raw }}
-    <section>
-        <div class="container">
-            <div class="row mb-4-md mb-5">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <ul class="d-flex flex-column-md">
-                        <li class="fs-7 fs-8-lg letter-spacing-lg list-style-none mb-1-md me-3 text-uppercase">Filter</li>
-                        <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="" href="#">All</a></li>
-                        <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Arch-viz</a></li>
-                        <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Brand design</a></li>
-                        <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Web design</a></li>
-                        <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Web development</a></li>
-                    </ul>
-                </div>
-                <div class="col-1"></div>
-            </div>
-            <div class="flex-column-reverse-md mb-6 row">
-                <a class="col-7" href="#">
-                    <div class="bg-center bg-cover mb-3 ratio-16x9" style="background-image: url('https://pinegrow.com/placeholders/img20.jpg');"></div>
-                    <div class="grid-columns-7 row">
-                        <div class="col-1"></div>
-                        <div class="col-5">
-                            <h3 class="mb-3 primary">Choosing hardware wisely for architectural visualization</h3>
-                            <h4 class="fs-6 mb-3 primary">Giving high-level advice for expert selection of components and machines</h4>
-                            <span class="grey-60 text-delimiter text-nowrap">Arch-viz</span>
-                            <span class="grey-60 text-delimiter text-nowrap">Arch-viz tech consulting</span>
-                            <span class="grey-60 text-delimiter text-nowrap">Front-end development</span>
-                            <span class="grey-60 text-delimiter text-nowrap">Perch CMS development</span>
-                            <span class="grey-60 text-delimiter text-nowrap">Product visualization</span>
-                        </div>
-                        <div class="col-1"></div>
-                    </div>
-                </a>
-                <div class="col-5 mb-1-5-md pt-3">
-                    <div class="grey-60 text-end-md">2020. 01. 19.</div>
-                </div>
-            </div>
-            <div class="flex-column-reverse-md flex-row-reverse mb-6 row">
-                <a class="col-7" href="#">
-                    <div class="bg-center bg-cover mb-3 ratio-1x1" style="background-image: url('https://pinegrow.com/placeholders/img20.jpg');"></div>
-                    <div class="grid-columns-7 row">
-                        <div class="col-1"></div>
-                        <div class="col-5">
-                            <h3 class="mb-3 primary">Choosing hardware wisely for architectural visualization</h3>
-                            <h4 class="fs-6 mb-3 primary">Giving high-level advice for expert selection of components and machines</h4>
-                            <span class="grey-60 text-delimiter text-nowrap">Arch-viz</span>
-                            <span class="grey-60 text-delimiter text-nowrap">Arch-viz tech consulting</span>
-                            <span class="grey-60 text-delimiter text-nowrap">Front-end development</span>
-                            <span class="grey-60 text-delimiter text-nowrap">Perch CMS development</span>
-                            <span class="grey-60 text-delimiter text-nowrap">Product visualization</span>
-                        </div>
-                        <div class="col-1"></div>
-                    </div>
-                </a>
-                <div class="col-5 mb-1-5-md pt-3">
-                    <div class="grey-60 text-end">2020. 01. 19.</div>
-                </div>
-            </div>
+  {{ page.content|raw }}
+  <section>
+    <div class="container">
+      <div class="row mb-4-md mb-5">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <ul class="d-flex flex-column-md">
+            <li class="fs-7 fs-8-lg letter-spacing-lg list-style-none mb-1-md me-3 text-uppercase">Filter</li>
+            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="" href="#">All</a></li>
+            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Arch-viz</a></li>
+            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Brand design</a></li>
+            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Web design</a></li>
+            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Web development</a></li>
+          </ul>
         </div>
-    </section>
-    <section>
-        <div class="container">
-            {% for p in page.collection %}
-              <div class="row">
-                <div class="col-7">
-                  <a href="{{ p.url|e }}">
-                    <div class="bg-grey-95 ratio-16x9"></div>
-                    <div class="grey-70">
-                      {{ p.date|nicetime(false) }}
-                    </div>
-                    <h2>{{ p.title|e }}</h2>
-                    <div class="">
-                      {{ p.header.test|e }}
-                    </div>
-                  </a>
-                </div>
-                <div class="col-5"></div>
-              </div>
-            {% endfor %}
+        <div class="col-1"></div>
+      </div>
+      <div class="flex-column-reverse-md mb-6 row">
+        <a class="col-7" href="#">
+          <div class="bg-center bg-cover mb-3 ratio-16x9" style="background-image: url('https://pinegrow.com/placeholders/img20.jpg');"></div>
+          <div class="grid-columns-7 row">
+            <div class="col-1"></div>
+            <div class="col-5">
+              <h3 class="mb-3 primary">Choosing hardware wisely for architectural visualization</h3>
+              <h4 class="fs-6 mb-3 primary">Giving high-level advice for expert selection of components and machines</h4>
+              <span class="grey-60 text-delimiter text-nowrap">Arch-viz</span>
+              <span class="grey-60 text-delimiter text-nowrap">Arch-viz tech consulting</span>
+              <span class="grey-60 text-delimiter text-nowrap">Front-end development</span>
+              <span class="grey-60 text-delimiter text-nowrap">Perch CMS development</span>
+              <span class="grey-60 text-delimiter text-nowrap">Product visualization</span>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </a>
+        <div class="col-5 mb-1-5-md pt-3">
+          <div class="grey-60 text-end-md">2020. 01. 19.</div>
         </div>
-    </section>
+      </div>
+      <div class="flex-column-reverse-md flex-row-reverse mb-6 row">
+        <a class="col-7" href="#">
+          <div class="bg-center bg-cover mb-3 ratio-1x1" style="background-image: url('https://pinegrow.com/placeholders/img20.jpg');"></div>
+          <div class="grid-columns-7 row">
+            <div class="col-1"></div>
+            <div class="col-5">
+              <h3 class="mb-3 primary">Choosing hardware wisely for architectural visualization</h3>
+              <h4 class="fs-6 mb-3 primary">Giving high-level advice for expert selection of components and machines</h4>
+              <span class="grey-60 text-delimiter text-nowrap">Arch-viz</span>
+              <span class="grey-60 text-delimiter text-nowrap">Arch-viz tech consulting</span>
+              <span class="grey-60 text-delimiter text-nowrap">Front-end development</span>
+              <span class="grey-60 text-delimiter text-nowrap">Perch CMS development</span>
+              <span class="grey-60 text-delimiter text-nowrap">Product visualization</span>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </a>
+        <div class="col-5 mb-1-5-md pt-3">
+          <div class="grey-60 text-end">2020. 01. 19.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      {% for p in page.collection %}
+        <div class="row">
+          <div class="col-7">
+            <a href="{{ p.url|e }}">
+            <div class="bg-grey-95 ratio-16x9"></div>
+            <div class="grey-70">
+              {{ p.date|nicetime(false) }}
+            </div>
+            <h2>{{ p.title|e }}</h2>
+            <div class="">
+              {{ p.header.test|e }}
+            </div>
+            </a>
+          </div>
+          <div class="col-5"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
 {% endblock %}
