@@ -3,13 +3,15 @@
     --tertiary: #7300e6;
 }
 
-/* Variables Grid */
+/*Variables Grid
+ */
 :root {
     --grid-gutter-width: 1.2rem;
     --spacer: 0.8rem;
 }
 
-/* Variables Type */
+/*Variables Type
+ */
 :root {
     --font-monospace: 'Ubuntu Mono', monospace;
     --font-sans-serif: 'Rutan-Medium', sans-serif;
@@ -18,7 +20,8 @@
     --lh-base: 1.5;
 }
 
-/* Grid */
+/*Grid
+ */
 .row .row {
     margin-left: calc(var(--grid-gutter-width) * (-1));
     width: calc(100% + var(--grid-gutter-width) * 2);
@@ -32,7 +35,8 @@
     padding-right: var(--grid-gutter-width);
 }
 
-/* Type */
+/*Type
+ */
 a {
     text-decoration: none;
 }
@@ -53,7 +57,8 @@ h1,
     font-weight: var(--fw-normal);
 }
 
-/* Utilities */
+/*Utilities
+ */
 .bg-gradient {
     background-image: linear-gradient(90deg, var(--secondary) 0%, var(--tertiary) 100%);
 }
@@ -154,7 +159,8 @@ h1,
     z-index: 10000;
 }
 
-/* Compontents */
+/*Compontents
+ */
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after,
