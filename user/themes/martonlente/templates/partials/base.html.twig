@@ -47,11 +47,6 @@
                 <i class="fa fa-rebel"></i>
                 {{ config.site.title|e }}
             </a>
-            {% block header_navigation %}
-            <nav class="main-nav">
-                {% include 'partials/navigation.html.twig' %}
-            </nav>
-            {% endblock %}
         </div>
     </div>
     -->
@@ -68,16 +63,11 @@
             </div>
             <div class="col-4-md col-8 d-flex flex-column justify-content-center">
                 <div class="d-flex flex-column h-4-xs h-5-lg h-7 h-auto-md justify-content-end">
-                    <nav class="d-none-md">
-                        <ul class="d-flex justify-content-end mb-0">
-                            <li class="fs-7-lg lh-1 list-style-none ms-3"><a class="primary" href="#">Brand design</a></li>
-                            <li class="fs-7-lg lh-1 list-style-none ms-3"><a class="primary" href="#">Development</a></li>
-                            <li class="fs-7-lg lh-1 list-style-none ms-3"><a class="primary" href="#">Work</a></li>
-                            <li class="fs-7-lg lh-1 list-style-none ms-3"><a class="primary" href="#">About</a></li>
-                            <li class="fs-7-lg lh-1 list-style-none ms-3"><a class="primary" href="#">Contact</a></li>
-                            <li class="fs-7-lg lh-1 list-style-none ms-3"><a class="primary" href="#">Blog</a></li>
-                        </ul>
-                    </nav>
+                    {% block header_navigation %}
+                        <nav class="d-none-md">
+                            {% include 'partials/navigation.html.twig' %}
+                        </nav>
+                    {% endblock %}
                     <div class="d-flex justify-content-end">
                         <button class="d-flex-md d-none hamburger hamburger--spin js-btn-nav-md pb-0 pe-0 ps-0 pt-0" type="button">
                             <span class="hamburger-box">
