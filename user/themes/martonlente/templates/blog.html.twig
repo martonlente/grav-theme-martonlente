@@ -19,7 +19,8 @@
         <div class="col-1"></div>
       </div>
       {% for p in page.collection %}
-        <div class="flex-column-reverse-md mb-6 row">
+        {% set loop_index = loop.index|e %}
+        <div class="flex-column-reverse-md mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %}">
           <a class="col-7" href="{{ p.url|e }}">
             <div class="bg-center bg-cover mb-3 ratio-16x9" style="background-image: url('{{ p.media.images|first.url|e }}');"></div>
             <div class="grid-columns-7 row">
@@ -37,7 +38,7 @@
             </div>
           </a>
           <div class="col-5 mb-1-5-md pt-3">
-            <div class="grey-60 text-end-md">{{ p.date|nicetime(false) }}</div>
+            <div class="grey-60 {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">{{ p.date|nicetime(false) }}</div>
           </div>
         </div>
       {% endfor %}
