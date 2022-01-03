@@ -18,6 +18,29 @@
         </div>
         <div class="col-1"></div>
       </div>
+      {% for p in page.collection %}
+        <div class="flex-column-reverse-md mb-6 row">
+          <a class="col-7" href="{{ p.url|e }}">
+            <div class="bg-center bg-cover mb-3 ratio-16x9" style="background-image: url('{{ p.media.images|first.url|e }}');"></div>
+            <div class="grid-columns-7 row">
+              <div class="col-1"></div>
+              <div class="col-5">
+                <h3 class="mb-3 primary">{{ p.title|e }}</h3>
+                <h4 class="fs-6 mb-3 primary">{{ p.header.subtitle|e }}</h4>
+                <span class="grey-60 text-delimiter text-nowrap">Arch-viz</span>
+                <span class="grey-60 text-delimiter text-nowrap">Arch-viz tech consulting</span>
+                <span class="grey-60 text-delimiter text-nowrap">Front-end development</span>
+                <span class="grey-60 text-delimiter text-nowrap">Perch CMS development</span>
+                <span class="grey-60 text-delimiter text-nowrap">Product visualization</span>
+              </div>
+              <div class="col-1"></div>
+            </div>
+          </a>
+          <div class="col-5 mb-1-5-md pt-3">
+            <div class="grey-60 text-end-md">{{ p.date|nicetime(false) }}</div>
+          </div>
+        </div>
+      {% endfor %}
       <div class="flex-column-reverse-md mb-6 row">
         <a class="col-7" href="#">
           <div class="bg-center bg-cover mb-3 ratio-16x9" style="background-image: url('https://pinegrow.com/placeholders/img20.jpg');"></div>
