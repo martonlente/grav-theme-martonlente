@@ -27,11 +27,11 @@
               <div class="col-5">
                 <h3 class="mb-3 primary">{{ p.title|e }}</h3>
                 <h4 class="fs-6 mb-3 primary">{{ p.header.subtitle|e }}</h4>
-                <span class="grey-60 text-delimiter text-nowrap">Arch-viz</span>
-                <span class="grey-60 text-delimiter text-nowrap">Arch-viz tech consulting</span>
-                <span class="grey-60 text-delimiter text-nowrap">Front-end development</span>
-                <span class="grey-60 text-delimiter text-nowrap">Perch CMS development</span>
-                <span class="grey-60 text-delimiter text-nowrap">Product visualization</span>
+                {% if p.taxonomy.tag %}
+                  {% for tag in p.taxonomy.tag %}
+                    <span class="grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
+                  {% endfor %}
+                {% endif %}
               </div>
               <div class="col-1"></div>
             </div>
