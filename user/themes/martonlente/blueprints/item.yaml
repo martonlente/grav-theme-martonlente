@@ -12,6 +12,3 @@ form:
       fields:
         content:
             fields:
-              header.test:
-                label: Test
-                type: text
