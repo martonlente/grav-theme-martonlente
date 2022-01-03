@@ -38,7 +38,7 @@
             </div>
           </a>
           <div class="col-5 mb-1-5-md pt-3">
-            <div class="grey-60 {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">{{ p.date|nicetime(false) }}</div>
+            <div class="grey-60 {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">{{ p.date|date("Y. m. d.")|e }}</div>
           </div>
         </div>
       {% endfor %}
