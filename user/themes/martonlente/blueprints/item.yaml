@@ -12,3 +12,6 @@ form:
       fields:
         content:
             fields:
+              header.subtitle:
+                label: Subtitle
+                type: text
