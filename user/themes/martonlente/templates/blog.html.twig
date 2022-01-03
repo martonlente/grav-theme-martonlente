@@ -10,10 +10,11 @@
           <ul class="d-flex flex-column-md">
             <li class="fs-7 fs-8-lg letter-spacing-lg list-style-none mb-1-md me-3 text-uppercase">Filter</li>
             <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="" href="#">All</a></li>
-            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Arch-viz</a></li>
-            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Brand design</a></li>
-            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Web design</a></li>
-            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">Web development</a></li>
+            {% if page.taxonomy.category %}
+              {% for category in page.taxonomy.category %}
+                <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">{{ category|e }}</a></li>
+              {% endfor %}
+            {% endif %}
           </ul>
         </div>
         <div class="col-1"></div>
