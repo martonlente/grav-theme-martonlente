@@ -20,7 +20,7 @@
   --font-sans-serif: 'Rutan-Medium', sans-serif;
   --font-sans-serif-2: 'Rutan-DemiBold', sans-serif;
   --fs-8: 1.2rem;
-  --lh-base: 1.5; }
+  --lh-base: 2.4rem; }
 
 /*Grid
  */
@@ -53,6 +53,17 @@ h6 {
   font-family: var(--font-sans-serif-2);
   font-weight: var(--fw-normal); }
 
+h1 {
+  line-height: 4.0rem; }
+
+h2,
+h3 {
+  line-height: 3.2rem; }
+
+h4,
+h5 {
+  line-height: var(--lh-base); }
+
 /*Utilities
  */
 .bg-gradient {
@@ -60,6 +71,18 @@ h6 {
   background-image: -webkit-linear-gradient(left, var(--secondary) 0%, var(--tertiary) 100%);
   background-image: -o-linear-gradient(left, var(--secondary) 0%, var(--tertiary) 100%);
   background-image: linear-gradient(90deg, var(--secondary) 0%, var(--tertiary) 100%); }
+
+.fs-1 {
+  line-height: 4.0rem; }
+
+.fs-2,
+.fs-3 {
+  line-height: 3.2rem; }
+
+.fs-4,
+.fs-5,
+.fs-6 {
+  line-height: var(--lh-base); }
 
 @media (max-width: 1199px) {
   .fs-8-lg {
