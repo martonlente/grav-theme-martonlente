@@ -16,20 +16,20 @@
 {% endblock head %}
 
 {% block stylesheets %}
-    {% do assets.addCss('theme://node_modules/reset-css/reset.css', 100) %}
-    {% do assets.addCss('theme://lib/hamburgers/dist/hamburgers.min.css', 99) %}
-    {% do assets.addCss('theme://lib/baseutil-css/build/baseutil.css', 98) %}
-    {% do assets.addCss('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap', 97) %}
-    {% do assets.addCss('theme://fonts/MyFontsWebfontsKit/MyFontsWebfontsKit.css', 96) %}
-    {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 95) %}
-    {% do assets.addCss('theme://css-compiled/custom.css', 94) %}
+    {% do assets.addCss('theme://node_modules/reset-css/reset.css') %}
+    {% do assets.addCss('theme://lib/hamburgers/dist/hamburgers.min.css') %}
+    {% do assets.addCss('theme://lib/baseutil-css/build/baseutil.css') %}
+    {% do assets.addCss('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap') %}
+    {% do assets.addCss('theme://fonts/MyFontsWebfontsKit/MyFontsWebfontsKit.css') %}
+    {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css') %}
+    {% do assets.addCss('theme://css-compiled/custom.css') %}
 {% endblock %}
 
 {% block javascripts %}
-    {% do assets.addJs('jquery', 100) %}
-    {% do assets.addJs('theme://node_modules/bluroverlay.js/dist/bluroverlay.min.js', {'priority':99, 'group':'bottom'}) %}
-    {% do assets.addJs('theme://node_modules/svg-injector/dist/svg-injector.min.js', {'priority':98, 'group':'bottom'}) %}
-    {% do assets.addJs('theme://js/jquery.site.js', {'priority':97, 'group':'bottom'}) %}
+    {% do assets.addJs('jquery', 101) %}
+    {% do assets.addJs('theme://node_modules/bluroverlay.js/dist/bluroverlay.min.js', {'group':'bottom'}) %}
+    {% do assets.addJs('theme://node_modules/svg-injector/dist/svg-injector.min.js', {'group':'bottom'}) %}
+    {% do assets.addJs('theme://js/jquery.site.js', {'group':'bottom'}) %}
 {% endblock %}
 
 {% block assets deferred %}
