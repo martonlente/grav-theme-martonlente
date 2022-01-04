@@ -1,6 +1,6 @@
 <ul class="d-flex justify-content-end mb-0">
-    {% for page in pages.children.visible %}
-        {% set current_page = (page.active or page.activeChild) ? 'secondary' : '' %}
-        <li class="fs-7-lg lh-1 list-style-none ms-3"><a class="primary {{ current_page|e }}" href="{{ page.url|e }}">{{ page.menu|e }}</a></li>
-    {% endfor %}
+  {% for page in pages.children.visible %}
+    {% set current_page = (page.active or page.activeChild) ? 'secondary' : '' %}
+    <li class="fs-7-lg lh-1 list-style-none ms-3"><a class="primary {{ current_page|e }}" href="{{ page.url|e }}">{{ page.menu|e }}</a></li>
+  {% endfor %}
 </ul>
