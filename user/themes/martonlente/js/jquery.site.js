@@ -5,6 +5,7 @@ $(function() {
    */
   var blurOverlay = $('.js-bluroverlay').bluroverlay({
     contentWrapperClass: "js-bluroverlay-back",
+    opacity: 0.5,
   });
 
   /*Nav md
