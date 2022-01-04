@@ -1,0 +1,22 @@
+title: Gallery
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              header.wide:
+                default: 0
+                label: Wide
+                highlight: 1
+                options:
+                  0: No
+                  1: Yes
+                type: toggle
