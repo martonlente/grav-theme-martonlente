@@ -145,6 +145,12 @@ h6 {
 
 /*Components
  */
+.content em {
+  color: var(--grey-60); }
+
+.content p {
+  margin-bottom: calc(var(--spacer) * 6); }
+
 @media (max-width: 575px) {
   .hamburger {
     -webkit-transform: scale(0.75);
