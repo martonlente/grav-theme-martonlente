@@ -8,5 +8,6 @@ taxonomy:
     tag:
         - Arch-viz
         - 'Arch-viz tech consulting'
+date: '19-01-2020 00:00'
 ---
 
