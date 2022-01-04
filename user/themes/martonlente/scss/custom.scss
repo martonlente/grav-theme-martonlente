@@ -183,6 +183,14 @@ h1,
 
 /*Components
  */
+.content em {
+  color: var(--grey-60);
+}
+
+.content p {
+  margin-bottom: calc(var(--spacer) * 6);
+}
+
 @media (max-width: 575px) {
   .hamburger {
     transform: scale(0.75);
