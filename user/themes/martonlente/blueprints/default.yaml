@@ -1,0 +1,20 @@
+title: Gallery
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              header.hero_title:
+                label: Hero title
+                type: text
+              header.hero_text:
+                label: Hero text
+                type: textarea
