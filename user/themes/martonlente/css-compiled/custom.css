@@ -44,6 +44,10 @@ strong {
   font-family: var(--font-sans-serif-2);
   font-weight: var(--fw-normal); }
 
+button:hover {
+  cursor: pointer;
+  opacity: 0.9; }
+
 h1,
 h2,
 h3,
