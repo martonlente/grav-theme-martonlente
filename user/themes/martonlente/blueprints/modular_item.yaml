@@ -1,4 +1,4 @@
-title: Gallery
+title: Modular item
 extends@:
     type: default
     context: blueprints://pages
