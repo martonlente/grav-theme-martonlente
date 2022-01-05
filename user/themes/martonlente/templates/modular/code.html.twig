@@ -1,0 +1,12 @@
+{% block content %}
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+      <div class="position-relative">
+        <pre class="bg-grey-98 grey-60 js-code pb-2 pe-3 ps-3 pt-3">{{ page.content|raw }}</pre>
+        <button class="bg-transparent border-0 end-3 font-sans-serif fs-6 js-btn-code-copy position-absolute secondary top-3" type="button">Copy</button>
+      </div>
+    </div>
+    <div class="col-2 grey-60 pt-3">{{ page.title|e }}</div>
+  </div>
+{% endblock %}
