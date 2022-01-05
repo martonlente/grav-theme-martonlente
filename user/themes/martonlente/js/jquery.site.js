@@ -8,6 +8,17 @@ $(function() {
     opacity: 0.5,
   });
 
+  /*Code copy
+   */
+  var $btnCodeCopy = $('.js-btn-code-copy');
+
+  $btnCodeCopy.click(function() {
+    var $this = $(this);
+    var code = $this.siblings('.js-code').children('code').text();
+
+    navigator.clipboard.writeText(code);
+  });
+
   /*Nav md
    */
   var $btnNavMd = $('.js-btn-nav-md');
