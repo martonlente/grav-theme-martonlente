@@ -1,4 +1,4 @@
-title: Gallery
+title: Image
 extends@:
     type: default
     context: blueprints://pages
