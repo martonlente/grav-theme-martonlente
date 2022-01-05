@@ -21,11 +21,11 @@
           </h1>
           {% if page.header.subtitle %}
             <h2 class="grey-70 mb-3">{{ page.header.subtitle|e }}</h2>
-            {% if page.taxonomy.tag %}
-              {% for tag in page.taxonomy.tag %}
-                <span class="grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
-              {% endfor %}
-            {% endif %}
+          {% endif %}
+          {% if page.taxonomy.tag %}
+            {% for tag in page.taxonomy.tag %}
+              <span class="grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
+            {% endfor %}
           {% endif %}
         </div>
         <div class="col-1"></div>
