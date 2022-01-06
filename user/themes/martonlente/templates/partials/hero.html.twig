@@ -12,13 +12,11 @@
               Blog
             {% endif %}
           </div>
-          <h1 class="fs-3-xs grey-98 mb-0">
-            {% if page.header.hero_text %}
-              {{ page.header.hero_text|e }}
-            {% else %}
-              {{ page.title|e }}
-            {% endif %}
-          </h1>
+          {% if page.header.hero_text %}
+            <h1 class="fs-3-xs grey-98 mb-0">{{ page.header.hero_text|e }}</h1>
+          {% else %}
+            <h1 class="fs-3-xs grey-98 mb-3">{{ page.title|e }}</h1>
+          {% endif %}
           {% if page.header.subtitle %}
             <h2 class="grey-70 mb-3">{{ page.header.subtitle|e }}</h2>
           {% endif %}
