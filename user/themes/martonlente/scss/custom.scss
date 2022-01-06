@@ -217,12 +217,21 @@ h5 {
 
 /*Components
  */
+ .content {
+   margin-bottom: calc(var(--spacer) * 6);
+ }
+
 .content em {
   color: var(--grey-60);
 }
 
-.content p {
-  margin-bottom: calc(var(--spacer) * 6);
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  padding-top: calc(var(--spacer) * 6);
 }
 
 @media (max-width: 575px) {
