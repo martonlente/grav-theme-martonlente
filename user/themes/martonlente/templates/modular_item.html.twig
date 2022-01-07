@@ -23,7 +23,7 @@
         <div class="col-6">
           {% if page.prevSibling().title %}
             <a class="d-flex font-sans-serif-2 fs-3 grey-60 justify-content-end" href="{{ page.prevSibling().url|e }}">
-              <div class="me-1">{{ page.prevSibling().title|e }}</div>
+              <div class="me-1 text-end">{{ page.prevSibling().title|e }}</div>
               <div class="align-items-center d-flex h-4">
                 <img alt="" class="fill-grey-60 h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}">
               </div>
