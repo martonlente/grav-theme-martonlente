@@ -1,0 +1,12 @@
+---
+title: 'Content 5'
+body_classes: modular
+---
+
+Both AMD and NVIDIA have their consumer and professional product line-ups. AMD has consumer Radeon, and professional Radeon Pro series, while NVIDIA has consumer GeForce, and professional Quadro series. Because of real-time visualization (where powerful GPUs really pay off) relies heavily on computer gaming-like technologies, choosing higher-end NVIDIA consumer cards even in professional/enterprise segments is completely a valid choice. NVIDIA also has launched Studio drivers for GeForce products, bringing some of Quadro line’s former software advantages to its consumer line.
+
+### Selecting other computer parts, and wrapping up
+
+The already-discussed computer parts have much larger importance in arch-viz workflows than other components, however there are some other aspects to be aware of. First, arch-viz and rendering is processing-intensive in general, which generates heat that must be managed. **To keep heat in control, cooling solutions must be wisely selected. Data reading and writing speeds are also important not only in arch-viz, but in everything that’s done on PC.** Choosing fast SSDs whenever possible to minimize reading and writing times – like software-loading, or saving of files – is also a good idea (even critical for storage that runs software today). Other than that, hardware compatibility must also be considered, especially when building a PC on your own.
+
+**Regarding compatibility, the most important computer part may be the motherboard.** In the light of the above, this part has determinative parameters starting with the number and type of CPU sockets, and the same for RAM slots. Another important specification is, how much RAM a motherboard supports. A mainboard also defines how many, and – physically by its format – how large GPUs you can put into your machine. Connectivity features sound like obvious, but a solid selection of ports can also come in handy in a professional environment. Moreover, modern motherboards often come with excellent software called [UEFI,](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) through that you can fine-tune and optimize hardware components’ behaviour if you wish. Despite motherboard being probably the most fundamental computer part, when building a configuration for arch-viz **I suggest you think about CPU and GPU first, and choose a matching mainboard second.**
