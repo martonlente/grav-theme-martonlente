@@ -6,9 +6,11 @@
 {% block content %}
   <section>
     <div class="container">
-      {% for module in page.collection() %}
-        {{ module.content|raw }}
-      {% endfor %}
+      <div class="pb-6">
+        {% for module in page.collection() %}
+          {{ module.content|raw }}
+        {% endfor %}
+      </div>
       <div class="row">
         <div class="col-6 mb-3-md">
           {% if page.nextSibling().title %}
@@ -31,6 +33,7 @@
           {% endif %}
         </div>
       </div>
+      <div class="h-12"></div>
     </div>
   </section>
 {% endblock %}
