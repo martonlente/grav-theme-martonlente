@@ -11,7 +11,7 @@
       {% endfor %}
       <div class="row">
         <div class="col-6 mb-3-md">
-          {% if page.nextSibling() %}
+          {% if page.nextSibling().title %}
             <a class="d-flex font-sans-serif-2 fs-3 grey-60" href="{{ page.nextSibling().url|e }}">
               <div class="align-items-center d-flex h-4">
                 <img alt="" class="fill-grey-60 h-3 js-svg-injector-item mb-0 me-1" src="{{ url('theme://images/ic_fluent_arrow_left_24_filled.svg')|e }}">
@@ -21,7 +21,7 @@
           {% endif %}
         </div>
         <div class="col-6">
-          {% if page.prevSibling() %}
+          {% if page.prevSibling().title %}
             <a class="d-flex font-sans-serif-2 fs-3 grey-60 justify-content-end" href="{{ page.prevSibling().url|e }}">
               <div class="me-1">{{ page.prevSibling().title|e }}</div>
               <div class="align-items-center d-flex h-4">
