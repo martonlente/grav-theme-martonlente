@@ -22,30 +22,32 @@
         </div>
         <div class="col-1"></div>
       </div>
-      {% for p in page.collection %}
-        {% set loop_index = loop.index|e %}
-        <div class="flex-column-reverse-md mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %}">
-          <a class="col-7" href="{{ p.url|e }}">
-            <div class="bg-center bg-cover mb-3 {{ p.header.image_ratio|e }}" style="background-image: url('{{ p.media.images|first.url|e }}');"></div>
-            <div class="grid-columns-7 row">
-              <div class="col-1"></div>
-              <div class="col-5">
-                <h3 class="mb-3 primary">{{ p.title|e }}</h3>
-                <h4 class="fs-6 mb-3 primary">{{ p.header.subtitle|e }}</h4>
-                {% if p.taxonomy.tag %}
+      <div class="js-isotope-grid">
+        {% for p in page.collection %}
+          {% set loop_index = loop.index|e %}
+          <div class="flex-column-reverse-md js-isotope-grid-item mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %}">
+            <a class="col-7" href="{{ p.url|e }}">
+              <div class="bg-center bg-cover mb-3 {{ p.header.image_ratio|e }}" style="background-image: url('{{ p.media.images|first.url|e }}');"></div>
+              <div class="grid-columns-7 row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                  <h3 class="mb-3 primary">{{ p.title|e }}</h3>
+                  <h4 class="fs-6 mb-3 primary">{{ p.header.subtitle|e }}</h4>
+                  {% if p.taxonomy.tag %}
                   {% for tag in p.taxonomy.tag %}
-                    <span class="grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
+                  <span class="grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
                   {% endfor %}
-                {% endif %}
+                  {% endif %}
+                </div>
+                <div class="col-1"></div>
               </div>
-              <div class="col-1"></div>
+            </a>
+            <div class="col-5 mb-1-5-md pt-3">
+              <div class="grey-60 {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">{{ p.date|date("Y. m. d.")|e }}</div>
             </div>
-          </a>
-          <div class="col-5 mb-1-5-md pt-3">
-            <div class="grey-60 {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">{{ p.date|date("Y. m. d.")|e }}</div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </section>
 {% endblock %}
