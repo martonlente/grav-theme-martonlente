@@ -58,14 +58,18 @@ $(function() {
 
   /*Scroll
    */
+  var $footer = $('.js-footer');
   var $imgLogo = $('.js-img-logo');
   var $linkTop = $('.js-link-top');
 
   $window.scroll(function() {
     var scrollTopCurrent = $window.scrollTop();
+    var endZone = $footer.offset().top + $footer.height() - $window.height();
 
     if (scrollTopCurrent == 0) {
       $imgLogo.toggleClass('transition-fade-in transition-fade-out');
+    } else if (scrollTopCurrent >= endZone) {
+      console.log('End zone');
     } else {
       $imgLogo.addClass('transition-fade-out').removeClass('transition-fade-in');
     }
