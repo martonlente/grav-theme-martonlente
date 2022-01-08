@@ -26,7 +26,7 @@
         {% set loop_index = loop.index|e %}
         <div class="flex-column-reverse-md mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %}">
           <a class="col-7" href="{{ p.url|e }}">
-            <div class="bg-center bg-cover mb-3 ratio-16x9" style="background-image: url('{{ p.media.images|first.url|e }}');"></div>
+            <div class="bg-center bg-cover mb-3 {{ p.header.image_ratio|e }}" style="background-image: url('{{ p.media.images|first.url|e }}');"></div>
             <div class="grid-columns-7 row">
               <div class="col-1"></div>
               <div class="col-5">
