@@ -21,7 +21,17 @@ $(function() {
 
   /*Isotope
    */
-  $('.js-isotope-grid').isotope({
+  var $isotopeGrid = $('.js-isotope-grid');
+
+  $('.js-btn-isotope-filter').click(function() {
+    var filterValue = $(this).attr('data-filter');
+
+    $isotopeGrid.isotope({
+      filter: filterValue,
+    });
+  });
+
+  $isotopeGrid.isotope({
     itemSelector: '.js-isotope-grid-item'
   });
 
