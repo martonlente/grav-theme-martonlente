@@ -12,6 +12,13 @@ form:
       fields:
         content:
             fields:
+              header.image_ratio:
+                default: ratio-16x9
+                label: Image ratio
+                type: select
+                options:
+                  'ratio-1x1': '1 / 1'
+                  'ratio-16x9': '16 / 9'
               header.subtitle:
                 label: Subtitle
                 type: text
