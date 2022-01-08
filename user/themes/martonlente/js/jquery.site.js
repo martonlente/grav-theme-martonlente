@@ -19,6 +19,12 @@ $(function() {
     navigator.clipboard.writeText(code);
   });
 
+  /*Isotope
+   */
+  $('.js-isotope-grid').isotope({
+    itemSelector: '.js-isotope-grid-item'
+  });
+
   /*Nav md
    */
   var $btnNavMd = $('.js-btn-nav-md');
@@ -52,5 +58,4 @@ $(function() {
   var $svgInjectorItems = $('.js-svg-injector-item');
 
   SVGInjector($svgInjectorItems);
-
 });
