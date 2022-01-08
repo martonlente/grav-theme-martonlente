@@ -18,7 +18,9 @@
           </div>
         </div>
         <div class="align-items-center-xs align-items-end col-3 col-3-md col-12-xs d-flex fs-7-lg justify-content-center flex-column">
-          <a class="primary" href="{{ page.media|first.url|e }}" target="_blank">Privacy policy</a>
+          {% if page.media|first.url %}
+            <a class="primary" href="{{ page.media|first.url|e }}" target="_blank">Privacy policy</a>
+          {% endif %}
         </div>
         <div class="col-12-xs"></div>
       </div>
