@@ -58,6 +58,7 @@ $(function() {
 
   /*Scroll
    */
+  var $endZoneHelper = $('.js-end-zone-helper');
   var $footer = $('.js-footer');
   var $imgLogo = $('.js-img-logo');
   var $linkTop = $('.js-link-top');
@@ -69,8 +70,9 @@ $(function() {
     if (scrollTopCurrent == 0) {
       $imgLogo.toggleClass('transition-fade-in transition-fade-out');
     } else if (scrollTopCurrent >= endZone) {
-      console.log('End zone');
+      $endZoneHelper.removeClass('js-end-zone-helper-transition-inactive').addClass('js-end-zone-helper-transition-active');
     } else {
+      $endZoneHelper.removeClass('js-end-zone-helper-transition-active').addClass('js-end-zone-helper-transition-inactive');
       $imgLogo.addClass('transition-fade-out').removeClass('transition-fade-in');
     }
 

@@ -221,9 +221,9 @@ h5 {
 
 /*Components
  */
- .content {
-   margin-bottom: calc(var(--spacer) * 6);
- }
+.content {
+  margin-bottom: calc(var(--spacer) * 6);
+}
 
 .content em {
   color: var(--grey-60);
@@ -257,6 +257,24 @@ h5 {
 .hamburger-inner::after,
 .hamburger-inner::before {
   border-radius: 0;
+}
+
+.js-end-zone-helper-transition {
+  transition: transform var(--transition-duration);
+}
+
+.js-end-zone-helper-transition-active {
+  transform: translateY(calc(var(--spacer) * (-8)));
+}
+
+@media (max-width: 575px) {
+  .js-end-zone-helper-transition-active {
+    transform: translateY(calc(var(--spacer) * (-15)));
+  }
+}
+
+.js-end-zone-helper-transition-inactive {
+  transform: translateY(0);
 }
 
 .nav-md-active,
