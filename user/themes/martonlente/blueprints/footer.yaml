@@ -1,0 +1,17 @@
+title: Modular item
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              header.copyright_text:
+                label: Copyright text
+                type: text
