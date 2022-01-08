@@ -12,10 +12,10 @@
         <div class="col-10">
           <ul class="d-flex flex-column-md">
             <li class="fs-7 fs-8-lg letter-spacing-lg list-style-none mb-1-md me-3 text-uppercase">Filter</li>
-            <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="" href="#">All</a></li>
+            <li class="fs-7-lg list-style-none mb-1-md me-3"><button class="bg-transparent border-0 font-sans-serif fs-6 js-btn-isotope-filter secondary" data-filter="*">All</button></li>
             {% if page.taxonomy.category %}
               {% for category in page.taxonomy.category %}
-                <li class="fs-7-lg list-style-none mb-1-md me-3"><a class="primary" href="#">{{ category|e }}</a></li>
+                <li class="fs-7-lg list-style-none mb-1-md me-3"><button class="bg-transparent border-0 font-sans-serif fs-6 js-btn-isotope-filter primary" data-filter=".{{ category|e }}">{{ category|e }}</button></li>
               {% endfor %}
             {% endif %}
           </ul>
@@ -25,7 +25,7 @@
       <div class="js-isotope-grid">
         {% for p in page.collection %}
           {% set loop_index = loop.index|e %}
-          <div class="flex-column-reverse-md js-isotope-grid-item mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %}">
+          <div class="flex-column-reverse-md js-isotope-grid-item mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %} {% if p.taxonomy.category %}{% for category in p.taxonomy.category %}{{ category|e }}{% endfor %}{% endif %}">
             <a class="col-7" href="{{ p.url|e }}">
               <div class="bg-center bg-cover mb-3 {{ p.header.image_ratio|e }}" style="background-image: url('{{ p.media.images|first.url|e }}');"></div>
               <div class="grid-columns-7 row">
