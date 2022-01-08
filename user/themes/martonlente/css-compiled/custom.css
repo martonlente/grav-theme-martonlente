@@ -178,6 +178,11 @@ h5 {
 .content {
   margin-bottom: calc(var(--spacer) * 6); }
 
+.content code {
+  background-color: var(--grey-95);
+  color: var(--grey-60);
+  padding: 0.2em 0.4em; }
+
 .content em {
   color: var(--grey-60); }
 
