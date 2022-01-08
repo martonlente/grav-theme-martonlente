@@ -208,6 +208,29 @@ h5 {
 .hamburger-inner::before {
   border-radius: 0; }
 
+.js-end-zone-helper-transition {
+  -webkit-transition: -webkit-transform var(--transition-duration);
+  transition: -webkit-transform var(--transition-duration);
+  -o-transition: transform var(--transition-duration);
+  transition: transform var(--transition-duration);
+  transition: transform var(--transition-duration), -webkit-transform var(--transition-duration); }
+
+.js-end-zone-helper-transition-active {
+  -webkit-transform: translateY(calc(var(--spacer) * (-8)));
+      -ms-transform: translateY(calc(var(--spacer) * (-8)));
+          transform: translateY(calc(var(--spacer) * (-8))); }
+
+@media (max-width: 575px) {
+  .js-end-zone-helper-transition-active {
+    -webkit-transform: translateY(calc(var(--spacer) * (-15)));
+        -ms-transform: translateY(calc(var(--spacer) * (-15)));
+            transform: translateY(calc(var(--spacer) * (-15))); } }
+
+.js-end-zone-helper-transition-inactive {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0); }
+
 .nav-md-active,
 .nav-md-active .nav-md-inner {
   height: calc(100vh - var(--spacer) * 10); }

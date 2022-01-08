@@ -91,9 +91,11 @@
       {% block content %}{% endblock %}
     </div>
     <div class="bottom-3 end-3 position-fixed z-index-1">
-      <a class="d-block js-link-anchor js-link-top lh-1" href="#main">
-        <img alt="" class="d-block fill-primary h-8 js-svg-injector-item mb-0" src="{{ url('theme://images/asset-period.svg') }}">
-      </a>
+      <div class="js-end-zone-helper js-end-zone-helper-transition">
+        <a class="d-block js-link-anchor js-link-top lh-1" href="#main">
+          <img alt="" class="d-block fill-primary h-8 js-svg-injector-item mb-0" src="{{ url('theme://images/asset-period.svg') }}">
+        </a>
+      </div>
     </div>
   </main>
 {% endblock %}
