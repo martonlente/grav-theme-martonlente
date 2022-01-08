@@ -21,10 +21,16 @@ $(function() {
 
   /*Isotope
    */
+  var $btnIsotopeFilter = $('.js-btn-isotope-filter');
   var $isotopeGrid = $('.js-isotope-grid');
 
   $('.js-btn-isotope-filter').click(function() {
-    var filterValue = $(this).attr('data-filter');
+    var $this = $(this);
+    var filterValue = $this.attr('data-filter');
+
+    $btnIsotopeFilter.removeClass('secondary');
+
+    $this.addClass('secondary');
 
     $isotopeGrid.isotope({
       filter: filterValue,
