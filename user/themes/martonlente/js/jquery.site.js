@@ -41,6 +41,10 @@ $(function() {
     itemSelector: '.js-isotope-grid-item'
   });
 
+  /*jQuery Smooth Scroll
+   */
+  $('.js-link-anchor').smoothScroll();
+
   /*Nav md
    */
   var $btnNavMd = $('.js-btn-nav-md');

@@ -84,14 +84,14 @@
 {% endblock %}
 
 {% block body %}
-  <main>
+  <main id="main">
     <div class="js-bluroverlay-back">
       <div class="h-8-xs h-10-lg h-12"></div>
       {% block hero %}{% endblock %}
       {% block content %}{% endblock %}
     </div>
     <div class="bottom-3 end-3 position-fixed z-index-1">
-      <a class="d-block js-link-top lh-1" href="#">
+      <a class="d-block js-link-anchor js-link-top lh-1" href="#main">
         <img alt="" class="d-block fill-primary h-8 js-svg-injector-item mb-0" src="{{ url('theme://images/asset-period.svg') }}">
       </a>
     </div>
