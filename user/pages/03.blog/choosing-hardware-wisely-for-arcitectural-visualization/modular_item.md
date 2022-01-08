@@ -2,6 +2,7 @@
 title: 'Choosing hardware wisely for arcitectural visualization'
 content:
     items: '@self.modular'
+image_ratio: ratio-16x9
 subtitle: 'Giving high-level advice for expert selection of components and machines'
 media_order: choosing-hardware-wisely-for-architectural-visualization-1.jpg
 taxonomy:
