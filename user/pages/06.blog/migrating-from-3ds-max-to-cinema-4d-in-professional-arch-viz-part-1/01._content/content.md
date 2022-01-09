@@ -1,0 +1,6 @@
+---
+title: Content
+body_classes: modular
+---
+
+I've been using 3ds Max for more than 12 years for architectural visualization, in different contexts. I've worked with the software as a team player at various arch-viz studios, as well as visualised my own and other architects' designs as a student of architecture. I've also run intensive arch-viz workshops for companies, teaching 3ds Max. **After starting my business doing professional architectural visualization I had to revise the tools I used in my workflow from a financial perspective,** since being dependent on 3ds Max – one of the most expensive 3D software of all – was a luxury I wanted to validate I can't get around. Being already an advanced user of Corona Renderer, the next strong alternative was Cinema 4D, which also supported Corona (even though it was in beta at that time). Cinema 4D versions' flexibility was also very appealing, the basic, yet also powerful 'Prime' edition being roughly one-sixth the price of 3ds Max. Cinema 4D recently changed its licensing having one package only, still selling one-third the price of 3ds Max.
