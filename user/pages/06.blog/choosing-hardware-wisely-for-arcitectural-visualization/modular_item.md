@@ -12,4 +12,8 @@ taxonomy:
         - Arch-viz
         - 'Arch-viz tech consulting'
 date: '19-01-2020 00:00'
+metadata:
+    description: 'Help in choosing hardware for high-end architectural visualisation work, and an overview of computer parts for more expert selection of components.'
+    'og:description': 'Help in choosing hardware for high-end architectural visualisation work, and an overview of computer parts for more expert selection of components.'
 ---
+
