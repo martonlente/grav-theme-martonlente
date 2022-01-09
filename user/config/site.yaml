@@ -4,3 +4,5 @@ author:
   email: 'contact@martonlente.com'
 metadata:
     description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    og:type: 'website'
+    og:site_name: 'Márton Lente - Brand, design and development'
