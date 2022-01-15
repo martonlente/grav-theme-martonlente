@@ -3,7 +3,7 @@ title: 'Mobilizing your professional arch-viz production environment without com
 content:
     items: '@self.modular'
 image_ratio: ratio-16x9
-subtitle: 'Giving high-level advice for expert selection of components and machines'
+subtitle: 'Setting up a desktop workstation and a laptop to perfectly work together wherever you''re'
 media_order: mobilizing-your-professional-arch-viz-environment-without-compromises.jpg
 taxonomy:
     category:
