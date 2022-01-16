@@ -11,7 +11,7 @@ taxonomy:
     tag:
         - Arch-viz
         - 'Arch-viz tech consulting'
-date: '14-07-2019 00:00'
+date: '14-07-2019 00:01'
 metadata:
     description: 'Help in choosing video card wisely for high-end architectural visualisation work, and demistifying the GPU''s role in 3D viewport performance.'
     'og:description': 'Help in choosing video card wisely for high-end architectural visualisation work, and demistifying the GPU''s role in 3D viewport performance.'
