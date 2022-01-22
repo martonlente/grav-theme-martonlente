@@ -1,0 +1,44 @@
+title: Cards icon
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              header.cards:
+                name: cards
+                type: list
+                label: Cards
+
+                fields:
+                  .icon:
+                    label: Icon
+                    folder: 'self@'
+                    preview_images: true
+                    type: filepicker
+                  .header:
+                    label: Header
+                    type: text
+                  .text:
+                    label: Text
+                    type: textarea
+                  .link:
+                    label: Link
+                    type: text
+
+                  .services:
+                    label: Services
+                    name: services
+                    type: list
+
+                    fields:
+                      .service:
+                        label: Service
+                        type: text
