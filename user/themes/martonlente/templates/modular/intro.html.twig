@@ -1,0 +1,19 @@
+{% block content %}
+  <section>
+    <div class="container pb-5">
+      <div class="pb-2 row">
+        <div class="col-12">
+          <h3 class="fs-7 letter-spacing-lg mb-3 text-uppercase">{{ page.header.subtitle|e }}</h3>
+          <h2>{{ page.header.heading|e }}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+          {{ page.content|raw }}
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
