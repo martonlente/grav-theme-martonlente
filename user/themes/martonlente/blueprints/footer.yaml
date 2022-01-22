@@ -1,4 +1,4 @@
-title: Modular item
+title: Footer
 extends@:
     type: default
     context: blueprints://pages
