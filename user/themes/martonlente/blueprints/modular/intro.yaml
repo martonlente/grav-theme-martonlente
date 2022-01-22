@@ -1,0 +1,20 @@
+title: Intro
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              header.subtitle:
+                label: Subtitle
+                type: text
+              header.heading:
+                label: Heading
+                type: text
