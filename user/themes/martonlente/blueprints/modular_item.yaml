@@ -1,6 +1,6 @@
 title: Modular item
 extends@:
-    type: default
+    type: modular
     context: blueprints://pages
 
 form:
