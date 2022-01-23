@@ -7,6 +7,7 @@ cards:
     -
         link: '#'
         image: 'pi-hun-nevjegykartya-mockup-2-8-1-2 (1).png'
+        image_ratio: ratio-1x1
         header: 'PI-HUN brand design, web design, and development'
         header_colour: '#015a4f'
         services:
