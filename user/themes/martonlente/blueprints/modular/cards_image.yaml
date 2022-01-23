@@ -1,0 +1,47 @@
+title: Cards image
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              header.header:
+                label: Header
+                type: text
+              header.cards:
+                name: cards
+                type: list
+                label: Cards
+
+                fields:
+                  .link:
+                    label: Link
+                    type: text
+                  .image:
+                    label: Image
+                    folder: 'self@'
+                    preview_images: true
+                    type: filepicker
+                  .header:
+                    label: Header
+                    type: text
+                  .header_colour:
+                     label: Header colour
+                     type: colorpicker
+
+                  .services:
+                    label: Services
+                    name: services
+                    type: list
+
+                    fields:
+                      .text:
+                        label: Text
+                        type: text
