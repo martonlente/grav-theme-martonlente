@@ -197,6 +197,14 @@ h5 {
   height: calc(var(--spacer) * 54);
 }
 
+.mh-6 {
+  min-height: calc(var(--spacer) * 6);
+}
+
+.mh-8 {
+  min-height: calc(var(--spacer) * 8);
+}
+
 .mix-blend-mode-multiply {
   mix-blend-mode: multiply;
 }
