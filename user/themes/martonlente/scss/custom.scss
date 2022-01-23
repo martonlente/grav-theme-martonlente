@@ -177,6 +177,10 @@ h5 {
   --grid-columns: 16;
 }
 
+.h-0 {
+  height: 0;
+}
+
 @media (max-width: 1199px) {
   .h-10-lg {
     height: calc(var(--spacer) * 10);
