@@ -13,7 +13,7 @@
           <a class="col-6 mb-3" href="{{ card.link|e }}">
             <div class="mb-3 row">
               <div class="col-10">
-                <div class="bg-center bg-cover ratio-1x1" style="background-image: url('{{ page.media[card.image].url|e }}');"></div>
+                <div class="bg-center bg-cover {{ card.image_ratio|e }}" style="background-image: url('{{ page.media[card.image].url|e }}');"></div>
               </div>
               <div class="col-2"></div>
             </div>
