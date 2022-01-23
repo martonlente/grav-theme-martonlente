@@ -29,6 +29,13 @@ form:
                     folder: 'self@'
                     preview_images: true
                     type: filepicker
+                  .image_ratio:
+                    default: ratio-16x9
+                    label: Image ratio
+                    type: select
+                    options:
+                      'ratio-1x1': '1 / 1'
+                      'ratio-16x9': '16 / 9'
                   .header:
                     label: Header
                     type: text
