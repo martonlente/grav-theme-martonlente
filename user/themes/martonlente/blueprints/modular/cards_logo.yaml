@@ -1,0 +1,36 @@
+title: Cards logo
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              header.cards:
+                name: cards
+                type: list
+                label: Cards
+
+                fields:
+                  .logo:
+                    label: Logo
+                    folder: 'self@'
+                    preview_images: true
+                    type: filepicker
+                  .logo_height:
+                    default: h-9
+                    label: Logo height
+                    type: select
+                    options:
+                      'h-6': 'Small'
+                      'h-9': 'Normal'
+                      'h-12': 'Large'
+                  .text:
+                    label: Text
+                    type: text
