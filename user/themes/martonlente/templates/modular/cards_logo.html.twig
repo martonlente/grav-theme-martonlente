@@ -1,0 +1,23 @@
+{% block content %}
+  <div>
+    <div class="container pb-9">
+      <div class="row">
+        {% for card in page.header.cards %}
+          <div class="col-4 mb-9">
+            <div class="align-items-center d-flex h-12 mb-3">
+              <img alt="{{ card.text|e }}" class="fill-grey-60 js-svg-injector-item {{ card.logo_height|e }}" src="{{ page.media[card.logo].url|e }}">
+            </div>
+            <h4 class="fs-6 grey-60 text-center">{{ card.text|e }}</h4>
+          </div>
+        {% endfor %}
+      </div>
+      {% if page.content %}
+        <div class="row">
+          <div class="col-12 grey-60 pb-2 text-center">
+            {{ page.content|raw }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
