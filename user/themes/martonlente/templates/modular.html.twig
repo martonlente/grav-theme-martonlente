@@ -37,4 +37,34 @@
       </div>
     </div>
   </div>
+  <div style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');">
+    <div class="container">
+      <form>
+        <div class="mb-3 row">
+          <div class="col-1"></div>
+          <div class="col-5">
+            <input class="border-0 font-sans-serif h-6 mb-3 pe-3 ps-3 w-100" placeholder="Katalin Minta*" type="text"/>
+            <input class="border-0 font-sans-serif h-6 mb-3 pe-3 ps-3 w-100" placeholder="Email*" type="email"/>
+            <input class="border-0 font-sans-serif h-6 pe-3 ps-3 w-100" placeholder="Company" type="text"/>
+          </div>
+          <div class="col-5 d-flex">
+            <textarea class="border-0 pe-3 ps-3 pt-1-5 w-100" placeholder="Message*"></textarea>
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-11 d-flex justify-content-end">
+            <button class="align-items-center bg-transparent border-0 d-flex fs-1 fw-bold grey-60 secondary">
+              <div class="me-1">Submit</div>
+              <div class="align-items-center d-flex h-4">
+                <img alt="" class="fill-secondary h-3 js-svg-injector-item mb-0" src="/user/themes/martonlente/images/ic_fluent_arrow_right_24_filled.svg"/>
+              </div>
+            </button>
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <div class="h-12"></div>
+      </form>
+    </div>
+  </div>
 {% endblock %}
