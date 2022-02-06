@@ -1,13 +1,6 @@
 $(function() {
   var $window = $(window);
 
-  /*Bluroverlay.js
-   */
-  var blurOverlay = $('.js-bluroverlay').bluroverlay({
-    contentWrapperClass: "js-bluroverlay-back",
-    opacity: 0.5,
-  });
-
   /*Card text fade in
    */
   $('.js-btn-card-text').click(function() {
