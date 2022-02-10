@@ -3,18 +3,16 @@ title: A Page with an Example Form
 form:
     name: contact-form
     fields:
-        - autocomplete: on
-          autofocus: on
-          label: Name
+        - label: Name
           name: name
-          placeholder: Enter your name
+          placeholder: Katalin Minta*
           type: text
           validate:
             required: true
 
         - label: Email
           name: email
-          placeholder: Enter your email address
+          placeholder: Email*
           type: email
           validate:
             required: true
