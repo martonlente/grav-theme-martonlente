@@ -3,17 +3,17 @@ title: A Page with an Example Form
 form:
     name: contact-form
     fields:
-        - name: name
-          label: Name
-          placeholder: Enter your name
+        - autocomplete: on
           autofocus: on
-          autocomplete: on
+          label: Name
+          name: name
+          placeholder: Enter your name
           type: text
           validate:
             required: true
 
-        - name: email
-          label: Email
+        - label: Email
+          name: email
           placeholder: Enter your email address
           type: email
           validate:
@@ -22,24 +22,15 @@ form:
     buttons:
         - type: submit
           value: Submit
-        - type: reset
-          value: Reset
 
     process:
-        - email:
-            from: "{{ config.plugins.email.from }}"
-            to:
-              - "{{ config.plugins.email.to }}"
-              - "{{ form.value.email }}"
-            subject: "[Feedback] {{ form.value.name|e }}"
-            body: "{% include 'forms/data.html.twig' %}"
+        - display: thankyou
+        - message: Thank you for your feedback!
         - save:
             fileprefix: feedback-
             dateformat: Ymd-His-u
             extension: txt
             body: "{% include 'forms/data.txt.twig' %}"
-        - message: Thank you for your feedback!
-        - display: thankyou
 
 ---
 
