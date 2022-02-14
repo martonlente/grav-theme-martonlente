@@ -207,6 +207,17 @@ h5 {
 .content h6 {
   padding-top: calc(var(--spacer) * 6); }
 
+.form-data,
+.form-input-wrapper,
+.form-textarea-wrapper {
+  width: 100%; }
+
+.form-data,
+.form-textarea-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 @media (max-width: 575px) {
   .hamburger {
     -webkit-transform: scale(0.75);
