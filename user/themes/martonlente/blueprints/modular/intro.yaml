@@ -12,6 +12,22 @@ form:
       fields:
         content:
             fields:
+              header.background_noise:
+                default: 0
+                label: Background noise
+                highlight: 1
+                options:
+                  0: No
+                  1: Yes
+                type: toggle
+              header.padding_top:
+                default: 0
+                label: Padding top
+                highlight: 1
+                options:
+                  0: No
+                  1: Yes
+                type: toggle
               header.subtitle:
                 label: Subtitle
                 type: text
