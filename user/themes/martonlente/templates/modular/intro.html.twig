@@ -1,6 +1,6 @@
 {% block content %}
-  <section>
-    <div class="container pb-5">
+  <section {% if page.header.background_noise == 1 %}style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');"{% endif %}>
+    <div class="container pb-5 {% if page.header.padding_top == 1 %}pt-6{% endif %}">
       <div class="pb-2 row">
         <div class="col-12">
           <h3 class="fs-7 letter-spacing-lg mb-3 text-uppercase">{{ page.header.subtitle|e }}</h3>
