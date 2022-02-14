@@ -7,36 +7,6 @@
   {% for module in page.collection() %}
     {{ module.content|raw }}
   {% endfor %}
-  <div>
-    <div class="container">
-      <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
-          <ul>
-            {% for p in page.find('/blog').collection|slice(0, 3) %}
-              <li class="list-style-none mb-3">
-                <a class="d-flex fs-3 fw-bold grey-60" href="{{ p.url|e }}">
-                  <div class="me-1">{{ p.title|e }}</div>
-                  <div class="align-items-center d-flex h-4">
-                    <img alt="" class="fill-grey-60 h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}">
-                  </div>
-                </a>
-              </li>
-            {% endfor %}
-            <li class="list-style-none mb-3">
-              <a class="d-flex fs-3 fw-bold grey-60 secondary" href="/blog">
-                <div class="me-1">Read more</div>
-                <div class="align-items-center d-flex h-4">
-                  <img alt="" class="fill-secondary h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}">
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-2"></div>
-      </div>
-    </div>
-  </div>
   <div style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');">
     <div class="container">
       {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
