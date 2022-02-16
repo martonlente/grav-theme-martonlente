@@ -71,8 +71,8 @@ h5 {
 /*Utilities
  */
 .backdrop-filter-blur {
-  -webkit-backdrop-filter: blur(var(--spacer));
-          backdrop-filter: blur(var(--spacer)); }
+  -webkit-backdrop-filter: blur(var(--spacer)) saturate(130%);
+          backdrop-filter: blur(var(--spacer)) saturate(130%); }
 
 .bg-gradient {
   background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary)), to(var(--tertiary)));
