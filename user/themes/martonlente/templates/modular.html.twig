@@ -7,7 +7,7 @@
   {% for module in page.collection() %}
     {{ module.content|raw }}
   {% endfor %}
-  <div style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');">
+  <div class="bg-grey-98" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');">
     <div class="container">
       {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
     </div>
