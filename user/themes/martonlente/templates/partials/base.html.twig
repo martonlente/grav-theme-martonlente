@@ -41,9 +41,7 @@
 <body id="top" class="{{ page.header.body_classes|e }}">
 
 {% block header %}
-  <div class="h-8-xs h-10-lg h-12 js-bluroverlay position-fixed w-100"></div>
-  <div class="h-8-xs h-10-lg h-12 mix-blend-mode-multiply opacity-10 position-fixed start-0 top-0 w-100 z-index-10000"  style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
-  <header class="position-fixed start-0 top-0 w-100 z-index-10000">
+  <header class="backdrop-filter-blur position-fixed start-0 top-0 w-100 z-index-10000" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');">
     <div class="container position-relative">
     <div class="h-8-xs h-10-lg h-12 row">
       <div class="align-items-center col-4 col-8-md d-flex">
@@ -80,12 +78,10 @@
 {% endblock %}
 
 {% block body %}
-  <main id="main">
-    <div class="js-bluroverlay-back">
-      <div class="h-8-xs h-10-lg h-12"></div>
-      {% block hero %}{% endblock %}
-      {% block content %}{% endblock %}
-    </div>
+  <main class="bg-white" id="main">
+    <div class="h-8-xs h-10-lg h-12"></div>
+    {% block hero %}{% endblock %}
+    {% block content %}{% endblock %}
     <div class="bottom-3 end-3 position-fixed z-index-1">
       <div class="js-end-zone-helper js-end-zone-helper-transition">
         <a class="d-block js-link-anchor js-link-top lh-1" href="#main">
