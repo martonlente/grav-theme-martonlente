@@ -85,7 +85,7 @@ h5 {
 /*Utilities
  */
 .backdrop-filter-blur {
- backdrop-filter: blur(var(--spacer));
+ backdrop-filter: blur(var(--spacer)) saturate(130%);
 }
 
 
