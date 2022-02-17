@@ -261,6 +261,15 @@ h5 {
   padding-top: calc(var(--spacer) * 5);
 }
 
+.content h1:first-child,
+.content h2:first-child,
+.content h3:first-child,
+.content h4:first-child,
+.content h5:first-child,
+.content h6:first-child {
+  padding-top: 0;
+}
+
 .form-data,
 .form-input-wrapper,
 .form-textarea-wrapper {
