@@ -10,7 +10,7 @@
       </div>
       <div class="align-items-end row">
         {% for card in page.header.cards %}
-          <a class="col-6 mb-3" href="{{ card.link|e }}">
+          <a class="col-6 pb-3" href="{{ card.link|e }}">
             <div class="mb-3 row">
               <div class="col-10">
                 <div class="bg-center bg-cover {{ card.image_ratio|e }}" style="background-image: url('{{ page.media[card.image].url|e }}');"></div>
