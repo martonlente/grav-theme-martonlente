@@ -192,7 +192,7 @@ h5 {
 /*Components
  */
 .content {
-  margin-bottom: calc(var(--spacer) * 6); }
+  padding-bottom: calc(var(--spacer) * 5); }
 
 .content code {
   background-color: var(--grey-98);
