@@ -170,6 +170,10 @@ h5 {
 .mh-8 {
   min-height: calc(var(--spacer) * 8); }
 
+@media (max-width: 991px) {
+  .mh-0-md {
+    min-height: 0; } }
+
 .mix-blend-mode-multiply {
   mix-blend-mode: multiply; }
 
