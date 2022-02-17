@@ -53,6 +53,10 @@ b,
   font-weight: var(--fw-normal);
 }
 
+button {
+  padding: 0;
+}
+
 button:hover {
   cursor: pointer;
   opacity: 0.9;
