@@ -33,6 +33,7 @@ _pginfo/
 *.svg
 
 # track these files, if they exist
+!.gitattributes
 !.gitignore
 !robots.txt
 
