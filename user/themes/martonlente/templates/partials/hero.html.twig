@@ -9,7 +9,7 @@
             {% if page.header.hero_title %}
               {{ page.header.hero_title|e }}
             {% else %}
-              Blog
+              Blog • <span>{{ p.date|date("Y. m. d.")|e }}</span>
             {% endif %}
           </div>
           {% if page.header.hero_text %}
