@@ -7,18 +7,20 @@
   {{ page.content|raw }}
   <section>
     <div class="container pb-6">
-      <div class="row pb-4-md pb-5">
+      <div class="row pb-3-md pb-4">
         <div class="col-1"></div>
         <div class="col-10">
-          <ul class="d-flex flex-column-md">
+          <ul class="d-flex">
             <li class="fs-7 fs-8-lg letter-spacing-lg list-style-none mb-1-md me-3 text-uppercase">Filter</li>
-            <li class="fs-7-lg list-style-none mb-1-md me-3"><button class="bg-transparent border-0 font-sans-serif fs-6 js-btn-isotope-filter secondary" data-filter="*">All</button></li>
-            {% if page.taxonomy.category %}
-              {% for category in page.taxonomy.category %}
-                <li class="fs-7-lg list-style-none mb-1-md me-3"><button class="bg-transparent border-0 font-sans-serif fs-6 js-btn-isotope-filter primary" data-filter=".{{ category|e }}">{{ category|e }}</button></li>
-              {% endfor %}
-            {% endif %}
-          </ul>
+            <ul class="d-flex flex-wrap">
+              <li class="fs-7-lg list-style-none mb-1-md me-3"><button class="bg-transparent border-0 font-sans-serif fs-6 js-btn-isotope-filter secondary" data-filter="*">All</button></li>
+              {% if page.taxonomy.category %}
+                {% for category in page.taxonomy.category %}
+                  <li class="fs-7-lg list-style-none mb-1-md me-3"><button class="bg-transparent border-0 font-sans-serif fs-6 js-btn-isotope-filter primary" data-filter=".{{ category|e }}">{{ category|e }}</button></li>
+                {% endfor %}
+              {% endif %}
+            </ul>
+            </ul>
         </div>
         <div class="col-1"></div>
       </div>
