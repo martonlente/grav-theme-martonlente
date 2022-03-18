@@ -3,7 +3,7 @@
     <div class="container">
       <div class="pb-6 row">
         {% for card in page.header.cards %}
-          <div class="col-4 pb-3">
+          <div class="col-4 col-6-md pb-3">
             <button class="align-items-center bg-transparent border-0 d-flex js-btn-card-text mb-3">
               <h3 class="grey-60 mb-0 me-1">{{ card.header|e }}</h3>
               <img alt="" class="h-2 fill-grey-60 js-btn-card-text-img js-svg-injector-item" src="{{ url('theme://images/ic_fluent_add_24_regular.svg') }}">
