@@ -101,18 +101,48 @@ h5 {
   font-family: var(--font-sans-serif-2);
 }
 
-.fs-1 {
+.fs-1,
+.fs-1-lg,
+.fs-1-md,
+.fs-1-sm,
+.fs-1-xl,
+.fs-1-xs {
   line-height: 4.0rem;
 }
 
 .fs-2,
-.fs-3 {
+.fs-2-lg,
+.fs-2-md,
+.fs-2-sm,
+.fs-2-xl,
+.fs-2-xs,
+.fs-3,
+.fs-3-lg,
+.fs-3-md,
+.fs-3-sm,
+.fs-3-xl,
+.fs-3-xs {
   line-height: 3.2rem;
 }
 
 .fs-4,
+.fs-4-lg,
+.fs-4-md,
+.fs-4-sm,
+.fs-4-xl,
+.fs-4-xs,
 .fs-5,
-.fs-6 {
+.fs-5-lg,
+.fs-5-md,
+.fs-5-sm,
+.fs-5-xl,
+.fs-5-xs,
+.fs-6,
+.fs-6-lg,
+.fs-6-md,
+.fs-6-sm,
+.fs-6-xl,
+.fs-6-xs {
   line-height: var(--lh-base);
 }
 
