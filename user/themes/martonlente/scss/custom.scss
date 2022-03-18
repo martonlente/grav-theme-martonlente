@@ -236,6 +236,12 @@ h5 {
   height: calc(var(--spacer) * 54);
 }
 
+@media (max-width: 575px) {
+  .h-60-xs {
+    height: calc(var(--spacer) * 60);
+  }
+}
+
 .mh-6 {
   min-height: calc(var(--spacer) * 6);
 }
