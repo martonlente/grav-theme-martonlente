@@ -18,12 +18,14 @@
             <h1 class="fs-3-xs grey-98 mb-3">{{ page.title|e }}</h1>
           {% endif %}
           {% if page.header.subtitle %}
-            <h2 class="grey-70 mb-3">{{ page.header.subtitle|e }}</h2>
+            <h2 class="grey-70 mb-0-md mb-3">{{ page.header.subtitle|e }}</h2>
           {% endif %}
           {% if page.taxonomy.tag %}
-            {% for tag in page.taxonomy.tag %}
-              <span class="grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
-            {% endfor %}
+            <div class="d-none-md">
+              {% for tag in page.taxonomy.tag %}
+                <span class="grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
+              {% endfor %}
+            </div>
           {% endif %}
         </div>
         <div class="col-1"></div>
