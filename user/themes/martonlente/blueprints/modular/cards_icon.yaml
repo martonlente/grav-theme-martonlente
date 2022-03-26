@@ -12,6 +12,8 @@ form:
       fields:
         content:
             fields:
+              content:
+                unset@: true
               header.cards:
                 name: cards
                 type: list
