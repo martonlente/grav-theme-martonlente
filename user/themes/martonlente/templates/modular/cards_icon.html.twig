@@ -16,7 +16,7 @@
                   {% endfor %}
                 </ul>
                 {% if card.link %}
-                  <a href="{{ card.link|e }}">Read more</a>
+                  <a class="align-items-center d-flex" href="{{ card.link|e }}"><span class="me-1">Read more</span><img alt="" class="fill-secondary h-2 js-svg-injector-item" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg') }}"></a>
                 {% endif %}
               </div>
             </div>
