@@ -4,7 +4,7 @@
       <div class="col-2"></div>
       <div class="col-8">
         <ul>
-          {% for p in page.find('/blog').collection|slice(0, 3) %}
+          {% for p in page.collection({ items: {'@page.children': '/blog'}, 'limit': 3 }) %}
             <li class="list-style-none mb-3">
               <a class="d-flex fs-3 fs-4-xs fw-bold grey-60" href="{{ p.url|e }}">
                 <div class="me-1">{{ p.title|e }}</div>
