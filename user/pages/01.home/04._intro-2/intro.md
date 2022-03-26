@@ -1,5 +1,5 @@
 ---
-title: 'Intro 2'
+title: 'Intro 3'
 body_classes: modular
 background_noise: '0'
 padding_top: '0'
