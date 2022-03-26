@@ -1,0 +1,4 @@
+title: Thankyou
+extends@:
+    type: hero
+    context: theme://blueprints/modular
