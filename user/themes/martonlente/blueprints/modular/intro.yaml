@@ -20,6 +20,9 @@ form:
                   0: No
                   1: Yes
                 type: toggle
+              header.id:
+                label: Id
+                type: text
               header.padding_top:
                 default: 0
                 label: Padding top
