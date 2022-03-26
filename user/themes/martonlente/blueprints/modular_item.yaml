@@ -12,6 +12,8 @@ form:
       fields:
         content:
             fields:
+              content:
+                unset@: true
               header.image_ratio:
                 default: ratio-16x9
                 label: Image ratio
