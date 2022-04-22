@@ -11,7 +11,7 @@
         <div class="col-1"></div>
         <div class="col-10">
           <ul class="d-flex">
-            <li class="fs-7 fs-8-lg letter-spacing-lg list-style-none mb-1-md me-3 text-uppercase">Filter</li>
+            <li class="font-sans-serif-2 fs-7 fs-8-lg letter-spacing-lg list-style-none mb-1-md me-3 text-uppercase">Filter</li>
             <ul class="d-flex flex-column-xs flex-wrap">
               <li class="fs-7-lg list-style-none mb-1-md me-3"><button class="bg-transparent border-0 font-sans-serif fs-6 js-btn-isotope-filter secondary" data-filter="*">All</button></li>
               {% if page.taxonomy.category %}
@@ -47,7 +47,7 @@
               </div>
             </a>
             <div class="col-5 mb-1-5-md pt-0-md pt-3">
-              <div class="grey-60 {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">{{ p.date|date("Y. m. d.")|e }}</div>
+              <div class="font-sans-serif-2 fs-7 grey-60 letter-spacing-lg {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">{{ p.date|date("Y. m. d.")|e }}</div>
             </div>
           </div>
         {% endfor %}
