@@ -17,8 +17,8 @@
  */
 :root {
   --font-monospace: 'Ubuntu Mono', monospace;
-  --font-sans-serif: 'Rutan-Medium', sans-serif;
-  --font-sans-serif-2: 'Rutan-DemiBold', sans-serif;
+  --font-sans-serif: 'Rutan-Regular', sans-serif;
+  --font-sans-serif-2: 'Stolzl-Medium', sans-serif;
   --fs-8: 1.2rem;
   --lh-base: 2.4rem; }
 
