@@ -6,7 +6,7 @@
         <ul>
           {% for p in page.collection({ items: {'@page.children': '/blog'}, 'limit': 3 }) %}
             <li class="list-style-none mb-3">
-              <a class="d-flex fs-3 fs-4-xs fw-bold grey-60" href="{{ p.url|e }}">
+              <a class="d-flex font-sans-serif-bold fs-3 fs-4-xs grey-60" href="{{ p.url|e }}">
                 <div class="me-1">{{ p.title|e }}</div>
                 <div class="align-items-center d-flex h-4">
                   <img alt="" class="fill-grey-60 h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}">
@@ -15,7 +15,7 @@
             </li>
           {% endfor %}
           <li class="list-style-none mb-3">
-            <a class="d-flex fs-3 fs-4-xs fw-bold grey-60 secondary" href="/blog">
+            <a class="d-flex font-sans-serif-bold fs-3 fs-4-xs fw-bold grey-60 secondary" href="/blog">
               <div class="me-1">Read more</div>
               <div class="align-items-center d-flex h-4">
                 <img alt="" class="fill-secondary h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}">
