@@ -74,6 +74,9 @@ h5 {
 
 /*Utilities
  */
+.align-top {
+  vertical-align: top; }
+
 .backdrop-filter-blur {
   -webkit-backdrop-filter: blur(var(--spacer)) saturate(130%);
           backdrop-filter: blur(var(--spacer)) saturate(130%); }
