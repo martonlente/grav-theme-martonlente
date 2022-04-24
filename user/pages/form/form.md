@@ -85,6 +85,8 @@ form:
                 dateformat: Ymd-His-u
                 extension: txt
                 body: '{% include ''forms/data.txt.twig'' %}'
+metadata:
+    robots: noindex
 ---
 
 # My Form
