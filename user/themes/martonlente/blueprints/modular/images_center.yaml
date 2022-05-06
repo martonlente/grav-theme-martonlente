@@ -1,0 +1,27 @@
+title: Images center
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              content:
+                unset@: true
+              header.description:
+                label: Description
+                type: text
+              header.shadow:
+                default: 0
+                label: Shadow
+                highlight: 1
+                options:
+                  0: No
+                  1: Yes
+                type: toggle
