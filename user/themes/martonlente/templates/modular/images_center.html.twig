@@ -1,0 +1,30 @@
+{% set description = page.header.description %}
+{% set shadow = page.header.shadow %}
+{% block content %}
+  <figure class="pb-5">
+    <div class="row">
+      <div class="col-1"></div>
+      {% if page.media.images|length < 2 %}
+        <div class="col-10">
+          <img alt="" class="d-block w-100 {% if shadow %}shadow{% endif %}" src="{{ page.media.images|first.resize(1920).url|e }}">
+        </div>
+      {% else %}
+        {% for image in page.media.images %}
+          <div class="col-5">
+            <img alt="" class="d-block w-100 {% if shadow %}shadow{% endif %}" src="{{ image.resize(1920).url|e }}">
+          </div>
+        {% endfor %}
+      {% endif %}
+      <div class="col-1"></div>
+    </div>
+    {% if description %}
+      <div class="row mb-1">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <figcaption>{{ description|e }}</figcaption>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    {% endif %}
+  </figure>
+{% endblock %}
