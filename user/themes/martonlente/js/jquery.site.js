@@ -40,25 +40,28 @@ $(function() {
     var $this = $(this);
     var $listingGalleryItem = $this.find('.js-listing-gallery-item');
     $listingGalleryItem.first().removeClass('d-none');
+    $this.imagesLoaded({
+      background: $listingGalleryItem
+    }, function() {
+      setTimeout(function() {
+        var i = 0;
 
-    setTimeout(function() {
-      var i = 0;
+        $listingGalleryItem.eq(i).removeClass('d-none');
 
-      $listingGalleryItem.eq(i).removeClass('d-none');
+        setInterval(function() {
+          var $listingGalleryItemActive = $listingGalleryItem.eq(i);
 
-      setInterval(function() {
-        var $listingGalleryItemActive = $listingGalleryItem.eq(i);
+          $listingGalleryItem.addClass('d-none');
+          $listingGalleryItemActive.removeClass('d-none');
 
-        $listingGalleryItem.addClass('d-none');
-        $listingGalleryItemActive.removeClass('d-none');
-
-        if ($listingGalleryItemActive.next().length) {
-          i++;
-        } else {
-          i = 0;
-        }
-      }, 3000);
-    }, 1500 * index);
+          if ($listingGalleryItemActive.next().length) {
+            i++;
+          } else {
+            i = 0;
+          }
+        }, 3000);
+      }, 1500 * index);
+    });
   });
 
   /*Isotope
