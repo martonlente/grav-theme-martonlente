@@ -5,7 +5,7 @@
       <div class="col-2"></div>
     {% endif %}
     <div class="{% if header.wide == 1 %}col-7{% else %}col-5{% endif %}">
-      <img alt="{{ page.header.description|e }}" class="d-block w-100" src="{{ page.media.images|first.resize(1920).url|e }}">
+      <img alt="{{ page.header.description|e }}" class="d-block w-100" src="{{ page.media.images|first.resize(1520).url|e }}">
     </div>
     <div class="col-5 pt-0-md pt-3">
       {% if page.header.description %}

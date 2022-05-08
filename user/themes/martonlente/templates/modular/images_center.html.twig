@@ -11,7 +11,7 @@
       {% else %}
         {% for image in page.media.images %}
           <div class="col-5">
-            <img alt="" class="d-block w-100 {% if shadow %}shadow{% endif %}" src="{{ image.resize(1920).url|e }}">
+            <img alt="" class="d-block w-100 {% if shadow %}shadow{% endif %}" src="{{ image.resize(1072).url|e }}">
           </div>
         {% endfor %}
       {% endif %}
