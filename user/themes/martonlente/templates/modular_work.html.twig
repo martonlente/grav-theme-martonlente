@@ -5,23 +5,23 @@
 {% endblock %}
 {% block content %}
   <section>
-    <div class="container pb-5">
+    <div class="container pb-3">
       <div class="row">
-        <div class="col-3">
-          <h3 class="grey-60 mb-3">Client</h3>
+        <div class="col-3 col-6-md pb-3">
+          <h3 class="grey-60 mb-1-5-md mb-3">Client</h3>
           <div>{{ page.header.client|e }}</div>
         </div>
-        <div class="col-3">
-          <h3 class="grey-60 mb-3">Designer</h3>
+        <div class="col-3 col-6-md pb-3">
+          <h3 class="grey-60 mb-1-5-md mb-3">Designer</h3>
           <div>{{ page.header.designer|e }}</div>
         </div>
-        <div class="col-3">
-          <h3 class="grey-60 mb-3">Developer</h3>
+        <div class="col-3 col-6-md pb-3">
+          <h3 class="grey-60 mb-1-5-md mb-3">Developer</h3>
           <div>{{ page.header.developer|e }}</div>
         </div>
-        <div class="col-3">
-          <h3 class="grey-60 mb-3">Services</h3>
-          <ul>
+        <div class="col-3 col-6-md pb-3">
+          <h3 class="grey-60 mb-1-5-md mb-3">Services</h3>
+          <ul class="mb-0">
             {% for service in page.header.services %}
               <li class="list-style-none">{{ service.service|e }}</li>
             {% endfor %}
