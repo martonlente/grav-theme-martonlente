@@ -25,3 +25,10 @@ form:
                   0: No
                   1: Yes
                 type: toggle
+              header.vertical_spacing:
+                default: pb-5
+                label: Vertical spacing
+                type: select
+                options:
+                  'pb-5': 'Normal'
+                  'pb-2': 'Small'
