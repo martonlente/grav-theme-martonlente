@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "jquery-smooth-scroll": "^2.2.0",
     "reset-css": "^5.0.1",
