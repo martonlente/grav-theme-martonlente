@@ -14,6 +14,9 @@ form:
             fields:
               content:
                 unset@: true
+              header.caption:
+                label: Caption
+                type: text
               header.description:
                 label: Description
                 type: text
