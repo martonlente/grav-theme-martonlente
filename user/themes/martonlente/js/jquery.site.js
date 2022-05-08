@@ -52,7 +52,7 @@ $(function() {
         $listingGalleryItem.addClass('d-none');
         $listingGalleryItemActive.removeClass('d-none');
 
-        if ($listingGalleryItemActive.next().next().length) {
+        if ($listingGalleryItemActive.next().length) {
           i++;
         } else {
           i = 0;
