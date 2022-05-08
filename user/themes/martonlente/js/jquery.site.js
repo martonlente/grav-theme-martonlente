@@ -58,6 +58,35 @@ $(function() {
    */
   $('.js-link-anchor').smoothScroll();
 
+  /*Listing gallery
+   */
+  var $listingGallery = $('.js-listing-gallery');
+
+  $listingGallery.each(function(index) {
+    var $this = $(this);
+    var $listingGalleryItem = $this.find('.js-listing-gallery-item');
+    $listingGalleryItem.first().removeClass('d-none');
+
+    setTimeout(function() {
+      var i = 0;
+
+      $listingGalleryItem.eq(i).removeClass('d-none');
+
+      setInterval(function() {
+        var $listingGalleryItemActive = $listingGalleryItem.eq(i);
+
+        $listingGalleryItem.addClass('d-none');
+        $listingGalleryItemActive.removeClass('d-none');
+
+        if ($listingGalleryItemActive.next().next().length) {
+          i++;
+        } else {
+          i = 0;
+        }
+      }, 3000);
+    }, 1500 * index);
+  });
+
   /*Nav md
    */
   var $btnNavMd = $('.js-btn-nav-md');
