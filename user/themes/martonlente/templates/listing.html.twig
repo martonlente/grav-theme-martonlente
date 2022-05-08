@@ -31,7 +31,7 @@
             <a class="col-7" href="{{ p.url|e }}">
               <div class="js-listing-gallery">
                 {% for image in p.media.images %}
-                  <div class="bg-center bg-cover d-none js-listing-gallery-item mb-3 {{ p.header.image_ratio|e }}" style="background-image: url('{{ image.resize(1920).url|e }}');"></div>
+                  <div class="bg-center bg-cover d-none js-listing-gallery-item mb-3 {{ p.header.image_ratio|e }}" style="background-image: url('{{ image.resize(1520).url|e }}');"></div>
                 {% endfor %}
               </div>
               <div class="grid-columns-7 row">
