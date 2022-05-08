@@ -32,32 +32,6 @@ $(function() {
     navigator.clipboard.writeText(code);
   });
 
-  /*Isotope
-   */
-  var $btnIsotopeFilter = $('.js-btn-isotope-filter');
-  var $isotopeGrid = $('.js-isotope-grid');
-
-  $('.js-btn-isotope-filter').click(function() {
-    var $this = $(this);
-    var filterValue = $this.attr('data-filter');
-
-    $btnIsotopeFilter.removeClass('secondary');
-
-    $this.addClass('secondary');
-
-    $isotopeGrid.isotope({
-      filter: filterValue,
-    });
-  });
-
-  $isotopeGrid.isotope({
-    itemSelector: '.js-isotope-grid-item'
-  });
-
-  /*jQuery Smooth Scroll
-   */
-  $('.js-link-anchor').smoothScroll();
-
   /*Listing gallery
    */
   var $listingGallery = $('.js-listing-gallery');
@@ -86,6 +60,32 @@ $(function() {
       }, 3000);
     }, 1500 * index);
   });
+
+  /*Isotope
+   */
+  var $btnIsotopeFilter = $('.js-btn-isotope-filter');
+  var $isotopeGrid = $('.js-isotope-grid');
+
+  $('.js-btn-isotope-filter').click(function() {
+    var $this = $(this);
+    var filterValue = $this.attr('data-filter');
+
+    $btnIsotopeFilter.removeClass('secondary');
+
+    $this.addClass('secondary');
+
+    $isotopeGrid.isotope({
+      filter: filterValue,
+    });
+  });
+
+  $isotopeGrid.isotope({
+    itemSelector: '.js-isotope-grid-item'
+  });
+
+  /*jQuery Smooth Scroll
+   */
+  $('.js-link-anchor').smoothScroll();
 
   /*Nav md
    */
