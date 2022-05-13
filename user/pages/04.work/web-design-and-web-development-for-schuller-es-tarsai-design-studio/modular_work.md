@@ -8,5 +8,11 @@ client: 'SCHÜLLER ÉS TÁRSAI Kft.'
 designer: 'Márton Pattantyús, Me – Márton Lente'
 developer: 'Me – Márton Lente'
 media_order: schuller-es-tarsai-design-studio-web-design-and-development-desktop-1.jpg
+image_top: '0'
+services:
+    -
+        service: 'Web design'
+    -
+        service: 'Web development'
 ---
 
