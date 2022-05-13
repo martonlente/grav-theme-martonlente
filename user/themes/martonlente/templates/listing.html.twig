@@ -38,7 +38,9 @@
                 <div class="col-1"></div>
                 <div class="col-5">
                   <h3 class="mb-3 primary">{{ p.title|e }}</h3>
-                  <h4 class="fs-6 mb-0-md mb-3 primary">{{ p.header.subtitle|e }}</h4>
+                  {% if p.header.subtitle %}
+                    <h4 class="fs-6 mb-0-md mb-3 primary">{{ p.header.subtitle|e }}</h4>
+                  {% endif %}
                   <div class="d-none-md">
                     {% if p.taxonomy.tag %}
                       {% for tag in p.taxonomy.tag %}
@@ -51,7 +53,13 @@
               </div>
             </a>
             <div class="col-5 mb-1-5-md pt-0-md pt-3">
-              <div class="font-sans-serif-2 fs-7 grey-60 letter-spacing-lg {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">{{ p.date|date("Y. m. d.")|e }}</div>
+              <div class="font-sans-serif-2 fs-7 grey-60 letter-spacing-lg text-uppercase {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">
+                {% if p.parent.slug == 'blog' %}
+                  {{ p.date|date("Y. m. d.")|e }}
+                {% else %}
+                  Year: {{ p.date|date("Y")|e }}
+                {% endif %}
+              </div>
             </div>
           </div>
         {% endfor %}
