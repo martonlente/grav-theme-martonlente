@@ -21,6 +21,14 @@ form:
                 options:
                   'ratio-1x1': '1 / 1'
                   'ratio-16x9': '16 / 9'
+              header.image_top:
+                default: 0
+                label: Image top
+                highlight: 1
+                options:
+                  0: No
+                  1: Yes
+                type: toggle
               header.excerpt:
                 label: Excerpt
                 type: textarea
