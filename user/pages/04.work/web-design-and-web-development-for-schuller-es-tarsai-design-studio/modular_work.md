@@ -14,5 +14,9 @@ services:
         service: 'Web design'
     -
         service: 'Web development'
+taxonomy:
+    category:
+        - 'Web design'
+        - 'Web development'
 ---
 

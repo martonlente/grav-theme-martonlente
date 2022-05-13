@@ -13,5 +13,10 @@ services:
     -
         service: 'Web development'
 media_order: comeouttriumphant-org-web-design-and-web-development-desktop-1.jpg
+image_top: '0'
+taxonomy:
+    category:
+        - 'Web design'
+        - 'Web development'
 ---
 

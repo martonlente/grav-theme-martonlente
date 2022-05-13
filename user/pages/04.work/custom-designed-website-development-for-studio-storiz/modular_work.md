@@ -11,5 +11,9 @@ developer: 'Me – Márton Lente'
 services:
     -
         service: 'Web development'
+image_top: '0'
+taxonomy:
+    category:
+        - 'Web development'
 ---
 

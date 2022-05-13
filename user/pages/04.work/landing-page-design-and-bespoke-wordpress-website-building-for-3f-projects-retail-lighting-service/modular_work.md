@@ -13,5 +13,10 @@ services:
     -
         service: 'Web development'
 media_order: 3f-projects-retail-lighting-service-landing-page-design-and-bespoke-wordpress-website-building-desktop-1.jpg
+image_top: '0'
+taxonomy:
+    category:
+        - 'Web design'
+        - 'Web development'
 ---
 

@@ -11,5 +11,9 @@ services:
     -
         service: 'Web development'
 media_order: loffice-custom-designed-webportal-development-desktop-1.jpg
+image_top: '0'
+taxonomy:
+    category:
+        - 'Web development'
 ---
 
