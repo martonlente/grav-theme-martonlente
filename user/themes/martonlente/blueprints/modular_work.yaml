@@ -32,6 +32,14 @@ form:
               header.excerpt:
                 label: Excerpt
                 type: textarea
+              header.featured_image:
+                label: Featured image
+                folder: 'self@'
+                preview_images: true
+                type: filepicker
+              header.featured_imade_description:
+                label: Featured image description
+                type: text
               header.client:
                 label: Client
                 type: text
