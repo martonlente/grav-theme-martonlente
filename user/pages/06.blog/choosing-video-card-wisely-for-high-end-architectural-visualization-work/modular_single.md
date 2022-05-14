@@ -15,5 +15,7 @@ date: '14-07-2019 00:01'
 metadata:
     description: 'Help in choosing video card wisely for high-end architectural visualisation work, and demistifying the GPU''s role in 3D viewport performance.'
     'og:description': 'Help in choosing video card wisely for high-end architectural visualisation work, and demistifying the GPU''s role in 3D viewport performance.'
+featured_image: choosing-video-card-wisely-for-high-end-architectural-visualization-work.jpg
+featured_imade_description: 'Choosing video card wisely for high-end architectural visuazlization work'
 ---
 

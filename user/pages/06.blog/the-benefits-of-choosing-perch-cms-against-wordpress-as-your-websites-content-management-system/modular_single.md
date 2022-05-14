@@ -16,5 +16,7 @@ metadata:
     description: 'Viewing the benefits of choosing Perch CMS against WordPress as your website''s content management system, and comparing perch cms and wordpress from the end-user''s side.'
     'og:description': 'Viewing the benefits of choosing Perch CMS against WordPress as your website''s content management system, and comparing perch cms and wordpress from the end-user''s side.'
 media_order: the-benefits-of-choosing-perch-cms-against-wordpress-as-your-websites-content-management-system.jpg
+featured_image: the-benefits-of-choosing-perch-cms-against-wordpress-as-your-websites-content-management-system.jpg
+featured_imade_description: 'The benefits of choosing Perch CMS against WordPress as your website''s content management system'
 ---
 
