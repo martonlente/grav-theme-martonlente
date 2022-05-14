@@ -17,5 +17,6 @@ taxonomy:
         - 'Web development'
 featured_image: archinest-custom-designed-website-development-desktop-1.jpg
 featured_imade_description: 'Custom designed website development for ArchiNEST Home page on desktop'
+date: '01-03-2020 00:00'
 ---
 

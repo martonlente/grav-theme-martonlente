@@ -17,5 +17,6 @@ taxonomy:
         - 'Web development'
 featured_image: studio-storiz-custom-designed-website-development-desktop-1.jpg
 featured_imade_description: 'Custom designed website development for studio storiz Home page on desktop'
+date: '01-12-2020 00:00'
 ---
 

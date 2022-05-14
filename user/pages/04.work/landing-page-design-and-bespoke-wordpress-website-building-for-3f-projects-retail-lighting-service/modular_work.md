@@ -20,5 +20,6 @@ taxonomy:
         - 'Web development'
 featured_image: 3f-projects-retail-lighting-service-landing-page-design-and-bespoke-wordpress-website-building-desktop-1.jpg
 featured_imade_description: 'Landing page design, and bespoke WordPress website building for 3F Project''s retail lighting service home page on desktop'
+date: '15-11-2018 00:00'
 ---
 

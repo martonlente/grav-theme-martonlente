@@ -20,5 +20,6 @@ taxonomy:
         - 'Web development'
 featured_image: comeouttriumphant-org-web-design-and-web-development-desktop-1.jpg
 featured_imade_description: 'Web design and web development for ComeOutTriumphant.org home page on desktop'
+date: '01-08-2020 00:00'
 ---
 

@@ -20,5 +20,6 @@ taxonomy:
         - 'Web development'
 featured_image: schuller-es-tarsai-design-studio-web-design-and-development-desktop-1.jpg
 featured_imade_description: 'Web design and web development for SCHÜLLER ÉS TÁRSAI design studio home page on desktop'
+date: '01-08-2019 00:00'
 ---
 
