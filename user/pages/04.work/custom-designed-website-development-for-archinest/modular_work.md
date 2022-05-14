@@ -15,5 +15,7 @@ image_top: '0'
 taxonomy:
     category:
         - 'Web development'
+featured_image: archinest-custom-designed-website-development-desktop-1.jpg
+featured_imade_description: 'Custom designed website development for ArchiNEST Home page on desktop'
 ---
 

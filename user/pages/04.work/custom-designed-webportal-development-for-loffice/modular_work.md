@@ -15,5 +15,7 @@ image_top: '0'
 taxonomy:
     category:
         - 'Web development'
+featured_image: loffice-custom-designed-webportal-development-desktop-1.jpg
+featured_imade_description: 'Custom designed webportal development for Loffice Home page on desktop'
 ---
 

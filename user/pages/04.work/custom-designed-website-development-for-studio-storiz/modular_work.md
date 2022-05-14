@@ -15,5 +15,7 @@ image_top: '0'
 taxonomy:
     category:
         - 'Web development'
+featured_image: studio-storiz-custom-designed-website-development-desktop-1.jpg
+featured_imade_description: 'Custom designed website development for studio storiz Home page on desktop'
 ---
 

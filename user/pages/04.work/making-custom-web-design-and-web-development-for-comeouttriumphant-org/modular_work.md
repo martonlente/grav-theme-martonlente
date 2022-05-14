@@ -18,5 +18,7 @@ taxonomy:
     category:
         - 'Web design'
         - 'Web development'
+featured_image: comeouttriumphant-org-web-design-and-web-development-desktop-1.jpg
+featured_imade_description: 'Web design and web development for ComeOutTriumphant.org home page on desktop'
 ---
 

@@ -21,5 +21,8 @@ taxonomy:
         - 'Web development'
 date: '01-01-2016 00:00'
 media_order: 'bimcap-branding-business-card-and-letterhead-stationary-design-1.jpg,bimcap-branding-business-card-and-letterhead-stationary-design-3.jpg,bimcap-branding-trifold-brochure-stationary-design-1.jpg'
+image_top: '0'
+featured_image: bimcap-branding-business-card-and-letterhead-stationary-design-1.jpg
+featured_imade_description: 'BIMCAP business card back design'
 ---
 
