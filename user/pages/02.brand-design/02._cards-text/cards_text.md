@@ -10,6 +10,6 @@ cards:
         text: 'I design meaningful and distinctive logotypes for your brand, that work on different mediums. My logos deliver the intended message, using typography, form and colour effectively.'
     -
         header: 'Identity design'
-        text: 'I design brand stationery – like business cards, and other assets, using your logo as a foundation. These extend the brand onto different mediums consistently. I create  a graphic standards manual, that defines the core aspects of the complete identity design, helping consistent use of brand assets in future.'
+        text: 'I design brand identity systems using your logo as a foundation, that extend the brand onto different mediums, and stationary consistently. I often create a graphic standards manual, that defines the core aspects of the design system.'
 ---
 

@@ -8,4 +8,4 @@ subtitle: 'Web design'
 heading: 'I do responsive web design with a goal-driven, step by step workflow'
 ---
 
-Building on your brand's identity system, I do bespoke web design for a variety of applications, from microsites to complex webshops. With very strong background, and partnerships in development, design is a truly unique process.
+Building on your brand's identity system, I do bespoke web design for a variety of applications, from microsites to complex webshops. A strong background, and partnerships in development help me creating unique designs, that work.

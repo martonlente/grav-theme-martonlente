@@ -8,4 +8,4 @@ id: brand-design
 padding_top: '0'
 ---
 
-I build strong perceptions of your brand by doing brand design, and web design on a strategic manner. I form the foundation of your message, that may resonate with your audience.
+I do strategic brand design for your company. I design logos and brand identity systems, based on deep understanding of your brand and audiences, that form a unique and cohesive message.
