@@ -37,4 +37,4 @@ cards:
 media_order: '3h-epitesziroda-logo-fill.svg,kortars-epiteszeti-kozpont-logo-fill.svg,loffice-logo-fill.svg,madilancos-studio-logo-fill.svg,pi-hun-logo-fill.svg,studio-a4-iroda-logo-fill.svg,studio-in-ex-logo-fill.svg,tc2-logo-fill.svg'
 ---
 
-– and many other award-winning companies.
+– and other award-winning companies.

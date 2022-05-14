@@ -17,7 +17,7 @@ cards:
     -
         icon: ic_fluent_design_ideas_24_regular.svg
         header: 'Web design'
-        text: 'Building on your brand''s identity system, I do bespoke web design for a variety of applications, from microsites to complex webshops. With very strong background, and partnerships in development, design is a truly unique process.'
+        text: 'Building on your brand''s identity system, I do bespoke web design for a variety of applications, from microsites to complex webshops. A strong background, and partnerships in development help me creating unique designs, that work.'
         link: '/brand-design/#web-design'
         services:
             -
