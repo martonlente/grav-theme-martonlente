@@ -21,6 +21,14 @@ form:
                 options:
                   'ratio-1x1': '1 / 1'
                   'ratio-16x9': '16 / 9'
+              header.featured_image:
+                label: Featured image
+                folder: 'self@'
+                preview_images: true
+                type: filepicker
+              header.featured_imade_description:
+                label: Featured image description
+                type: text
               header.subtitle:
                 label: Subtitle
                 type: text
