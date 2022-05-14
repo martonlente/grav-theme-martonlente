@@ -24,5 +24,8 @@ media_order: 'bimcap-branding-business-card-and-letterhead-stationary-design-1.j
 image_top: '0'
 featured_image: bimcap-branding-business-card-and-letterhead-stationary-design-1.jpg
 featured_imade_description: 'BIMCAP business card back design'
+metadata:
+    description: 'BIMCAP is a building information modeling company, with headquarters in the Netherlands, Hong Kong, and Hungary. They hired me to design their logo, business cards, stationery – letterhead, and email signatures, as well as design and develop their responsive website with Perch CMS for editing. I emphasized the information-driven nature of architecture, paired with precision modeling, BIMCAP does throughout the identity.'
+    'og:description': 'BIMCAP is a building information modeling company, with headquarters in the Netherlands, Hong Kong, and Hungary. They hired me to design their logo, business cards, stationery – letterhead, and email signatures, as well as design and develop their responsive website with Perch CMS for editing. I emphasized the information-driven nature of architecture, paired with precision modeling, BIMCAP does throughout the identity.'
 ---
 
