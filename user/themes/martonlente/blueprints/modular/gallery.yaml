@@ -1,0 +1,50 @@
+title: Gallery
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              content:
+                unset@: true
+
+              header.images:
+                label: Images
+                name: images
+                type: list
+
+                fields:
+                  .caption:
+                    label: Caption
+                    type: text
+                  .description:
+                    label: Description
+                    type: text
+                  .image:
+                    label: Image
+                    folder: 'self@'
+                    preview_images: true
+                    type: filepicker
+                  .shadow:
+                    default: 0
+                    label: Shadow
+                    highlight: 1
+                    options:
+                      0: No
+                      1: Yes
+                    type: toggle
+                  .wide:
+                    default: 0
+                    label: Wide
+                    highlight: 1
+                    options:
+                      0: No
+                      1: Yes
+                    type: toggle
