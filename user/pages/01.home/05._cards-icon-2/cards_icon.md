@@ -6,7 +6,7 @@ cards:
     -
         icon: ic_fluent_code_24_regular.svg
         header: 'Front-end development'
-        text: 'I write clean, standards-compliant, semantic code for your website, webplatform or webshop that search engines prefer, and is easy to maintain. I develop bespoke scripts to improve UX.'
+        text: 'I build web user interfaces by state of the art coding, and a sharp eye for typographic detail, backed by years of experience, and professional design background. I work with my designs, or join developer & designer teams.'
         link: '/development/#front-end-development'
         services:
             -
