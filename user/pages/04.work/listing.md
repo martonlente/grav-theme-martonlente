@@ -7,8 +7,8 @@ content:
         dir: desc
 taxonomy:
     category:
-        - Arch-viz
         - 'Brand design'
+        - 'Visualization'
         - 'Web design'
         - 'Web development'
 hero_title: Work

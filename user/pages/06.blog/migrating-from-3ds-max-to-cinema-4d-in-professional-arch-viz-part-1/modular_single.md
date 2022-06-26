@@ -7,10 +7,10 @@ subtitle: 'Comparing 3d Max''s and Cinema 4D''s context, learning curve, UI and 
 media_order: migrating-from-3ds-max-to-cinema-4d-in-professional-arch-viz-part-1-1.jpg
 taxonomy:
     category:
-        - Arch-viz
+        - 'Visualization'
     tag:
-        - Arch-viz
-        - 'Arch-viz tech consulting'
+        - 'Visualization'
+        - 'Visualization tech consulting'
 date: '26-09-2019 00:00'
 metadata:
     description: 'Part 1 of migrating from 3ds Max to Cinema 4D in professional arc-viz - comparing 3ds Max''s and Cinema 4D''s context, learning curve, UI and workflow.'
@@ -18,4 +18,3 @@ metadata:
 featured_image: migrating-from-3ds-max-to-cinema-4d-in-professional-arch-viz-part-1-1.jpg
 featured_imade_description: 'Migrating form 3ds Max to Cinema 4D in professional arch-vizt - Part 1'
 ---
-

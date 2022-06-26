@@ -7,16 +7,16 @@ subtitle: 'Giving high-level advice for expert selection of components and machi
 media_order: launching-my-blog-on-archviz-and-web-development-3.jpg
 taxonomy:
     category:
-        - Arch-viz
         - 'Brand design'
+        - 'Visualization'
         - 'Web design'
         - 'Web development'
     tag:
-        - Arch-viz
-        - 'Arch-viz tech consulting'
         - 'Front-end development'
         - 'Perch CMS development'
         - 'Product visualization'
+        - 'Visualization'
+        - 'Visualization tech consulting'
         - 'Website UI design'
         - 'Website UX design'
 date: '14-07-2019 00:00'
@@ -26,4 +26,3 @@ metadata:
 featured_image: launching-my-blog-on-archviz-and-web-development-3.jpg
 featured_imade_description: 'Working at my workstation at LOFFICE, a coworking place in Budapest'
 ---
-

@@ -7,8 +7,8 @@ content:
         dir: desc
 taxonomy:
     category:
-        - Arch-viz
         - 'Brand design'
+        - 'Visualization'
         - 'Web design'
         - 'Web development'
 hero_title: Blog
@@ -16,4 +16,3 @@ hero_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusm
 admin:
     children_display_order: collection
 ---
-

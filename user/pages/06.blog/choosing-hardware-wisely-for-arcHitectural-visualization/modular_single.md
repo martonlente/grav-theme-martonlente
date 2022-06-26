@@ -7,10 +7,10 @@ subtitle: 'Giving high-level advice for expert selection of components and machi
 media_order: choosing-hardware-wisely-for-architectural-visualization-1.jpg
 taxonomy:
     category:
-        - Arch-viz
+        - 'Visualization'
     tag:
-        - Arch-viz
-        - 'Arch-viz tech consulting'
+        - 'Visualization'
+        - 'Visualization tech consulting'
 date: '19-01-2020 00:00'
 metadata:
     description: 'Help in choosing hardware for high-end architectural visualisation work, and an overview of computer parts for more expert selection of components.'
@@ -18,4 +18,3 @@ metadata:
 featured_image: choosing-hardware-wisely-for-architectural-visualization-1.jpg
 featured_imade_description: 'Choosing harware wisely for architectural visualization'
 ---
-
