@@ -1,9 +1,10 @@
+{% set featured_image = page.media[header.featured_image] %}
 <section class="container pb-5">
   <figure>
     <div class="row">
       <div class="col-1"></div>
       <div class="col-10">
-        <img alt="{{ page.header.featured_imade_description|e }}" class="d-block w-100" src="{{ page.media[header.featured_image].resize(1920).url|e }}">
+        <img alt="{{ page.header.featured_imade_description|e }}" class="d-block w-100" src="{% if featured_image.width >= 1920 %}{{ featured_image.resize(1920).url|e }}{% else %}{{ featured_image.url|e }}{% endif %}">
       </div>
       <div class="col-1"></div>
     </div>
