@@ -1,5 +1,6 @@
 {% set caption = page.header.caption %}
 {% set description = page.header.description %}
+{% set images_first = page.media.images|first %}
 {% set shadow = page.header.shadow %}
 {% block content %}
   <figure class="{{ page.header.vertical_spacing|e }}">
@@ -7,12 +8,12 @@
       <div class="col-1"></div>
       {% if page.media.images|length < 2 %}
         <div class="col-10">
-          <img alt="{{ description }}" class="d-block w-100 {% if shadow %}shadow{% endif %}" src="{{ page.media.images|first.resize(1920).url|e }}">
+          <img alt="{{ description }}" class="d-block w-100 {% if shadow %}shadow{% endif %}" src="{% if images_first.width >= 1920 %}{{ images_first.resize(1920).url|e }}{% else %}{{ images_first.url|e }}{% endif %}">
         </div>
       {% else %}
         {% for image in page.media.images %}
           <div class="col-5">
-            <img alt=" {{ description }} " class="d-block w-100 {% if shadow %}shadow{% endif %}" src="{{ image.resize(1072).url|e }}">
+            <img alt=" {{ description }} " class="d-block w-100 {% if shadow %}shadow{% endif %}" src="{% if image.width >= 1072 %}{{ image.resize(1072).url|e }}{% else %}{{ image.url|e }}{% endif %}">
           </div>
         {% endfor %}
       {% endif %}
