@@ -4,10 +4,10 @@ content:
     items: '@self.modular'
 image_ratio: ratio-16x9
 image_top: '0'
-media_order: living-budapest-branding-website-landing-page.jpg
-featured_image: living-budapest-branding-website-landing-page.jpg
+media_order: living-budapest-webportal-ui-design-and-development-browser.jpg
+featured_image: living-budapest-webportal-ui-design-and-development-browser.jpg
 excerpt: 'All-round brand design, webportal design, and web development for Living Budapest, a Hungarian real estate agency.'
-featured_imade_description: 'Living Budapest branding website landing page'
+featured_imade_description: 'Living Budapest webportal UI design and development'
 client: 'Living Budapest'
 designer: 'Me – Márton Lente'
 developer: 'Me – Márton Lente'
