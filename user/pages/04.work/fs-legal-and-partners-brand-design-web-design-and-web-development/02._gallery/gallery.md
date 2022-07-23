@@ -1,7 +1,7 @@
 ---
 title: Gallery
 body_classes: modular
-media_order: 'fs-legal-branding-logo-design.jpg,fs-legal-branding-stationary-design-business-card.jpg,fs-legal-branding-stationary-design-business-card-letterhead-2.jpg,fs-legal-branding-stationary-design-envelope.jpg,fs-legal-branding-website-landing-page.jpg'
+media_order: 'fs-legal-branding-stationary-design-business-card.jpg,fs-legal-branding-stationary-design-business-card-letterhead-2.jpg,fs-legal-branding-stationary-design-envelope.jpg,fs-legal-website-design-and-development.jpg'
 images:
     -
         caption: null
@@ -23,8 +23,8 @@ images:
         wide: '1'
     -
         caption: null
-        description: 'FS Legal branding website landing page'
-        image: fs-legal-branding-website-landing-page.jpg
+        description: 'FS Legal website design and development'
+        image: fs-legal-website-design-and-development.jpg
         shadow: '0'
         wide: '1'
 ---
