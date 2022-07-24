@@ -23,6 +23,10 @@ cards:
         logo_height: h-9
         text: 'PI-HUN Kft.'
     -
+        logo: pont-colab-logo-fill.svg
+        logo_height: h-9
+        text: 'PONTcolab Kft.'
+    -
         logo: studio-a4-iroda-logo-fill.svg
         logo_height: h-12
         text: 'Studio A4 Iroda Kft.'
@@ -34,7 +38,7 @@ cards:
         logo: tc2-logo-fill.svg
         logo_height: h-9
         text: 'Total Felhő Kft.'
-media_order: '3h-epitesziroda-logo-fill.svg,kortars-epiteszeti-kozpont-logo-fill.svg,loffice-logo-fill.svg,madilancos-studio-logo-fill.svg,pi-hun-logo-fill.svg,studio-a4-iroda-logo-fill.svg,studio-in-ex-logo-fill.svg,tc2-logo-fill.svg'
+media_order: '3h-epitesziroda-logo-fill.svg,kortars-epiteszeti-kozpont-logo-fill.svg,madilancos-studio-logo-fill.svg,pi-hun-logo-fill.svg,studio-a4-iroda-logo-fill.svg,studio-in-ex-logo-fill.svg,tc2-logo-fill.svg,loffice-logo-fill.svg,pont-colab-logo-fill.svg'
 ---
 
 – and other award-winning companies.
