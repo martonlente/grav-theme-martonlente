@@ -64,8 +64,8 @@ images:
         shadow: '0'
         wide: '1'
     -
-        caption: 'PI-HUN website UI design and development desktop single building 2'
-        description: null
+        caption: null
+        description: 'PI-HUN website UI design and development desktop single building 2'
         image: pi-hun-website-ui-design-and-development-desktop-8.jpg
         shadow: '0'
         wide: '1'
