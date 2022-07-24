@@ -8,9 +8,10 @@ content:
 taxonomy:
     category:
         - 'Brand design'
-        - 'Visualization'
+        - Visualization
         - 'Web design'
         - 'Web development'
 hero_title: Work
-hero_text: 'I publish some of my recent works in brand design, visualization, web design, and web development.'
+hero_text: 'I publish some of my recent works in brand design, visualization, web design, and web development. Recent works soon...'
 ---
+
