@@ -49,7 +49,8 @@ a {
 }
 
 b,
-strong {
+
+strong {
   font-family: var(--font-sans-serif-bold);
   font-weight: var(--fw-normal);
 }
@@ -64,11 +65,11 @@ button:hover {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-sans-serif-2);
   font-weight: var(--fw-normal);
 }
@@ -402,17 +403,17 @@ h5 {
 }
 
 .hamburger-inner,
-.hamburger-inner::before,
-.hamburger-inner::after,
-.hamburger.is-active .hamburger-inner,
-.hamburger.is-active .hamburger-inner::before,
-.hamburger.is-active .hamburger-inner::after {
+.hamburger-inner::before,
+.hamburger-inner::after,
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
   background-color: var(--primary);
 }
 
 .hamburger-inner,
-.hamburger-inner::after,
-.hamburger-inner::before {
+.hamburger-inner::after,
+.hamburger-inner::before {
   border-radius: 0;
 }
 
