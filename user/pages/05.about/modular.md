@@ -4,5 +4,7 @@ content:
     items: '@self.modular'
 hero_title: About
 hero_text: Soon...
+metadata:
+    description: Soon...
 ---
 
