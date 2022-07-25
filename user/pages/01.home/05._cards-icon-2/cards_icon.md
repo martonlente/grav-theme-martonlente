@@ -18,7 +18,7 @@ cards:
     -
         icon: ic_fluent_database_24_regular.svg
         header: 'CMS development'
-        text: 'I deliver bespoke content management solution for your website, webplatform or webshop with Perch CMS, for easy editing. Perch doesn''t dictate design, nor site build, enabling me to deliver unique experiences.'
+        text: 'I deliver bespoke content management solution for your website, webplatform or webshop, for easy editing. CMSs in my workflow doesn''t dictate design, nor site build, enabling me to deliver unique experiences.'
         link: '/development/#cms-development'
         services:
             -
