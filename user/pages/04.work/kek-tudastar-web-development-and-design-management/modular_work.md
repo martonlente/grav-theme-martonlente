@@ -1,5 +1,5 @@
 ---
-title: 'KÉK Tudástár web development, and UI design with Barba Kecskés'
+title: 'KÉK Tudástár web development, and design management'
 content:
     items: '@self.modular'
 image_ratio: ratio-16x9
