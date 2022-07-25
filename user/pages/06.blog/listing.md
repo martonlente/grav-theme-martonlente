@@ -8,11 +8,12 @@ content:
 taxonomy:
     category:
         - 'Brand design'
-        - 'Visualization'
+        - Visualization
         - 'Web design'
         - 'Web development'
 hero_title: Blog
-hero_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim'
+hero_text: 'I publish case studies, ideas, and insights into my workflow, that help me succeed in brand design, development, and visualization projects.'
 admin:
     children_display_order: collection
 ---
+
