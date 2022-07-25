@@ -1,5 +1,5 @@
 ---
-title: 'MádiLáncos Studio website development, and brand and UI design with Barba Kecskés'
+title: 'MádiLáncos Studio website development, and brand design management'
 content:
     items: '@self.modular'
 image_ratio: ratio-16x9
