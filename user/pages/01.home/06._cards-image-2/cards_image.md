@@ -5,10 +5,10 @@ header: 'Related work'
 media_order: 'kek-tudastar-website-ui-design-and-development-browser.jpg,madilancos-studio-website-ui-design-and-development-browser.jpg'
 cards:
     -
-        link: /work/kek-tudastar-web-development-and-ui-design-with-barba-kecskes
+        link: //work/kek-tudastar-web-development-and-design-management
         image: kek-tudastar-website-ui-design-and-development-browser.jpg
         image_ratio: ratio-16x9
-        header: 'KÉK Tudástár web development, and UI design with Barba Kecskés'
+        header: 'KÉK Tudástár web development, and design management'
         header_colour: '#1c70b8'
         services:
             -
@@ -18,10 +18,10 @@ cards:
             -
                 text: 'CMS development'
     -
-        link: /work/madilancos-studio-website-development-and-brand-and-ui-design-with-barba-kecskes
+        link: /work/madilancos-studio-website-development-and-brand-design-management
         image: madilancos-studio-website-ui-design-and-development-browser.jpg
         image_ratio: ratio-16x9
-        header: 'MádiLáncos Studio website development, and brand and UI design with Barba Kecskés'
+        header: 'MádiLáncos Studio website development, and brand design management'
         header_colour: '#2b1778'
         services:
             -
