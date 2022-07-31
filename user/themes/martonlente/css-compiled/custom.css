@@ -307,6 +307,9 @@ img {
   display: -ms-flexbox;
   display: flex; }
 
+.grecaptcha-badge {
+  visibility: hidden; }
+
 @media (max-width: 575px) {
   .hamburger {
     -webkit-transform: scale(0.75);

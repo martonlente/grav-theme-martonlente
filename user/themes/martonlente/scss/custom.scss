@@ -400,6 +400,10 @@ img {
   display: flex;
 }
 
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
 @media (max-width: 575px) {
   .hamburger {
     transform: scale(0.75);
