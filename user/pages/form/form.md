@@ -68,6 +68,10 @@ form:
                             content: ' '
                             display_label: false
                             type: display
+                g-recaptcha-response:
+                    label: Captcha
+                    recaptcha_not_validated: 'Captcha not valid!'
+                    type: captcha
     buttons:
         -
             classes: 'bg-transparent border-0 fs-1 fw-bold mb-3 secondary'
