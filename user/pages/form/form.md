@@ -82,6 +82,10 @@ form:
         -
             display: thankyou
         -
+            email:
+                subject: "[Site Contact Form] {{ form.value.name|e }}"
+                body: "{% include 'forms/data.html.twig' %}"
+        -
             message: 'Thank you for your feedback!'
         -
             save:
