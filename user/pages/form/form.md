@@ -80,6 +80,8 @@ form:
             value: Submit
     process:
         -
+            captcha: true
+        -
             display: thankyou
         -
             email:
