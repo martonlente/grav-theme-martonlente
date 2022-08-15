@@ -5,7 +5,7 @@ header: 'Related work'
 media_order: 'kek-tudastar-website-ui-design-and-development-browser.jpg,madilancos-studio-website-ui-design-and-development-browser.jpg'
 cards:
     -
-        link: //work/kek-tudastar-web-development-and-design-management
+        link: /work/kek-tudastar-web-development-and-design-management
         image: kek-tudastar-website-ui-design-and-development-browser.jpg
         image_ratio: ratio-16x9
         header: 'KÉK Tudástár web development, and design management'
