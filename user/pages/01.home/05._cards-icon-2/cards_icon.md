@@ -6,7 +6,7 @@ cards:
     -
         icon: ic_fluent_code_24_regular.svg
         header: 'Front-end development'
-        text: 'I build web user interfaces by state of the art coding, and a sharp eye for typographic detail, backed by years of experience, and professional design background. I work with my designs, or join developer & designer teams.'
+        text: 'I build web user interfaces by state of the art coding, with years of experience. My professional design background, and strong interest in typography help me create better results. I work with my designs, or join developer & designer teams.'
         link: '/development/#front-end-development'
         services:
             -
