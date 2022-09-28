@@ -10,6 +10,6 @@ cards:
         text: 'I rely on UX design principles and toolset, to start the web design process with good information architecture, site map, and highly organized content. '
     -
         header: 'Web UI design'
-        text: 'I design responsive web user interfaces that work well on all devices, for microsites, business websites, web applications, and webshops. Having a background in web development helps me creating interfaces that not only engage, but are reasonable to develop.'
+        text: 'I design responsive web user interfaces that work well on all devices, for microsites, business websites, web applications, and webshops. Having a background in web development helps me create interfaces that not only engage, but are reasonable to develop.'
 ---
 
