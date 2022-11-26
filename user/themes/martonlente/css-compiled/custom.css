@@ -303,6 +303,15 @@ ul {
 .content h6:first-child {
   padding-top: 0; }
 
+.content p {
+  font-size: var(--fs-5);
+  line-height: 3.2rem; }
+
+@media (max-width: 991px) {
+  .content p {
+    font-size: var(--fs-6);
+    line-height: var(lh-base); } }
+
 .form-data,
 .form-input-wrapper,
 .form-textarea-wrapper {
