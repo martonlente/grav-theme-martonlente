@@ -75,6 +75,10 @@ h5 {
 img {
   pointer-events: none; }
 
+ul {
+  text-indent: calc(var(--spacer) * (-2));
+  margin-left: calc(var(--spacer) * 2); }
+
 /*Utilities
  */
 .align-top {
