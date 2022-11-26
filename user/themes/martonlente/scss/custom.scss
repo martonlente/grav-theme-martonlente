@@ -92,6 +92,10 @@ img {
   pointer-events: none;
 }
 
+li::marker {
+  color: var(--secondary);
+}
+
 ul {
   text-indent: calc(var(--spacer) * (-2));
   margin-left: calc(var(--spacer) * 2);
