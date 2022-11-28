@@ -23,12 +23,12 @@
           {% if page_parent == 'blog' %}
             <h2 class="fs-3-md fs-4-xs grey-70 mb-0-md mb-3">{{ page.header.subtitle|e }}</h2>
           {% elseif page_parent == 'work' %}
-            <p class="fs-5 fs-6-md grey-60">{{ page.header.excerpt|e }}</p>
+            <p class="fs-5 fs-6-sm grey-60">{{ page.header.excerpt|e }}</p>
           {% endif %}
           {% if page.taxonomy.tag %}
             <div class="d-none-md">
               {% for tag in page.taxonomy.tag %}
-                <span class="font-sans-serif-bold fs-5 fs-6-md grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
+                <span class="font-sans-serif-bold fs-5 fs-6-sm grey-60 text-delimiter text-nowrap">{{ tag|e }}</span>
               {% endfor %}
             </div>
           {% endif %}
