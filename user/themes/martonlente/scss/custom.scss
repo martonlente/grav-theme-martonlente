@@ -476,12 +476,14 @@ li::marker {
   }
 }
 
+.content li,
 .content p {
   font-size: var(--fs-5);
   line-height: 3.2rem;
 }
 
 @media (max-width: 991px) {
+  .content li,
   .content p {
     font-size: var(--fs-6);
     line-height: var(lh-base);
