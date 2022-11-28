@@ -96,11 +96,6 @@ li::marker {
   color: var(--secondary);
 }
 
-ul {
-  text-indent: calc(var(--spacer) * (-2));
-  margin-left: calc(var(--spacer) * 2);
-}
-
 /*Utilities
  */
 .align-top {
@@ -491,6 +486,11 @@ ul {
     font-size: var(--fs-6);
     line-height: var(lh-base);
   }
+}
+
+.content ul {
+  text-indent: calc(var(--spacer) * (-2));
+  margin-left: calc(var(--spacer) * 2);
 }
 
 .form-data,
