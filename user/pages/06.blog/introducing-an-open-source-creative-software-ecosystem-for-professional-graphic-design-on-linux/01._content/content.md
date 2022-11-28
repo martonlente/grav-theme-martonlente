@@ -1,0 +1,8 @@
+---
+title: Content
+body_classes: modular
+---
+
+I'm a designer, and creative web developer. I've been using Microsoft Windows for design and web development projects, running mainstream creative proprietary software for more than a decade. In general, as a 'power user' I always had an excellent experience with Windows and proprietary software: I've 10+ years of experience working with Adobe apps, and I'm an early adopter of some Affinity software. Due to my architectural background, I also have years of experience with 3D software, which I occasionally teach in different setups. To put my writing into context, I have to point out I'm amazed by **how excellent these software are,** and inspired to always learn something new about them. Early 2020 though, I started to rely more on Bash and command line tools in my development projects, and noticed a huge part of my tools were already open-source. By running WSL (Windows Subsystem for Linux), using Bash on Windows was really not a problem, but I realized quickly, it were my design tools why Windows (or macOS) seemed like the only platforms of choice.
+
+My jump into Linux was primarily driven by curiosity, and an intention to get involved with open-source software. Many developers think that Linux is the ideal platform for development, but maybe few designers choose Linux as the OS of their creative workstation. After using Linux and open-source software to create almost everything I do for more than a year, I share an efficient setup for, and my experience on designing on Linux, with no compromise. In Part 1 I'll **eveluate Linux as a platform for graphic design in general,** and in Part 2 I'll **have a look on the individual apps that form a creative software ecosystem.**
