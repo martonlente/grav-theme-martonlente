@@ -453,6 +453,34 @@ ul {
   font-size: var(--fs-5);
 }
 
+@media (max-width: 991px) {
+  h2,
+  h3 {
+    line-height: 3.2rem;
+  }
+  
+  h2 {
+    font-size: var(--fs-2);
+  }
+
+  h3 {
+    font-size: var(--fs-3);
+  }
+
+  h4,
+  h5 {
+    line-height: var(--lh-base);
+  }
+
+  h4 {
+    font-size: var(--fs-4);
+  }
+
+  h5 {
+    font-size: var(--fs-5);
+  }
+}
+
 .content p {
   font-size: var(--fs-5);
   line-height: 3.2rem;
