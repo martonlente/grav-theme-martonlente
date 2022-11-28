@@ -4,7 +4,7 @@
       <div class="col-2"></div>
       <div class="col-8">
         <ul>
-          {% for p in page.collection({ items: {'@page.children': '/blog'}, 'limit': 3 }) %}
+          {% for p in page.collection({ items: {'@page.children': '/blog'}, 'limit': 3, 'order': {'by': 'date', 'dir': 'desc'} }) %}
             <li class="list-style-none mb-3">
               <a class="d-block fs-3 fs-4-xs font-sans-serif-bold grey-60" href="{{ p.url|e }}">
                 <span class="align-top me-1">{{ p.title|e }}</span><span class="align-items-center d-inline-flex h-4"><img alt="" class="fill-grey-60 h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}"></span>
