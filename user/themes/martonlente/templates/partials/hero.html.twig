@@ -1,5 +1,5 @@
 {% set page_parent = page.parent.slug %}
-<section class="mb-6">
+<section class="hero mb-6">
   <div class="bg-gradient d-flex flex-column h-54 h-60-xs justify-content-center">
     <div class="h-54 h-60-xs mix-blend-mode-multiply opacity-20 position-absolute w-100" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
     <div class="container position-relative">
@@ -18,7 +18,7 @@
           {% if page_parent == 'blog' or page_parent == 'work' %}
             <h1 class="fs-2-md fs-3-xs grey-98 mb-3">{{ page.title|e }}</h1>
           {% else %}
-            <h1 class="fs-2-md fs-3-xs grey-98 mb-0">{{ page.header.hero_text|e }}</h1>
+            <div class="fs-2-md fs-3-xs grey-98 mb-0">{{ page.header.hero_text|markdown }}</div>
           {% endif %}
           {% if page_parent == 'blog' %}
             <h2 class="fs-3-md fs-4-xs grey-70 mb-0-md mb-3">{{ page.header.subtitle|e }}</h2>
