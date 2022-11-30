@@ -568,6 +568,11 @@ li::marker {
   border-radius: 0;
 }
 
+.hero strong {
+  color: var(--grey-60);
+  font-family: var(--font-sans-serif-2);
+}
+
 .js-end-zone-helper-transition {
   transition: transform var(--transition-duration);
 }

@@ -442,6 +442,10 @@ li::marker {
 .hamburger-inner::before {
   border-radius: 0; }
 
+.hero strong {
+  color: var(--grey-60);
+  font-family: var(--font-sans-serif-2); }
+
 .js-end-zone-helper-transition {
   -webkit-transition: -webkit-transform var(--transition-duration);
   transition: -webkit-transform var(--transition-duration);
