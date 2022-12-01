@@ -18,7 +18,7 @@
           {% if page_parent == 'blog' or page_parent == 'work' %}
             <h1 class="fs-2-md fs-3-xs grey-98 mb-3">{{ page.title|e }}</h1>
           {% else %}
-            <div class="fs-2-md fs-3-xs grey-98 mb-0">{{ page.header.hero_text|markdown }}</div>
+            <h1 class="fs-2-md fs-3-xs grey-98 mb-0">{{ page.header.hero_text|markdown|striptags('<strong>')|raw }}</h1>
           {% endif %}
           {% if page_parent == 'blog' %}
             <h2 class="fs-3-md fs-4-xs grey-60 mb-0-md mb-3">{{ page.header.subtitle|e }}</h2>
