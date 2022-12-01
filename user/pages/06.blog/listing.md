@@ -12,7 +12,7 @@ taxonomy:
         - 'Web design'
         - 'Web development'
 hero_title: Blog
-hero_text: '# I publish **case studies, ideas, and insights into my workflow,** within the creative fields of brand design, development, and visualization.'
+hero_text: 'I publish **case studies, ideas, and insights into my workflow,** within the creative fields of brand design, development, and visualization.'
 admin:
     children_display_order: collection
 metadata:
