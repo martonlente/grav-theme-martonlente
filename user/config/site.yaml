@@ -8,6 +8,7 @@ metadata:
     og:site_name: 'Márton Lente - Brand, design and development'
 
 redirects:
+  /blog/introducing-an-open-source-creative-software-ecosystem-for-professional-graphic-design-on-linux: '/blog/introducing-an-open-source-creative-software-ecosystem-for-professional-graphic-design-on-linux-part-1'
   /en/about/index.html: '/about'
   /en/blog/choosing-hardware-wisely-for-architectural-visualization: '/blog/choosing-hardware-wisely-for-architectural-visualization'
   /en/blog/choosing-video-card-wisely-for-high-end-architectural-visualization-work: '/blog/choosing-video-card-wisely-for-high-end-architectural-visualization-work'
