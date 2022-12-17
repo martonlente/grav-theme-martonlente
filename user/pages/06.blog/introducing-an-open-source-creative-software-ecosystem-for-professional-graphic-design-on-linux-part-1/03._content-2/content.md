@@ -3,8 +3,8 @@ title: 'Content 2'
 body_classes: modular
 ---
 
-### Essential tools of a digital designer: operation system and creative software
-All digital designers using a computer need an operation system, which is usually either macOS, or Windows. MacOS is more popular among designers for historical, and other e.g. aesthetic reasons. Long ago it was common that creative software were only available for Mac, (which is much less frequent, but exists today – e.g. Sketch). **These days though,the two OSs are on par for design work,** and the choice is primarily a question of personal preference, or in some cases the availability of the very specific creative software you need.
+### Essential tools of a digital designer: operating system and creative software
+All digital designers using a computer need an operating system, which is usually either macOS, or Windows. MacOS is more popular among designers for historical, and other e.g. aesthetic reasons. Long ago it was common that creative software were only available for Mac, (which is much less frequent, but exists today – e.g. Sketch). **These days though,the two OSs are on par for design work,** and the choice is primarily a question of personal preference, or in some cases the availability of the very specific creative software you need.
 
 Designers use creative software on their machines, which come either as part of full-featured creative suites, or individual tools for specific use cases. As well as the actual creative packages, there also are low-level and utility tools that help designers in their design workflow – like drivers and font managers.
 
