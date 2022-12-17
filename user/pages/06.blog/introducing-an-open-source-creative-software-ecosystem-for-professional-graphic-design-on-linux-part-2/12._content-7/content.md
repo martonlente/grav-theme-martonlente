@@ -3,7 +3,7 @@ title: 'Content 7'
 body_classes: modular
 ---
 
-Blender's UI changed a lot since its beginnings. The most major change by far was released with version 2.8: a turning point for Blender, that lifted the software's UX to modern professional standards. Blender is probably the one software on the list, that's by no question is a serious alternative to proprietary software even for professionals, who otherwise have zero interest in open-source software.
+Blender's UI changed a lot since its beginning. The most major change by far was released with version 2.8: a turning point for Blender, that lifted the software's UX to modern professional standards. Blender is probably the only software on the list, that's by no question is a serious alternative to proprietary software even for professionals, who otherwise have zero interest in open-source software.
 
 ### Using proprietary software on Linux: Wine, Corel Vector, Figma etc.
 We discussed leading open-source creative applications so far, that can work well together as a software ecosystem, and cover all use cases a small to medium design studio might have. However, **you can still consider Linux a platform for design to some extent, even if you rely on proprietary software in your work.**
