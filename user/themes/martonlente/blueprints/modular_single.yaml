@@ -32,3 +32,8 @@ form:
               header.subtitle:
                 label: Subtitle
                 type: text
+              header.open_graph_image:
+                label: Open Graph image
+                folder: 'self@'
+                preview_images: true
+                type: filepicker
