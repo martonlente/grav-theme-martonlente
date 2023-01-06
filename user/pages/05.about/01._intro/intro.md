@@ -1,5 +1,5 @@
 ---
-title: 'Intro 1'
+title: 'Intro'
 body_classes: modular
 subtitle: Introduction
 heading: 'I do, discuss, and learn design and web development in my everyday work'
