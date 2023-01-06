@@ -1,27 +1,23 @@
 {% block content %}
-  <section>
-    <div class="container">
-      <div class="row pb-3">
-        {% for card in page.header.cards %}
-          <div class="col-6 mb-6">
-            <div class="row">
-              <div class="col-2"></div>
-              <div class="col-10">
-                <h3>{{ card.header|markdown|striptags('<br>')|raw }}</h3>
-                <ul class="mb-3">
-                  {% for list_item in card.list %}
-                    <li class="d-inline-block grey-60 text-delimiter text-nowrap">{{ list_item.list_item|e }}</li>
-                  {% endfor %}
-                </ul>
-                <p class="mb-3">{{ card.text|e }}</p>
-                {% if card.link %}
-                  <a class="align-items-center d-flex" href="{{ card.link|e }}"><span class="me-1">{{ card.link_text|e }}</span><img alt="" class="fill-secondary h-2 js-svg-injector-item" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg') }}"></a>
-                {% endif %}
-              </div>
-            </div>
+  <div class="row pb-3">
+    {% for card in page.header.cards %}
+      <div class="col-6 mb-6">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-10">
+            <h3>{{ card.header|markdown|striptags('<br>')|raw }}</h3>
+            <ul class="mb-3">
+              {% for list_item in card.list %}
+                <li class="d-inline-block grey-60 text-delimiter text-nowrap">{{ list_item.list_item|e }}</li>
+              {% endfor %}
+            </ul>
+            <p class="mb-3">{{ card.text|e }}</p>
+            {% if card.link %}
+              <a class="align-items-center d-flex" href="{{ card.link|e }}"><span class="me-1">{{ card.link_text|e }}</span><img alt="" class="fill-secondary h-2 js-svg-injector-item" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg') }}"></a>
+            {% endif %}
           </div>
-        {% endfor %}
+        </div>
       </div>
-    </div>
-  </section>
+    {% endfor %}
+  </div>
 {% endblock %}
