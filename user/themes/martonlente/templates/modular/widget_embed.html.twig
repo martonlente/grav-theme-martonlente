@@ -1,0 +1,11 @@
+{% block content %}
+  <div class="pb-6 row">
+    <div class="col-2"></div>
+    <div class="d-flex justify-content-end col-5">
+      {{ content|raw }}
+    </div>
+    <div class="col-5 grey-60 pt-0-md pt-3">
+      {{ page.header.description|e }}
+    </div>
+  </div>
+{% endblock %}
