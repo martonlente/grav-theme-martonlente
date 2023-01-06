@@ -1,10 +1,8 @@
 ---
 title: 'Intro 1'
 body_classes: modular
-background_noise: '1'
-padding_top: '1'
-subtitle: Contact
-heading: 'Send me a message'
+subtitle: Introduction
+heading: 'I do, discuss, and learn design and web development in my everyday work'
 ---
 
-I'm currently accepting new projects for Q1-Q2, 2023. Tell me about your project, and start the conversation! You may send me a message using the form below, or an email. I'll respond to you soon.
+My interest in brand, design and web development started early, from a biased interest in architecture. I specialized in these fields during my art university years, and started my business 2016.
