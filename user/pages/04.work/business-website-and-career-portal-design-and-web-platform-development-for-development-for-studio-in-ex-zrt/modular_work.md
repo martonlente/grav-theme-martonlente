@@ -1,5 +1,5 @@
 ---
-title: 'Business website, and career portal design and web platform development for development for STUDIO IN-EX Zrt.'
+title: 'Business website, and career portal design and web app development for development for STUDIO IN-EX Zrt.'
 content:
     items: '@self.modular'
 image_ratio: ratio-16x9
