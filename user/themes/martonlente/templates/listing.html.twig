@@ -29,9 +29,9 @@
           {% set loop_index = loop.index|e %}
           <div class="flex-column-reverse-md js-isotope-grid-item mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %} {% if p.taxonomy.category %}{% for category in p.taxonomy.category %}{{ category|e|replace(' ', '-') }} {% endfor %}{% endif %}">
             <a class="col-7" href="{{ p.url|e }}">
-              <div class="js-listing-gallery position-relative {{ p.header.image_ratio|e }}">
+              <div class="js-listing-gallery mb-3 position-relative {{ p.header.image_ratio|e }}">
                 {% for image in p.media.images %}
-                  <div class="bg-cover js-listing-gallery-item mb-3 position-absolute start-0 top-0 w-100 {{ p.header.image_ratio|e }} {% if p.header.image_top == 1 %}bg-top-center{% else %}bg-center{% endif %}" style="background-image: url('{% if image.width >= 1520 %}{{ image.resize(1520).url|e }}{% else %}{{ image.url|e }}{% endif %}');"></div>
+                  <div class="bg-cover js-listing-gallery-item position-absolute start-0 top-0 w-100 {{ p.header.image_ratio|e }} {% if p.header.image_top == 1 %}bg-top-center{% else %}bg-center{% endif %}" style="background-image: url('{% if image.width >= 1520 %}{{ image.resize(1520).url|e }}{% else %}{{ image.url|e }}{% endif %}');"></div>
                 {% endfor %}
               </div>
               <div class="grid-columns-7 row">
