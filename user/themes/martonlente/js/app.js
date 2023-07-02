@@ -39,29 +39,38 @@
     $listingGallery.each(function(index) {
       var $this = $(this);
       var $listingGalleryItem = $this.find('.js-listing-gallery-item');
-      $listingGalleryItem.first().removeClass('d-none');
-      $this.imagesLoaded({
-        background: $listingGalleryItem
-      }, function() {
-        setTimeout(function() {
-          var i = 0;
 
-          $listingGalleryItem.eq(i).removeClass('d-none');
+      // Show first gallery item
+      $listingGalleryItem.first().addClass('z-index-1');
 
-          setInterval(function() {
-            var $listingGalleryItemActive = $listingGalleryItem.eq(i);
+      // Set a timer based on index
+      setTimeout(function() {
+        // Initialize counter
+        var i = 0;
 
-            $listingGalleryItem.addClass('d-none');
-            $listingGalleryItemActive.removeClass('d-none');
+        // Show gallery item at index i
+        $listingGalleryItem.eq(i).addClass('z-index-1');
 
-            if ($listingGalleryItemActive.next().length) {
-              i++;
-            } else {
-              i = 0;
-            }
-          }, 3000);
-        }, 1500 * index);
-      });
+        // Set an interval to change gallery items
+        setInterval(function() {
+          // Get active gallery item
+          var $listingGalleryItemActive = $listingGalleryItem.eq(i);
+
+          // Hide all gallery items
+          $listingGalleryItem.removeClass('z-index-1');
+          // Show active gallery item
+          $listingGalleryItemActive.addClass('z-index-1');
+
+          // If there is a next gallery item
+          if ($listingGalleryItemActive.next().next().length) {
+            // Increase counter
+            i++;
+          } else {
+            // Reset counter
+            i = 0;
+          }
+        }, 3000);
+      }, 1500 * index);
     });
   }
 
