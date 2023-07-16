@@ -10,7 +10,7 @@
       </div>
       <div class="align-items-end row">
         {% for card in page.header.cards %}
-          <a class="col-6 pb-3" href="{{ card.link|e }}">
+          <a class="col-6 pb-5" href="{{ card.link|e }}">
             <div class="mb-3 row">
               <div class="col-10">
                 <div class="bg-center bg-cover {{ card.image_ratio|e }}" style="background-image: url('{{ page.media[card.image].url|e }}');"></div>
@@ -19,9 +19,9 @@
             </div>
             <div class="row">
               <div class="col-2"></div>
-              <div class="col-8">
-                <h4 class="fs-3 mb-2 mh-0-md mh-8" {% if card.header_colour %} style="color: {{ card.header_colour|e }};" {% endif %}>{{ card.header|e }}</h4>
-                <ul class="mb-3 mh-6">
+              <div class="col-8 mh-0-md mh-21">
+                <h4 class="fs-3 mb-2" {% if card.header_colour %} style="color: {{ card.header_colour|e }};" {% endif %}>{{ card.header|e }}</h4>
+                <ul>
                   {% for service in card.services %}
                     <li class="d-inline-block grey-60 text-delimiter text-nowrap">{{ service.text|e }}</li>
                   {% endfor %}

@@ -356,12 +356,8 @@ li::marker {
   }
 }
 
-.mh-6 {
-  min-height: calc(var(--spacer) * 6);
-}
-
-.mh-8 {
-  min-height: calc(var(--spacer) * 8);
+.mh-21 {
+  min-height: calc(var(--spacer) * 21);
 }
 
 @media (max-width: 991px) {
@@ -475,7 +471,7 @@ li::marker {
 .content h5,
 .content h6 {
   line-height: var(--lh-base);
-}  
+}
 
 .content h5 {
   font-size: var(--fs-4);
@@ -490,7 +486,7 @@ li::marker {
   .content h3 {
     line-height: 3.2rem;
   }
-  
+
   .content h2 {
     font-size: var(--fs-2);
   }

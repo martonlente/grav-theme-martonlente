@@ -340,12 +340,8 @@ li::marker {
     height: calc(var(--spacer) * 60);
   }
 }
-.mh-6 {
-  min-height: calc(var(--spacer) * 6);
-}
-
-.mh-8 {
-  min-height: calc(var(--spacer) * 8);
+.mh-21 {
+  min-height: calc(var(--spacer) * 21);
 }
 
 @media (max-width: 991px) {
