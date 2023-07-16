@@ -8,9 +8,9 @@
               <div class="col-2"></div>
               <div class="col-10">
                 <img alt="" class="h-8" src="{{ page.media[card.icon].url|e }}">
-                <h2 class="fs-1 mb-3">{{ card.header|e }}</h2>
-                <p class="mb-3">{{ card.text|e }}</p>
-                <ul class="mb-3">
+                <h2 class="fs-1 mb-2">{{ card.header|e }}</h2>
+                <p class="mb-2">{{ card.text|e }}</p>
+                <ul class="mb-2">
                   {% for service in card.services %}
                     <li class="d-inline-block grey-60 text-delimiter text-nowrap">{{ service.service|e }}</li>
                   {% endfor %}
