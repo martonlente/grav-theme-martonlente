@@ -7,4 +7,4 @@ subtitle: 'About – My partners'
 heading: 'I work with small to medium businesses'
 ---
 
-I work with my clients on various timeframes, but along a continuous discussion, which is central in successful projects. I've worked mostly with architecture and design studios since I started my business in 2016.
+I work with my clients on various timeframes, but along a continuous discussion, which is central in successful projects. I've worked mostly with architecture and design related studios, and organizations where design has a critical importance since I started my business in 2016.
