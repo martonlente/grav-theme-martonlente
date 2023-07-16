@@ -5,20 +5,27 @@
   function cardTextFadeIn() {
     $('.js-btn-card-text').click(function() {
       var $this = $(this);
-      var $btnCardTextImg = $this.find('.js-btn-card-text-img');
+      var $btnCardTextToggle = $this.find('.js-btn-card-text-toggle');
       var $cardTextTxt = $this.next('.js-card-text-txt');
 
       if ($this.hasClass('js-active')) {
+        // Change $btnCardTextToggle to '+'
+        $btnCardTextToggle.text('+');
+
+        // Fade out $cardTextTxt
         $cardTextTxt.removeClass('transition-fade-in').addClass('transition-fade-out');
         setTimeout(function() {
           $cardTextTxt.addClass('h-0 opacity-0');
         }, 300);
       } else {
+        // Change $btnCardTextToggle to '-'
+        $btnCardTextToggle.text('-');
+
+        // Fade in $cardTextTxt
         $cardTextTxt.removeClass('h-0 opacity-0 transition-fade-out').addClass('transition-fade-in');
       }
 
       $this.toggleClass('js-active');
-      $btnCardTextImg.toggleClass('d-none');
     });
   }
 
