@@ -10,6 +10,6 @@ cards:
         text: 'I design, develop and deploy corporate email signatures with full-featured, high-quality outputs. I apply non-trivial email signature development best practices, fully considering email client limitations, and possibilities.'
     -
         header: 'Baseutil CSS'
-        text: 'I''m the author of Baseutil CSS, an open source, modern, fully flexible, and utility-centric desktop-first front-end framework, designed to help developers in streamlined custom web development. I base all development projects on this, to deliver unique designs in code, with maximum efficiency.'
+        text: 'I am the author of Baseutil CSS, an open source, modern, fully flexible, and utility-centric desktop-first front-end framework, designed to help developers in streamlined custom web development. I base all development projects on this, to deliver unique designs in code, with maximum efficiency.'
 ---
 

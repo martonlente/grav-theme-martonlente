@@ -7,4 +7,4 @@ subtitle: Contact
 heading: 'Send me a message'
 ---
 
-I'm currently considering new projects for Q3-Q4, 2023. Tell me about your project, and start the conversation! You may send me a message using the form below, or an email. I'll respond to you soon.
+I am currently considering new projects for Q3-Q4, 2023. Tell me about your project, and start the conversation! You may send me a message using the form below, or an email. I will respond to you soon.
