@@ -28,6 +28,7 @@ pinegrow*
 _pginfo/
 
 # ignore image files
+*.gif
 *.jpg
 *.png
 *.svg
