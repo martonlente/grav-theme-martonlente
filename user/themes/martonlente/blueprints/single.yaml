@@ -1,0 +1,13 @@
+title: Single
+extends@: modular_single
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+            fields:
+              content:
+                  type: markdown
+                  validate:
+                    type: textarea
