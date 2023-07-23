@@ -585,7 +585,7 @@ li::marker {
 }
 
 .content-single img {
-  margin: calc(var(--spacer) * 5) 0;
+  margin: calc(var(--spacer) * 5) 0 var(--spacer);
   width: 100%;
 }
 
