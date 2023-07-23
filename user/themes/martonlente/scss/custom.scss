@@ -528,6 +528,49 @@ li::marker {
   margin-left: calc(var(--spacer) * 2);
 }
 
+.content-single blockquote {
+  color: var(--grey-60);
+  font-family: var(--font-sans-serif-2);
+  padding: calc(var(--spacer) * 5) 0;
+  width: 100%;
+}
+
+.content-single blockquote p {
+  font-size: var(--fs-3);
+  margin-left: calc(100% / var(--grid-columns) * 3);
+  width: calc(100% / var(--grid-columns) * 7);
+}
+
+.content-single h1,
+.content-single h2,
+.content-single h3,
+.content-single h4,
+.content-single h5,
+.content-single h6,
+.content-single p {
+  margin-left: calc(100% / var(--grid-columns) * 2);
+  width: calc(100% / var(--grid-columns) * 8);
+}
+
+.content-single h1,
+.content-single h2,
+.content-single h3,
+.content-single h4,
+.content-single h5,
+.content-single h6 {
+  padding-left: var(--grid-gutter-width);
+  padding-right: var(--grid-gutter-width);
+}
+
+.content-single img {
+  margin: calc(var(--spacer) * 5) 0;
+  width: 100%;
+}
+
+.content-single p {
+  padding: 0 var(--grid-gutter-width);
+}
+
 .form-data,
 .form-input-wrapper,
 .form-textarea-wrapper {
