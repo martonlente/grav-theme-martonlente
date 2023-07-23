@@ -6,11 +6,11 @@
       <div class="col-2"></div>
     {% endif %}
     <div class="{% if header.wide == 1 %}col-7{% else %}col-5{% endif %}">
-      <img alt="{{ page.header.description|e }}" class="d-block w-100" src="{% if images_first %}{% if images_first.width >= 1520 %}{{ images_first.resize(1520).url|e }}{% else %}{{ images_first.url|e }}{% endif %}{% else %}{{ page.media.files|first.url|e }}{% endif %}">
+      <img alt="{{ page.header.description|markdown(false) }}" class="d-block w-100" src="{% if images_first %}{% if images_first.width >= 1520 %}{{ images_first.resize(1520).url|e }}{% else %}{{ images_first.url|e }}{% endif %}{% else %}{{ page.media.files|first.url|e }}{% endif %}">
     </div>
     <div class="col-5 pt-0-md pt-3">
       {% if page.header.description %}
-        <figcaption class="grey-60">{{ page.header.description|e }}</figcaption>
+        <figcaption class="grey-60">{{ page.header.description|markdown(false) }}</figcaption>
       {% endif %}
     </div>
   </figure>
