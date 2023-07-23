@@ -5,11 +5,9 @@
 {% endblock %}
 {% block content %}
   {% include 'partials/featured_image.html.twig' %}
-  <div class="row">
-    <div class="col-2"></div>
-    <div class="col-8 content content-single">
+  <div class="container content content-single js-content-single">
+    <div class="row">
       {{ page.content|raw }}
     </div>
-    <div class="col-2"></div>
   </div>
 {% endblock %}
