@@ -541,7 +541,8 @@ li::marker {
 .content-single h4,
 .content-single h5,
 .content-single h6,
-.content-single p {
+.content-single p,
+.content-single pre {
     margin-left: 0;
     width: 100%;
   }
