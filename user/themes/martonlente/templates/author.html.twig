@@ -1,0 +1,24 @@
+{% set images_first = page.media.images|first %}
+{% block content %}
+  <section class="bg-grey-98" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');" {% if page.header.id %}id="{{ page.header.id|e }}"{% endif %}>
+    <div class="container pb-2 pt-6">
+      <div class="pb-2 row">
+        <div class="col-12">
+          <h3 class="fs-7 letter-spacing-lg mb-3 text-uppercase">{{ page.header.subtitle|e }}</h3>
+          <h2>{{ page.header.heading|e }}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="align-items-center col-8 d-flex fs-5">
+          {{ page.content|raw }}
+        </div>
+        <div class="col-2">
+          <img alt="{{ page.header.description|e }}" class="d-block rounded-circle w-100" src="{% if images_first.width >= 1520 %}{{ images_first.resize(1520).url|e }}{% else %}{{ images_first.url|e }}{% endif %}">
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+    <div class="h-9"></div>
+  </section>
+{% endblock %}
