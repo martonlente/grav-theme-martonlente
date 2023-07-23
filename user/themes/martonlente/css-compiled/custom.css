@@ -528,7 +528,8 @@ li::marker {
 .content-single h4,
 .content-single h5,
 .content-single h6,
-.content-single p {
+.content-single p,
+.content-single pre {
   margin-left: calc(100% / var(--grid-columns) * 2);
   width: calc(100% / var(--grid-columns) * 8);
 }
@@ -562,6 +563,13 @@ li::marker {
 
 .content-single p {
   padding: 0 var(--grid-gutter-width);
+}
+
+.content-single pre {
+  background-color: var(--grey-98);
+  color: var(--grey-60);
+  margin-top: calc(var(--spacer) * 5);
+  padding: calc(var(--spacer) * 3) calc(var(--spacer) * 3) calc(var(--spacer) * 2);
 }
 
 .form-data,
