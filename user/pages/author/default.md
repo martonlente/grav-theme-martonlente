@@ -6,4 +6,4 @@ media_order: author-marton-lente-designer-and-creative-web-developer.jpg
 routable: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum ac orci dapibus laoreet. Etiam nisl erat, interdum consectetur velit non, malesuada scelerisque erat.
+I am Márton Lente, **a designer and creative web developer from Budapest, Hungary.** I have a formal education in architecure and design, and multiple years of experience in front-end, and CMS web development. [Read more.](/about)
