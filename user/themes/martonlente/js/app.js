@@ -40,6 +40,31 @@
     });
   }
 
+  function contentSingle() {
+    var $contentSingle = $('.js-content-single');
+
+    function img() {
+      $contentSingle.find('img')
+        .each(function() {
+          var $this = $(this);
+          var imgTitle = $this.attr('title');
+          var imgCaption = '<div class="grey-60 pb-5">' + imgTitle + '</div>';
+
+          if (imgTitle.length) {
+            $this.after(imgCaption);
+          }
+        });
+    }
+
+    // TODO: add function code codeCopy
+
+    function init() {
+      img();
+    }
+
+    init();
+  }
+
   function listingGallery() {
     var $listingGallery = $('.js-listing-gallery');
 
@@ -151,6 +176,7 @@
   function init() {
     cardTextFadeIn();
     codeCopy();
+    contentSingle();
     listingGallery();
     isotope();
     jQuerySmoothScroll();
