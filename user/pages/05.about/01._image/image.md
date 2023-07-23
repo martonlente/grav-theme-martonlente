@@ -1,7 +1,7 @@
 ---
 title: Image
 body_classes: modular
-media_order: DSC_3377_r-about-min.jpg
+media_order: marton-lente-designer-and-creative-web-developer.jpg
 description: 'Photo: Zsolt Kudar, 2023'
 wide: '0'
 ---
