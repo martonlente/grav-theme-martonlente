@@ -14,3 +14,5 @@ The projects in which I participated as a creative developer in **a team of othe
 
 **As well as having a formal education in design and UX/UI, I've ca. eight years of experience in front-end, and multiple years of experience in CMS web development** on the LAMP stack. I have extensive knowledge of Bash, CSS, Git, HTML, JavaScript, jQuery, PHP and Twig, and am currently experimenting with modern JavaScript frameworks (React). I develop with Grav, Perch, and WordPress CMSs on a daily basis, all of which I use to deliver fully bespoke web experiences. I primarily work on Linux, and I'm comfortable with scripting, and managing web servers or VPSs from the command line.
 
+### Responsible business operator
+From the beginnings, I strive for maximum transparency, and the most ethical business conduct in my business. I am proud to do my job with legal, licensed software and assets in one hundred percent. Since 2020 I have been preferring to work with free and open-source software in all creative projects, when I have the opportunity.
