@@ -6,4 +6,5 @@
 {% block content %}
   {% include 'partials/featured_image.html.twig' %}
   {% include 'partials/modular_item.html.twig' %}
+  {% include 'author.html.twig' with {'page': page.find('/author')} %}
 {% endblock %}

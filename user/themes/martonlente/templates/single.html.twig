@@ -10,4 +10,5 @@
       {{ page.content|raw }}
     </div>
   </div>
+  {% include 'author.html.twig' with {'page': page.find('/author')} %}
 {% endblock %}
