@@ -17,3 +17,16 @@ form:
               header.copyright_text:
                 label: Copyright text
                 type: text
+              header.link_socials:
+                name: link_socials
+                type: list
+                label: Link socials
+
+                fields:
+                  .icon:
+                    label: Icon
+                    type: text
+                  .link:
+                    label: Link
+                    type: text
+
