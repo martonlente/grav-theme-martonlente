@@ -27,6 +27,18 @@
   --lh-base: 2.4rem;
 }
 
+@media (max-width: 575px) {
+  :root {
+    --fs-1: 2.8rem;
+    --fs-2: 2.4rem;
+    --fs-3: 2.1rem;
+    --fs-4: 1.8rem;
+    --fs-5: 1.6rem;
+    --fs-6: 1.4rem;
+    --fs-7: 1.2rem;
+  }
+}
+
 /*Grid
  */
 .row .row {
@@ -86,6 +98,21 @@ h3 {
 h4,
 h5 {
   line-height: var(--lh-base);
+}
+
+@media (max-width: 575px) {
+  h1 {
+    line-height: 3.2rem;
+  }
+
+  h3 {
+    line-height: 2.8rem;
+  }
+
+  h6,
+  p {
+    line-height: 2.0rem;
+  }
 }
 
 img {
@@ -237,25 +264,25 @@ li::marker {
 }
 
 @media (max-width: 575px) {
+  .fs-1,
+  .fs-1 p,
   .fs-1-xs,
   .fs-1-xs p {
-    line-height: 4.0rem;
-  }
-
-  .fs-2-xs,
-  .fs-2-xs p,
-  .fs-3-xs,
-  .fs-3-xs p,
-  .fs-4-xs,
-  .fs-4-xs p,
-  .fs-5-xs,
-  .fs-5-xs p {
     line-height: 3.2rem;
   }
 
+  .fs-3,
+  .fs-3 p,
+  .fs-3-xs,
+  .fs-3-xs p {
+    line-height: 2.8rem;
+  }
+
+  .fs-6,
+  .fs-6 p,
   .fs-6-xs,
   .fs-6-xs p {
-    line-height: var(--lh-base);
+    line-height: 2.0rem;
   }
 }
 
@@ -520,6 +547,22 @@ li::marker {
   .content p {
     font-size: var(--fs-6);
     line-height: var(lh-base);
+  }
+}
+
+@media (max-width: 575px) {
+  .content h1 {
+    line-height: 3.2rem;
+  }
+
+  .content h3 {
+    line-height: 2.8rem;
+  }
+
+  .content h6,
+  .content li,
+  .content p {
+    line-height: 2.0rem;
   }
 }
 
