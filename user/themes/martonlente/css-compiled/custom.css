@@ -105,10 +105,6 @@ h5 {
   h3 {
     line-height: 2.8rem;
   }
-  h6,
-p {
-    line-height: 2rem;
-  }
 }
 img {
   pointer-events: none;
@@ -262,12 +258,6 @@ li::marker {
 .fs-3-xs,
 .fs-3-xs p {
     line-height: 2.8rem;
-  }
-  .fs-6,
-.fs-6 p,
-.fs-6-xs,
-.fs-6-xs p {
-    line-height: 2rem;
   }
 }
 @media (max-width: 1199px) {
@@ -527,11 +517,6 @@ li::marker {
   }
   .content h3 {
     line-height: 2.8rem;
-  }
-  .content h6,
-.content li,
-.content p {
-    line-height: 2rem;
   }
 }
 .content ul {
