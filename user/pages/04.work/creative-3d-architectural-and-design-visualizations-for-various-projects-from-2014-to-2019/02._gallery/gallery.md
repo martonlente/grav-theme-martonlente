@@ -41,6 +41,12 @@ images:
         wide: '0'
     -
         caption: null
+        description: '3D visualization of apartment at Garay square'
+        image: creative-3d-architectural-and-design-visualization-apartment-at-garay-square.jpg
+        shadow: '0'
+        wide: '1'
+    -
+        caption: null
         description: '3D visualization of residential house in Ulászló street'
         image: creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-1.jpg
         shadow: '0'
