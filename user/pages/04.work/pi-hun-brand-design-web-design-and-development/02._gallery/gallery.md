@@ -1,7 +1,7 @@
 ---
 title: Gallery
 body_classes: modular
-media_order: 'pi-hun-branding-stationary-business-card-design-11.jpg,pi-hun-branding-stationary-business-card-design-7.jpg,pi-hun-branding-stationary-folder-design-2.jpg,pi-hun-branding-stationary-letterhead-design-2.jpg,pi-hun-website-ui-design-and-development-screen-buildings.jpg,pi-hun-website-ui-design-and-development-screen-single-building-crop.jpg,pi-hun-website-ui-design-and-development-desktop-2.jpg,pi-hun-website-ui-design-and-development-screen-home.jpg,pi-hun-website-ui-design-and-development-screen-home-2.jpg,pi-hun-website-ui-design-and-development-desktop-6.jpg,pi-hun-website-ui-design-and-development-desktop-8.jpg'
+media_order: 'pi-hun-branding-stationary-business-card-design-11.jpg,pi-hun-branding-stationary-business-card-design-7.jpg,pi-hun-branding-stationary-folder-design-2.jpg,pi-hun-branding-pattern-tiled.jpg,pi-hun-branding-stationary-letterhead-design-2.jpg,pi-hun-website-ui-design-and-development-screen-buildings.jpg,pi-hun-website-ui-design-and-development-screen-single-building-crop.jpg,pi-hun-website-ui-design-and-development-desktop-2.jpg,pi-hun-website-ui-design-and-development-screen-home.jpg,pi-hun-website-ui-design-and-development-screen-home-2.jpg,pi-hun-website-ui-design-and-development-desktop-6.jpg,pi-hun-website-ui-design-and-development-desktop-8.jpg'
 images:
     -
         caption: null
@@ -19,6 +19,12 @@ images:
         caption: null
         description: 'PI-HUN branding stationary folder design'
         image: pi-hun-branding-stationary-folder-design-2.jpg
+        shadow: '0'
+        wide: '1'
+    -
+        caption: null
+        description: 'PI-HUN branding pattern tiled'
+        image: pi-hun-branding-pattern-tiled.jpg
         shadow: '0'
         wide: '1'
     -
