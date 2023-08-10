@@ -40,6 +40,10 @@ form:
               header.featured_imade_description:
                 label: Featured image description
                 type: text
+              header.date_display:
+                help: Is displayed if set instead of post date
+                label: Date display
+                type: text
               header.client:
                 label: Client
                 type: text
