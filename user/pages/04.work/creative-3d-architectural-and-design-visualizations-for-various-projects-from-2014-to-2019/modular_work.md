@@ -13,7 +13,7 @@ designer: 'Various designers'
 services:
     -
         service: Visualization
-date: '07-12-2021 00:01'
+date: '26-08-2019 00:00'
 metadata:
     description: 'Selected creative 3D architectural and design visualizations for various projects from 2014 to 2019.'
     'og:description': 'Selected creative 3D architectural and design visualizations for various projects from 2014 to 2019.'
