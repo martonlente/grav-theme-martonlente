@@ -10,7 +10,7 @@
             {% if page_parent == 'blog' %}
               Blog • {{ page.date|date("Y. m. d.")|e }}
             {% elseif page_parent == 'work' %}
-              Work • Year: {{ page.date|date("Y")|e }}
+              Work • Year: {% if page.header.date_display %} {{ page.header.date_display|e }} {% else %} {{ page.date|date("Y")|e }} {% endif %}
             {% else %}
               {{ page.header.hero_title|e }}
             {% endif %}
