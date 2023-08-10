@@ -1,0 +1,6 @@
+---
+title: Content
+body_classes: modular
+---
+
+I have been doing architectural visualization since 2009. I come from an architect family, which formed my interests and studies from day one. I was listening to conversations on architecture from childhood, but my interest aroused from not the design, but the presentation side. I was amazed by architectural visualizations of unbuilt designs. Over the years, I have shaped my practice and studies to gain a broader understanding of the technical and aesthetic aspects of visualization. As a beginner visualizer, I learned the rock-solid foundations of professional work organization and workflows at STUDIO IN-EX Zrt., and at MOME, I was able to delve into the aesthetic-graphic possibilities of architectural representation. My technical knowledge is special in that I am familiar with three major, complex visualization platforms (3ds Max, Blender and Cinema 4D) at a professional level. I have led visualization training courses on all of these software platforms for visual professionals, and have also participated in developing their curriculum. Since 2019, I have been involved exclusively in following and teaching the field as well as writing professional articles when the opportunity arises. Some more 3D visualization samples are available at my former arch-viz landing page (Hungarian).
