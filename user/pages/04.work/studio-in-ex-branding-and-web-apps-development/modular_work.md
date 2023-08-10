@@ -27,5 +27,6 @@ taxonomy:
         - 'Brand design'
         - 'Web design'
         - 'Web development'
+date_display: '2016, 2018–'
 ---
 
