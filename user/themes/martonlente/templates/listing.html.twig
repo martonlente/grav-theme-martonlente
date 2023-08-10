@@ -56,7 +56,7 @@
                 {% if p.parent.slug == 'blog' %}
                   {{ p.date|date("Y. m. d.")|e }}
                 {% else %}
-                  Year: {{ p.date|date("Y")|e }}
+                  Year: {% if p.header.date_display %} {{ p.header.date_display|e }} {% else %} {{ p.date|date("Y")|e }} {% endif %}
                 {% endif %}
               </div>
             </div>
