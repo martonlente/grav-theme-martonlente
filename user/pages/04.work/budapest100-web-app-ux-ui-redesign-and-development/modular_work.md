@@ -4,7 +4,7 @@ content:
     items: '@self.modular'
 image_ratio: ratio-16x9
 image_top: '0'
-media_order: budapest100-web-app-ux-ui-redesign-and-development-browser.jpg
+media_order: 'budapest100-web-app-ux-ui-redesign-and-development-browser.jpg,budapest100-web-app-ux-ui-redesign-and-development-atoms-typography-headings-tags-and-links.jpg,budapest100-web-app-ux-ui-redesign-and-development-page-kezdooldal-unnep-dark-cropped.jpg'
 excerpt: 'Web app UX/UI redesign and development for Budapest100, a popular architectural-cultural festival by KÉK - Contemporary Architecture Center.'
 featured_image: budapest100-web-app-ux-ui-redesign-and-development-browser.jpg
 featured_imade_description: 'KÉK Tudástár website UI design and development'
