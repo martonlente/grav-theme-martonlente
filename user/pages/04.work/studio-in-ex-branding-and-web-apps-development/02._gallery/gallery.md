@@ -10,7 +10,7 @@ images:
         shadow: '1'
         wide: '1'
     -
-        caption: null
+        caption: 'Graphics standards manual (2021) page samples'
         description: 'STUDIO IN-EX branding graphics standards manual 2021 page 4'
         image: studio-in-ex-branding-graphics-standards-manual-2021-page-4.jpg
         shadow: '1'
@@ -34,7 +34,7 @@ images:
         shadow: '1'
         wide: '0'
     -
-        caption: null
+        caption: '25 years anniversary publications details'
         description: 'STUDIO IN-EX 25 years branding mockup magazine'
         image: studio-in-ex-25-branding-mockup-magazine.jpg
         shadow: '0'
@@ -46,7 +46,7 @@ images:
         shadow: '0'
         wide: '1'
     -
-        caption: null
+        caption: 'Internal posters samples'
         description: 'STUDIO IN-EX branding poster carneval 2023'
         image: studio-in-ex-branding-poster-farsang-2023-improved.jpg
         shadow: '0'
