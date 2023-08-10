@@ -9,7 +9,7 @@ excerpt: 'Selected creative 3D architectural and design visualizations for vario
 featured_image: creative-3d-architectural-and-design-visualization-apartment-in-kazmer-street-1.jpg
 featured_imade_description: 'STUDIO IN-EX branding logo design'
 client: 'Architecture and design companies'
-designer: 'Various designers'
+designer: 'Various designers (credits soon...)'
 services:
     -
         service: Visualization
