@@ -94,7 +94,7 @@
           $listingGalleryItemActive.addClass('z-index-1');
 
           // If there is a next gallery item
-          if ($listingGalleryItemActive.next().next().length) {
+          if ($listingGalleryItemActive.next().length) {
             // Increase counter
             i++;
           } else {
