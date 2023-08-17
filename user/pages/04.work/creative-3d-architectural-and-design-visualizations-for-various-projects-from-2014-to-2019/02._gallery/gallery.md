@@ -1,7 +1,7 @@
 ---
 title: Gallery
 body_classes: modular
-media_order: 'creative-3d-architectural-and-design-visualization-moroso-klara-armchair-3d-modeling.jpg,creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-1.jpg,creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-2.jpg,creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-3.jpg,creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-4.jpg,creative-3d-architectural-and-design-visualization-sa43-stromfeld-aurel-uti-tarsashaz-1.jpg,creative-3d-architectural-and-design-visualization-apartment-at-garay-square.jpg,creative-3d-architectural-and-design-visualization-apartment-in-kazmer-street-1.jpg,creative-3d-architectural-and-design-visualization-apartment-in-kazmer-street-2.jpg,creative-3d-architectural-and-design-visualization-apartment-in-veres-palne-street-2.jpg,creative-3d-architectural-and-design-visualization-apartment-in-veres-palne-street-3.jpg,creative-3d-architectural-and-design-visualization-clubhouse-for-therapeutic-horse-riding-center.jpg,creative-3d-architectural-and-design-visualization-family-house-in-hegyalja-street.jpg,creative-3d-architectural-and-design-visualization-hans-wegner-chair-ch33.jpg,creative-3d-architectural-and-design-visualization-hans-wegner-sofa-ch-102.jpg,creative-3d-architectural-and-design-visualization-kolto-utcai-luxusapartman-1.jpg'
+media_order: 'creative-3d-architectural-and-design-visualization-moroso-klara-armchair-3d-modeling.jpg,creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-1.jpg,creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-2.jpg,creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-3.jpg,creative-3d-architectural-and-design-visualization-residential-house-in-ulaszlo-street-4.jpg,creative-3d-architectural-and-design-visualization-apartment-at-garay-square.jpg,creative-3d-architectural-and-design-visualization-apartment-in-kazmer-street-1.jpg,creative-3d-architectural-and-design-visualization-apartment-in-kazmer-street-2.jpg,creative-3d-architectural-and-design-visualization-apartment-in-veres-palne-street-2.jpg,creative-3d-architectural-and-design-visualization-apartment-in-veres-palne-street-3.jpg,creative-3d-architectural-and-design-visualization-clubhouse-for-therapeutic-horse-riding-center.jpg,creative-3d-architectural-and-design-visualization-family-house-in-hegyalja-street.jpg,creative-3d-architectural-and-design-visualization-hans-wegner-chair-ch33.jpg,creative-3d-architectural-and-design-visualization-hans-wegner-sofa-ch-102.jpg,creative-3d-architectural-and-design-visualization-kolto-utcai-luxusapartman-1.jpg,creative-3d-architectural-and-design-visualization-sa43-stromfeld-aurel-uti-tarsashaz.jpg,creative-3d-architectural-and-design-visualization-kha-home-design-bathroom-b-3.jpg,creative-3d-architectural-and-design-visualization-kha-home-design-bathroom-c-1.jpg,creative-3d-architectural-and-design-visualization-kha-home-design-living-room-e-1.jpg'
 images:
     -
         caption: 'Apartment in Kázmér street, 2017 – Designer: Luca Glavatity'
@@ -37,6 +37,24 @@ images:
         caption: null
         description: '3D visualization of apartment in Veres Pálné utca'
         image: creative-3d-architectural-and-design-visualization-apartment-in-veres-palne-street-3.jpg
+        shadow: '0'
+        wide: '0'
+    -
+        caption: 'SA43 residential house at Stromfeld Aurél út, 2017 – Designer: Numbernow'
+        description: '3D visualization of residential house at Stromfeld Aurél út'
+        image: creative-3d-architectural-and-design-visualization-sa43-stromfeld-aurel-uti-tarsashaz.jpg
+        shadow: '0'
+        wide: '1'
+    -
+        caption: 'Product visualizations for KHA Home Design, 2019'
+        description: '3D visualization of bathroom for KHA Home Design'
+        image: creative-3d-architectural-and-design-visualization-kha-home-design-bathroom-b-3.jpg
+        shadow: '0'
+        wide: '0'
+    -
+        caption: null
+        description: '3D visualization of bathroom for KHA Home Design'
+        image: creative-3d-architectural-and-design-visualization-kha-home-design-bathroom-c-1.jpg
         shadow: '0'
         wide: '0'
     -
