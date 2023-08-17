@@ -12,19 +12,19 @@ images:
     -
         caption: 'Hans Wegner chair CH33, 2016'
         description: '3D visualization of Hans Wegner chair CH33'
-        image: creative-3d-architectural-and-design-visualization-hans-wegner-chair-ch33-1.jpg
+        image: creative-3d-architectural-and-design-visualization-hans-wegner-chair-ch33.jpg
         shadow: '0'
         wide: '0'
     -
         caption: 'Hans Wegner sofa CH102, 2016'
         description: '3D visualization of Hans Wegner sofa CH102'
-        image: creative-3d-architectural-and-design-visualization-hans-wegner-sofa-ch-102-1.jpg
+        image: creative-3d-architectural-and-design-visualization-hans-wegner-sofa-ch-102.jpg
         shadow: '0'
         wide: '0'
     -
         caption: 'Moroso Klara armchair, 2018'
-        description: '3D visualization of Moroso Klara fotel'
-        image: creative-3d-architectural-and-design-visualization-moroso-klara-fotel-3d-modeling-1.jpg
+        description: '3D visualization of Moroso Klara armchair'
+        image: creative-3d-architectural-and-design-visualization-moroso-klara-armchair-3d-modeling.jpg
         shadow: '0'
         wide: '1'
     -
@@ -72,13 +72,13 @@ images:
     -
         caption: 'Family house in Hegyalja street, 2014 – Designer: András Lente'
         description: '3D visualization of family house in Hegyalja street'
-        image: creative-3d-architectural-and-design-visualization-hegyalja-uti-csaladi-haz-1.jpg
+        image: creative-3d-architectural-and-design-visualization-family-house-in-hegyalja-street.jpg
         shadow: '0'
         wide: '1'
     -
-        caption: 'Therapeutic horse riding center, 2014 – Designer: Elizabeth Zimmerer'
-        description: '3D visualization of residential therapeutic horse riding center'
-        image: creative-3d-architectural-and-design-visualization-lovarda-klubhaz-1.jpg
+        caption: 'Clubhouse for therapeutic horse riding center, 2014 – Designer: Elizabeth Zimmerer'
+        description: '3D visualization of clubhouse for therapeutic horse riding center'
+        image: creative-3d-architectural-and-design-visualization-clubhouse-for-therapeutic-horse-riding-center.jpg
         shadow: '0'
         wide: '1'
 ---
