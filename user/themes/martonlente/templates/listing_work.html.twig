@@ -7,4 +7,5 @@
   {{ page.content|raw }}
   {% include 'partials/listing_items.html.twig' %}
   {% include 'partials/intro.html.twig' with {'var_subtitle': 'Other', 'var_heading': 'Professional activities and other projects'} %}
+  {% include 'work_other.html.twig' with {'page': page.find('/work-other')} %}
 {% endblock %}
