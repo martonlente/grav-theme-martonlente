@@ -1,15 +1,15 @@
 ---
 title: 'Cards image'
 body_classes: modular
-media_order: 'pi-hun-branding-logo-design.jpg,living-budapest-webportal-ui-design-and-development-browser.jpg'
+media_order: 'studio-in-ex-branding-mockup-posters-2022-2023.jpg,pi-hun-branding-logo-design.jpg'
 header: 'Related work'
 cards:
     -
-        link: /work/pi-hun-brand-design-web-design-and-development
-        image: pi-hun-branding-logo-design.jpg
-        image_ratio: ratio-1x1
-        header: 'PI-HUN brand design, web design, and development'
-        header_colour: '#015a4f'
+        link: /work/studio-in-ex-branding-and-web-apps-development
+        image: studio-in-ex-branding-mockup-posters-2022-2023.jpg
+        image_ratio: ratio-16x9
+        header: 'STUDIO IN-EX branding and web apps development'
+        header_colour: '#b0b036'
         services:
             -
                 text: 'Brand design'
@@ -20,11 +20,11 @@ cards:
             -
                 text: 'CMS development'
     -
-        link: /work/living-budapest-brand-design-and-webportal-design-and-development
-        image: living-budapest-webportal-ui-design-and-development-browser.jpg
-        image_ratio: ratio-16x9
-        header: 'Living Budapest brand design, and webportal design and development'
-        header_colour: '#e3b7ac'
+        link: /work/pi-hun-brand-design-web-design-and-development
+        image: pi-hun-branding-logo-design.jpg
+        image_ratio: ratio-1x1
+        header: 'PI-HUN brand design, web design, and development'
+        header_colour: '#015a4f'
         services:
             -
                 text: 'Brand design'
