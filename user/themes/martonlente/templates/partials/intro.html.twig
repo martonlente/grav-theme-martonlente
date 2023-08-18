@@ -3,8 +3,8 @@
     <div class="container pb-5 {% if page.header.padding_top == 1 %}pt-6{% endif %}">
       <div class="pb-2 row">
         <div class="col-12">
-          <h3 class="fs-7 letter-spacing-lg mb-3 text-uppercase">{{ page.header.subtitle|e }}</h3>
-          <h2>{{ page.header.heading|e }}</h2>
+          <h3 class="fs-7 letter-spacing-lg mb-3 text-uppercase">{% if var_subtitle %}{{ var_subtitle|e }}{% else %}{{ page.header.subtitle|e }}{% endif %}</h3>
+          <h2>{% if var_heading %}{{ var_heading|e }}{% else %}{{ page.header.heading|e }}{% endif %}</h2>
         </div>
       </div>
       <div class="row">
