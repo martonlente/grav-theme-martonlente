@@ -4,28 +4,30 @@
     <div class="container position-relative">
       <div class="h-8 h-15-sm row">
         <div class="col-12-sm"></div>
-        <div class="col-9 col-9-md col-12-sm d-flex justify-content-center flex-column">
+        <div class="col-4 col-4-md col-12-sm d-flex justify-content-center flex-column">
           <div class="d-flex flex-wrap justify-content-center-sm">
             <span class="fs-7-lg me-1-5 text-nowrap">{{ page.header.copyright_text|e }}</span>
-            <span class="fs-7-lg grey-60 me-1-5">v<span>1.0.0-alpha.8</span></span>
-            <span class="d-none-sm me-1-5">
-              {% for link_social in page.header.link_socials %}
-                <a href="{{ link_social.link|e }}" target="_blank" class="me-1-5 primary"><i class="{{ link_social.icon|e }}"></i></a>
-              {% endfor %}
-            </span>
           </div>
         </div>
         <div class="col-12-sm d-flex-sm d-none flex-column justify-content-center">
           <div class="text-center">
             {% for link_social in page.header.link_socials %}
-              <a href="{{ link_social.link|e }}" target="_blank" class="me-1-5 primary"><i class="{{ link_social.icon|e }}"></i></a>
+            <a href="{{ link_social.link|e }}" target="_blank" class="me-1-5 primary"><i class="{{ link_social.icon|e }}"></i></a>
             {% endfor %}
           </div>
         </div>
-        <div class="align-items-center col-3 col-3-md col-12-sm d-flex fs-7-lg justify-content-center-sm justify-content-end flex-column-sm">
-          {% if page.media|first.url %}
-            <a class="me-1-5 primary" href="{{ page.media|first.url|e }}" target="_blank">Privacy policy</a>
-          {% endif %}
+        <div class="align-items-center col-4 col-4-md d-flex fs-7-lg grey-60 justify-content-center">
+          <i class="me-1-5 fa-heart fas"></i> Open-source: <a class="grey-60" href="https://github.com/martonlente/grav-theme-martonlente.git" target="_blank">Grav theme martonlente v<span>1.0.0-alpha.8</span></a>
+        </div>
+        <div class="align-items-center col-4 col-4-md col-12-sm d-flex fs-7-lg justify-content-center-sm justify-content-end flex-column-sm">
+          <span class="d-none-sm me-1-5">
+            {% for link_social in page.header.link_socials %}
+              <a href="{{ link_social.link|e }}" target="_blank" class="me-1-5 primary"><i class="{{ link_social.icon|e }}"></i></a>
+            {% endfor %}
+            {% if page.media|first.url %}
+              <a class="me-1-5 primary" href="{{ page.media|first.url|e }}" target="_blank">Privacy policy</a>
+            {% endif %}
+          </span>
         </div>
         <div class="col-12-sm"></div>
       </div>
