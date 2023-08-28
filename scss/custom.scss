@@ -61,7 +61,6 @@ a {
 }
 
 b,
-
 strong {
   font-family: var(--font-sans-serif-bold);
   font-weight: var(--fw-normal);
@@ -116,6 +115,10 @@ img {
 
 li::marker {
   color: var(--secondary);
+}
+
+pre {
+  white-space: normal;
 }
 
 /*Utilities

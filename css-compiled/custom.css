@@ -114,6 +114,10 @@ li::marker {
   color: var(--secondary);
 }
 
+pre {
+  white-space: normal;
+}
+
 /*Utilities
  */
 .align-top {
