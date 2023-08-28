@@ -554,7 +554,8 @@ pre {
 .content-single h5,
 .content-single h6,
 .content-single p,
-.content-single pre {
+.content-single pre,
+.content-single ul {
   margin-left: calc(100% / var(--grid-columns) * 2);
   width: calc(100% / var(--grid-columns) * 8);
 }
@@ -567,7 +568,8 @@ pre {
 .content-single h5,
 .content-single h6,
 .content-single p,
-.content-single pre {
+.content-single pre,
+.content-single ul {
     margin-left: 0;
     width: 100%;
   }
@@ -587,7 +589,8 @@ pre {
   width: 100%;
 }
 
-.content-single p {
+.content-single p,
+.content-single ul {
   padding: 0 var(--grid-gutter-width);
 }
 
