@@ -26,6 +26,11 @@
   {% do assets.addCss('theme://css-compiled/custom.css?v=1.0.0-alpha.11') %}
 {% endblock %}
 
+<script>
+  // Create variable themeUrl for js
+  var themeUrl = '{{ theme_url }}';
+</script>
+
 {% block javascripts %}
   {% do assets.addJs('jquery', 101) %}
   {% do assets.addJs('theme://node_modules/imagesloaded/imagesloaded.pkgd.min.js?v=1.0.0-alpha.11', {'group':'bottom'}) %}

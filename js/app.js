@@ -43,6 +43,19 @@
   function contentSingle() {
     var $contentSingle = $('.js-content-single');
 
+    function blockquote() {
+      // Create variable blockquoteIcon markup
+      var blockquoteIcon = '<div class="position-absolute row start-0 top-0"><div class="col-2"></div><div class="col-1 col-2-md text-end"><img alt="" class="bottom-2 h-8 mb-0 mw-100 position-relative" src="' + themeUrl + '/images/ic_fluent_text_quote_24_regular-gradient.svg"></div><div class="col-9"></div></div>';
+
+      $contentSingle.find('blockquote')
+        .each(function() {
+          var $this = $(this);
+
+          $this.addClass('position-relative')
+            .prepend(blockquoteIcon);
+        });
+    }
+
     function img() {
       $contentSingle.find('img')
         .each(function() {
@@ -59,6 +72,7 @@
     // TODO: add function code codeCopy
 
     function init() {
+      blockquote();
       img();
     }
 
