@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "//": "TODO: add autoprefixer",
-    "css": "sass --watch scss/custom.scss css-compiled/custom.css"
+    "css": "sass --no-source-map --watch scss/custom.scss css-compiled/custom.css"
   },
   "author": "",
   "license": "ISC",
