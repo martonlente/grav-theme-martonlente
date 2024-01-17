@@ -19,10 +19,10 @@
 /*Variables Type
  */
 :root {
-  --font-monospace: "Source Code Pro", monospace;
-  --font-sans-serif: "Rutan-Regular", sans-serif;
-  --font-sans-serif-2: "Stolzl-Medium", sans-serif;
-  --font-sans-serif-bold: "Rutan-Medium", sans-serif;
+  --font-monospace: "nimbus_monoregular", monospace;
+  --font-sans-serif: "nimbus_sans_lregular", sans-serif;
+  --font-sans-serif-2: "nimbus_sans_lregular", sans-serif;
+  --font-sans-serif-bold: "nimbus_sans_lbold", sans-serif;
   --fs-8: 1.2rem;
   --lh-base: 2.4rem;
 }
