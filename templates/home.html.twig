@@ -1,5 +1,75 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-  <h1>Hello World!</h1>
+  <section class="border-bottom pb-9 pt-9">
+    <div class="h-6"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="fs-lg text-uppercase">
+            <strong>I'm a designer and developer from Budapest,</strong> currently working<br>
+            full-time <a class="border-bottom" href="#" target="_blank">at Blender.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="h-5"></div>
+  </section>
+  <section class="border-bottom pb-9 pt-9">
+    <div class="h-3"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="fs-1 mb-2 text-uppercase">About</h2>
+          <p class="fs-3">
+            For the past 10 years I've been working on brand design and web development projects, <strong>helping mainly architecture and cultural related initiatives.</strong> Part-time I assist in ongoing projects for select clients. Learn more <a class="text-decoration-underline" href="#">about me.</a>
+          </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-3">
+          <img class="w-100" src="{{ url('theme://images/marton-lente-half-figure-about-min.jpg')|e }}">
+        <div class="col-2"></div>
+      </div>
+      <div class="h-2"></div>
+    </div>
+  </section>
+  <section class="border-bottom pb-9 pt-9">
+    <div class="row pb-9">
+      <div class="col-12">
+        <ul class="list-txt">
+          <li class="d-inline fs-3 text-uppercase">Brand consulting</li>
+          <li class="d-inline fs-3 text-uppercase">Logo design</li>
+          <li class="d-inline fs-3 text-uppercase">Identity design</li>
+          <li class="d-inline fs-3 text-uppercase">Web consulting</li>
+          <li class="d-inline fs-3 text-uppercase">Web UX design</li>
+          <li class="d-inline fs-3 text-uppercase">Web UI design</li>
+          <li class="d-inline fs-3 text-uppercase">Front-end development</li>
+          <li class="d-inline fs-3 text-uppercase">Email signature development</li>
+          <li class="d-inline fs-3 text-uppercase">Baseutil CSS</li>
+          <li class="d-inline fs-3 text-uppercase">WordPress dev</li>
+          <li class="d-inline fs-3 text-uppercase">Grav CMS dev</li>
+          <li class="d-inline fs-3 text-uppercase">Perch CMS dev</li>
+        </ul>
+      </div>
+      <div class="h-3"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h3 class="fs-1 mb-4 text-uppercase">Brand design</h3>
+          <p class="fs-3">
+            I build strong perceptions of brands by doing brand design, and web design on a strategic manner. I help define and visualize the message, that resonate with the audience.
+          </p>
+        </div>
+        <div class="col-6 pt-9">
+          <div class="h-2"></div>
+          <h3 class="fs-1 mb-4 text-uppercase">Development</h3>
+          <p class="fs-3">
+            I do front-end, and CMS web development of bespoke websites, web apps, and webshops. I develop custom solutions running on WordPress, Grav or Perch. <strong>I am the author of <a class="border-bottom" href="#" target="_blank">Baseutil CSS,</a></strong> an open-source web typography framework for designers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="h-2"></div>
+  </section>
 {% endblock %}
