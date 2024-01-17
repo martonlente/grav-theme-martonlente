@@ -50,6 +50,15 @@
 
 {% block header %}
   <header class="backdrop-filter-blur position-fixed start-0 top-0 w-100 z-index-10000" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');">
+    <div class="bg-secondary pt-1">
+      <div class="row">
+        <div class="col-12">
+          <p class="grey-98">
+            The website is under development.
+          </p>
+        </div>
+      </div>
+    </div>
     <div class="container position-relative">
     <div class="h-8-xs h-10-lg h-12 row">
       <div class="align-items-center col-4 col-8-md d-flex">
@@ -87,6 +96,8 @@
 
 {% block body %}
   <main class="bg-white" id="main">
+    {# Element '.h-5' is needed when notice bar is active #}
+    <div class="h-5"></div>
     <div class="h-8-xs h-10-lg h-12"></div>
     {% block hero %}{% endblock %}
     {% block content %}{% endblock %}
