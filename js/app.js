@@ -161,8 +161,17 @@
   function scroll() {
     var $endZoneHelper = $('.js-end-zone-helper');
     var $footer = $('.js-footer');
+    var $header = $('.js-header');
+    var headerBgImg = $header.css('background-image');
     var $imgLogo = $('.js-img-logo');
     var $linkTop = $('.js-link-top');
+
+    function changeHeaderBgImg(property) {
+      $header.css('background-image', property);
+    }
+
+    // Clear header bg image
+    changeHeaderBgImg('');
 
     $window.scroll(function() {
       var scrollTopCurrent = $window.scrollTop();
@@ -170,11 +179,17 @@
 
       if (scrollTopCurrent == 0) {
         $imgLogo.toggleClass('transition-fade-in transition-fade-out');
+
+        // Clear header bg img
+        changeHeaderBgImg('');
       } else if (scrollTopCurrent >= endZone) {
         $endZoneHelper.removeClass('js-end-zone-helper-transition-inactive').addClass('js-end-zone-helper-transition-active');
       } else {
         $endZoneHelper.removeClass('js-end-zone-helper-transition-active').addClass('js-end-zone-helper-transition-inactive');
         $imgLogo.addClass('transition-fade-out').removeClass('transition-fade-in');
+
+        // Set header bg img
+        changeHeaderBgImg(headerBgImg);
       }
 
       $linkTop.css('transform', 'rotate(' + scrollTopCurrent / 3 + 'deg)');
