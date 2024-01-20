@@ -298,6 +298,10 @@ pre {
   min-height: calc(var(--spacer) * 21);
 }
 
+.mh-25 {
+  min-height: calc(var(--spacer) * 25);
+}
+
 @media (max-width: 991px) {
   .mh-0-md {
     min-height: 0;
@@ -308,7 +312,7 @@ pre {
 }
 
 .text-delimiter:after {
-  content: " • ";
+  content: " — ";
 }
 
 .text-delimiter:last-child:after {
