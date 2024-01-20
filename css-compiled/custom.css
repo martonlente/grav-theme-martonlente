@@ -76,6 +76,7 @@ h4,
 h5,
 h6 {
   font-weight: var(--fw-normal);
+  text-transform: uppercase;
 }
 
 h1 {
@@ -610,14 +611,6 @@ pre {
 .hero strong {
   color: var(--grey-60);
   font-family: var(--font-sans-serif-2);
-}
-
-.list-txt li::after {
-  content: " — ";
-}
-
-.list-txt li:last-child::after {
-  content: "";
 }
 
 .js-end-zone-helper-transition {
