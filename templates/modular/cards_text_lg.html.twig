@@ -13,7 +13,12 @@
             </ul>
             <p class="mb-2">{{ card.text|e }}</p>
             {% if card.link %}
-              <a class="align-items-center d-flex" href="{{ card.link|e }}"><span class="me-1">{{ card.link_text|e }}</span><img alt="" class="fill-secondary h-2 js-svg-injector-item" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg') }}"></a>
+              <a class="align-items-center border-bottom d-inline-flex" href="{{ card.link|e }}">
+                <span class="me-1">{{ card.link_text|e }} ></span>
+                {#
+                  <img alt="" class="fill-secondary h-2 js-svg-injector-item" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg') }}">
+                #}
+              </a>
             {% endif %}
           </div>
         </div>

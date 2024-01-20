@@ -1,12 +1,11 @@
 {% set page_parent = page.parent.slug %}
-<section class="hero mb-6">
-  <div class="bg-gradient d-flex flex-column h-54 h-60-xs justify-content-center">
-    <div class="h-54 h-60-xs mix-blend-mode-multiply opacity-20 position-absolute w-100" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
+<section class="border-bottom hero mb-6">
+  <div class="d-flex flex-column h-54 h-60-xs justify-content-center">
     <div class="container position-relative">
       <div class="row">
         <div class="col-1"></div>
         <div class="col-10">
-          <div class="font-sans-serif-2 fs-7 grey-98 letter-spacing-lg mb-3 text-uppercase">
+          <div class="font-sans-serif-2 fs-7 letter-spacing-lg mb-3 text-uppercase">
             {% if page_parent == 'blog' %}
               Blog • {{ page.date|date("Y. m. d.")|e }}
             {% elseif page_parent == 'work' %}
@@ -16,9 +15,9 @@
             {% endif %}
           </div>
           {% if page_parent == 'blog' or page_parent == 'work' %}
-            <h1 class="fs-2-md fs-3-xs grey-98 mb-2">{{ page.title|e }}</h1>
+            <h1 class="fs-2-md fs-3-xs mb-2">{{ page.title|e }}</h1>
           {% else %}
-            <h1 class="fs-2-md fs-3-xs grey-98 mb-0">{{ page.header.hero_text|markdown|striptags('<strong>')|raw }}</h1>
+            <h1 class="fs-2-md fs-3-xs mb-0">{{ page.header.hero_text|markdown|striptags('<strong>')|raw }}</h1>
           {% endif %}
           {% if page_parent == 'blog' %}
             <h2 class="fs-3-md fs-4-xs grey-60 mb-0-md mb-2">{{ page.header.subtitle|e }}</h2>
