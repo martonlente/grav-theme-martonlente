@@ -342,6 +342,10 @@ pre {
   content: "";
 }
 
+.text-transform-none {
+  text-transform: none;
+}
+
 .top-10 {
   top: calc(var(--spacer) * 10);
 }
