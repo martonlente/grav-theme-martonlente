@@ -1,6 +1,6 @@
 {% set images_first = page.media.images|first %}
 {% block content %}
-  <section class="bg-grey-98" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');" {% if page.header.id %}id="{{ page.header.id|e }}"{% endif %}>
+  <section class="border-bottom" {% if page.header.id %}id="{{ page.header.id|e }}"{% endif %}>
     <div class="container pb-2 pt-6">
       <div class="pb-2 row">
         <div class="col-12">
@@ -10,7 +10,7 @@
       </div>
       <div class="flex-column-reverse-sm flex-row-reverse-md row">
         <div class="col-1"></div>
-        <div class="align-items-center col-8 col-10-md col-12-sm d-flex fs-5">
+        <div class="align-items-center col-8 col-10-md col-12-sm content d-flex fs-5 pb-0">
           {{ page.content|raw }}
         </div>
         <div class="col-2 col-2-md col-12-sm">

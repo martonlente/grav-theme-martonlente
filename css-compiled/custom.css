@@ -340,7 +340,7 @@ pre {
 /*Components
  */
 .content {
-  padding-bottom: calc(var(--spacer) * 5);
+  padding-bottom: calc(var(--spacer) * 11);
 }
 
 .content a {
@@ -401,21 +401,25 @@ pre {
 
 .content h2 {
   font-size: var(--fs-1);
-  line-height: calc(var(--spacer) * 7);
+  line-height: 4rem;
+}
+
+.content h3,
+.content h4 {
+  line-height: 3.2rem;
 }
 
 .content h3 {
   font-size: var(--fs-2);
-  line-height: calc(var(--spacer) * 6);
-}
-
-.content h4,
-.content h5 {
-  line-height: calc(var(--spacer) * 5);
 }
 
 .content h4 {
   font-size: var(--fs-3);
+}
+
+.content h5,
+.content h6 {
+  line-height: var(--lh-base);
 }
 
 .content h5 {
@@ -640,4 +644,7 @@ pre {
   .nav-md-active .nav-md-inner {
     height: calc(100vh - var(--spacer) * 8);
   }
+}
+.pb-0 {
+  padding-bottom: 0;
 }

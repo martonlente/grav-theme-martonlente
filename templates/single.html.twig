@@ -5,9 +5,11 @@
 {% endblock %}
 {% block content %}
   {% include 'partials/featured_image.html.twig' %}
-  <div class="container content content-single js-content-single">
-    <div class="row">
-      {{ page.content|raw }}
+  <div class="border-bottom">
+    <div class="container content content-single js-content-single">
+      <div class="row">
+        {{ page.content|raw }}
+      </div>
     </div>
   </div>
   {% include 'author.html.twig' with {'page': page.find('/author')} %}

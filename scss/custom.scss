@@ -363,7 +363,7 @@ pre {
 /*Components
  */
 .content {
-  padding-bottom: calc(var(--spacer) * 5);
+  padding-bottom: calc(var(--spacer) * 11);
 }
 
 .content a {
@@ -682,4 +682,8 @@ pre {
   .nav-md-active .nav-md-inner {
     height: calc(100vh - var(--spacer) * 8);
   }
+}
+
+.pb-0 {
+  padding-bottom: 0;
 }
