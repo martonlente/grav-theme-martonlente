@@ -137,9 +137,12 @@
       });
     });
 
-    $isotopeGrid.isotope({
-      itemSelector: '.js-isotope-grid-item'
-    });
+    // Wait for fonts to load
+    setTimeout(function() {
+      $isotopeGrid.isotope({
+        itemSelector: '.js-isotope-grid-item'
+      });
+    }, 200)
   }
 
   function jQuerySmoothScroll() {
