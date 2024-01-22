@@ -1,14 +1,14 @@
 {% block content %}
-<div>
+<div class="border-bottom">
   <div class="container pb-9">
     <ul>
       {% for item in page.header.items %}
         <li class="pb-2 row">
-          <div class="col-3 col-3-md font-sans-serif-bold fs-3 fs-4-xs text-end">
+          <div class="col-3 col-3-md fs-3 fs-4-xs text-end">
             {{ item.year|e }}
           </div>
           <div class="col-9 col-9-md">
-            <h6 class="font-sans-serif-bold fs-3 fs-4-xs">{{ item.title|e }}</h6>
+            <h6 class="fs-3 fs-4-xs">{{ item.title|e }}</h6>
             <p class="fs-3 fs-4-xs grey-60">
               {{ item.text|e }}
             </p>
