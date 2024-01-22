@@ -128,9 +128,9 @@
       var $this = $(this);
       var filterValue = $this.attr('data-filter');
 
-      $btnIsotopeFilter.removeClass('secondary');
+      $btnIsotopeFilter.removeClass('border-bottom');
 
-      $this.addClass('secondary');
+      $this.addClass('border-bottom');
 
       $isotopeGrid.isotope({
         filter: filterValue,
