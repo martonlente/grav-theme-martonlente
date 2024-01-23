@@ -1,4 +1,4 @@
-<section>
+<section class="border-bottom">
   <div class="container">
     <div class="pb-6">
       {% for module in page.collection() %}
@@ -9,19 +9,25 @@
       <div class="col-6 mb-3-md">
         {% if page.nextSibling().title %}
           <a class="d-flex font-sans-serif-2 fs-3 grey-60" href="{{ page.nextSibling().url|e }}">
-            <div class="align-items-center d-flex h-4">
+            <div class="align-items-center d-flex grey-60 h-4">
+              {#
               <img alt="" class="fill-grey-60 h-3 js-svg-injector-item mb-0 me-1" src="{{ url('theme://images/ic_fluent_arrow_left_24_filled.svg')|e }}">
+              #}
+              <
             </div>
-            <div>{{ page.nextSibling().title|e }}</div>
+            <div class="ps-1">{{ page.nextSibling().title|e }}</div>
           </a>
         {% endif %}
       </div>
       <div class="col-6">
         {% if page.prevSibling().title %}
           <a class="d-flex font-sans-serif-2 fs-3 grey-60 justify-content-end" href="{{ page.prevSibling().url|e }}">
-            <div class="me-1 text-end">{{ page.prevSibling().title|e }}</div>
-            <div class="align-items-center d-flex h-4">
+            <div class="me-1 pe-1 text-end">{{ page.prevSibling().title|e }}</div>
+            <div class="align-items-center d-flex grey-60 h-4">
+              {#
               <img alt="" class="fill-grey-60 h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}">
+              #}
+              >
             </div>
           </a>
         {% endif %}
