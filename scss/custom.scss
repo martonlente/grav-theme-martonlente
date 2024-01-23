@@ -424,25 +424,21 @@ pre {
 
 .content h2 {
   font-size: var(--fs-1);
-  line-height: 4.0rem;
-}
-
-.content h3,
-.content h4 {
-  line-height: 3.2rem;
+  line-height: calc(var(--spacer) * 7);
 }
 
 .content h3 {
   font-size: var(--fs-2);
+  line-height: calc(var(--spacer) * 6);
+}
+
+.content h4,
+.content h5 {
+  line-height: calc(var(--spacer) * 5);
 }
 
 .content h4 {
   font-size: var(--fs-3);
-}
-
-.content h5,
-.content h6 {
-  line-height: var(--lh-base);
 }
 
 .content h5 {
