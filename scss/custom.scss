@@ -251,7 +251,10 @@ pre {
   }
 
   .fs-3-md,
-  .fs-3-md p,
+  .fs-3-md p {
+    line-height: 4.0rem;
+  }
+
   .fs-4-md,
   .fs-4-md p,
   .fs-5-md,
@@ -475,17 +478,14 @@ pre {
 }
 
 @media (max-width: 991px) {
-  .content h2,
-  .content h3 {
-    line-height: 3.2rem;
-  }
-
   .content h2 {
     font-size: var(--fs-2);
+    line-height: 4.8rem;
   }
 
   .content h3 {
     font-size: var(--fs-3);
+    line-height: 3.2rem;
   }
 
   .content h4,
