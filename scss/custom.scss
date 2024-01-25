@@ -239,12 +239,17 @@ pre {
 
 @media (max-width: 991px) {
   .fs-1-md,
-  .fs-1-md p {
-    line-height: 4.0rem;
+  .fs-1-md p,
+  .fs-2-md,
+  .fs-2-md p {
+    line-height: 4.8rem;
   }
 
-  .fs-2-md,
-  .fs-2-md p,
+  .fs-1-md,
+  .fs-1-md p {
+    font-size: var(--fs-1);
+  }
+
   .fs-3-md,
   .fs-3-md p,
   .fs-4-md,
