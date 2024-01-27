@@ -51,8 +51,14 @@
 /*Grid
  */
 @media (max-width: 1264px) {
+  .col-2-md {
+    width: calc(100% / var(--grid-columns) * 2);
+  }
   .col-4-md {
     width: calc(100% / var(--grid-columns) * 4);
+  }
+  .col-6-md {
+    width: calc(100% / var(--grid-columns) * 6);
   }
   .col-8-md {
     width: calc(100% / var(--grid-columns) * 8);

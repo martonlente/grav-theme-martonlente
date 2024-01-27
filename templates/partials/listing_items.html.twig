@@ -27,7 +27,7 @@
                 <div class="bg-cover js-listing-gallery-item position-absolute start-0 top-0 w-100 {{ p.header.image_ratio|e }} {% if p.header.image_top == 1 %}bg-top-center{% else %}bg-center{% endif %}" style="background-image: url('{% if image.width >= 1520 %}{{ image.resize(1520).url|e }}{% else %}{{ image.url|e }}{% endif %}');"></div>
               {% endfor %}
             </div>
-            <div class="ps-4">
+            <div class="ps-0-md ps-4">
               <h3 class="mb-2 primary">{{ p.title|e }}</h3>
               {% if p.header.subtitle %}
                 <h4 class="fs-6 mb-0-md mb-2 primary">{{ p.header.subtitle|e }}</h4>
