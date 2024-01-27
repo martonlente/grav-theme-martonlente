@@ -68,6 +68,10 @@
   .col-8-md {
     width: calc(100% / var(--grid-columns) * 8);
   }
+
+  .col-10-md {
+    width: calc(100% / var(--grid-columns) * 10);
+  }
 }
 
 /*Type
