@@ -46,6 +46,7 @@
     --fs-5: 1.6rem;
     --fs-6: 1.4rem;
     --fs-7: 1.2rem;
+    --lh-base: calc(var(--spacer) * 3);
   }
 }
 /*Grid
@@ -238,8 +239,8 @@ pre {
 @media (max-width: 960px) {
   .fs-1-sm,
   .fs-1-sm p,
-  .fs-2-md,
-  .fs-2-md p {
+  .fs-2-sm,
+  .fs-2-sm p {
     line-height: 4.8rem;
   }
   .fs-1-sm,
@@ -314,8 +315,8 @@ pre {
 }
 
 @media (max-width: 600px) {
-  .h-60-xs {
-    height: calc(var(--spacer) * 60);
+  .h-40-xs {
+    height: calc(var(--spacer) * 40);
   }
 }
 .mh-21 {
@@ -359,8 +360,8 @@ pre {
   .top-8-xs {
     top: calc(var(--spacer) * 8);
   }
-  .top-14-xs {
-    top: calc(var(--spacer) * 14);
+  .top-13-xs {
+    top: calc(var(--spacer) * 13);
   }
 }
 .z-index-10000 {
@@ -487,7 +488,7 @@ pre {
   .content li,
   .content p {
     font-size: var(--fs-6);
-    line-height: var(lh-base);
+    line-height: var(--lh-base);
   }
 }
 @media (max-width: 600px) {
