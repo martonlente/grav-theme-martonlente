@@ -529,7 +529,8 @@ pre {
 }
 
 @media (max-width: 600px) {
-  .content h1 {
+  .content h1,
+  .content h2 {
     line-height: 3.2rem;
   }
 
