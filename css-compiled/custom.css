@@ -269,11 +269,29 @@ pre {
   .fs-1-xs p {
     line-height: 3.2rem;
   }
+  .fs-1-sm,
+  .fs-1-sm p {
+    line-height: calc(var(--spacer) * 5);
+  }
+  .fs-2-sm,
+  .fs-2-sm p,
+  .fs-3-sm,
+  .fs-3-sm p,
+  .fs-4-sm,
+  .fs-4-sm p,
+  .fs-5-sm,
+  .fs-5-sm p {
+    line-height: 3.2rem;
+  }
   .fs-3,
   .fs-3 p,
   .fs-3-xs,
   .fs-3-xs p {
     line-height: 2.8rem;
+  }
+  .fs-6-sm,
+  .fs-6-sm p {
+    line-height: var(--lh-base);
   }
 }
 @media (max-width: 1264px) {
