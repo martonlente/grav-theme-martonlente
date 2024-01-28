@@ -15,12 +15,12 @@
             {% endif %}
           </div>
           {% if page_parent == 'blog' or page_parent == 'work' %}
-            <h1 class="fs-2-md fs-3-xs mb-2">{{ page.title|e }}</h1>
+            <h1 class="fs-2-sm fs-3-xs mb-2">{{ page.title|e }}</h1>
           {% else %}
-            <h1 class="fs-2-md fs-3-xs mb-0">{{ page.header.hero_text|markdown|striptags('<strong>')|raw }}</h1>
+            <h1 class="fs-2-sm fs-3-xs mb-0">{{ page.header.hero_text|markdown|striptags('<strong>')|raw }}</h1>
           {% endif %}
           {% if page_parent == 'blog' %}
-            <h2 class="fs-3-md fs-4-xs grey-60 mb-0-md mb-2">{{ page.header.subtitle|e }}</h2>
+            <h2 class="fs-3-sm fs-4-xs grey-60 mb-0-md mb-2">{{ page.header.subtitle|e }}</h2>
           {% elseif page_parent == 'work' %}
             <p class="fs-5 fs-6-sm grey-60">{{ page.header.excerpt|e }}</p>
           {% endif %}

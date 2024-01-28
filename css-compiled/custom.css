@@ -37,7 +37,7 @@
   --lh-base: calc(var(--spacer) * 4);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   :root {
     --fs-1: 2.8rem;
     --fs-2: 2.4rem;
@@ -115,7 +115,7 @@ h5 {
   line-height: var(--lh-base);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   h1 {
     line-height: 3.2rem;
   }
@@ -215,41 +215,15 @@ pre {
     line-height: var(--lh-base);
   }
 }
-@media (max-width: 1199px) {
-  .fs-1-lg,
-  .fs-1-lg p {
-    line-height: 4rem;
-  }
-  .fs-2-lg,
-  .fs-2-lg p,
-  .fs-3-lg,
-  .fs-3-lg p,
-  .fs-4-lg,
-  .fs-4-lg p,
-  .fs-5-lg,
-  .fs-5-lg p {
-    line-height: 3.2rem;
-  }
-  .fs-6-lg,
-  .fs-6-lg p {
-    line-height: var(--lh-base);
-  }
-}
-@media (max-width: 991px) {
-  .fs-1-md,
-  .fs-1-md p,
-  .fs-2-md,
-  .fs-2-md p {
-    line-height: 4.8rem;
-  }
+@media (max-width: 1264px) {
   .fs-1-md,
   .fs-1-md p {
-    font-size: var(--fs-1);
-  }
-  .fs-3-md,
-  .fs-3-md p {
     line-height: 4rem;
   }
+  .fs-2-md,
+  .fs-2-md p,
+  .fs-3-md,
+  .fs-3-md p,
   .fs-4-md,
   .fs-4-md p,
   .fs-5-md,
@@ -258,6 +232,32 @@ pre {
   }
   .fs-6-md,
   .fs-6-md p {
+    line-height: var(--lh-base);
+  }
+}
+@media (max-width: 960px) {
+  .fs-1-sm,
+  .fs-1-sm p,
+  .fs-2-md,
+  .fs-2-md p {
+    line-height: 4.8rem;
+  }
+  .fs-1-sm,
+  .fs-1-sm p {
+    font-size: var(--fs-1);
+  }
+  .fs-3-sm,
+  .fs-3-sm p {
+    line-height: 4rem;
+  }
+  .fs-4-sm,
+  .fs-4-sm p,
+  .fs-5-sm,
+  .fs-5-sm p {
+    line-height: 3.2rem;
+  }
+  .fs-6-sm,
+  .fs-6-sm p {
     line-height: var(--lh-base);
   }
 }
@@ -281,7 +281,7 @@ pre {
     line-height: var(--lh-base);
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .fs-1,
   .fs-1 p,
   .fs-1-xs,
@@ -295,18 +295,16 @@ pre {
     line-height: 2.8rem;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 1264px) {
   .fs-8-lg,
   .fs-8-lg p {
     font-size: var(--fs-8);
   }
-}
-@media (max-width: 1199px) {
   .h-10-lg {
     height: calc(var(--spacer) * 10);
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .h-8-xs {
     height: calc(var(--spacer) * 8);
   }
@@ -315,7 +313,7 @@ pre {
   height: calc(var(--spacer) * 54);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .h-60-xs {
     height: calc(var(--spacer) * 60);
   }
@@ -328,7 +326,7 @@ pre {
   min-height: calc(var(--spacer) * 25);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 960px) {
   .mh-0-md {
     min-height: 0;
   }
@@ -357,7 +355,7 @@ pre {
   top: calc(var(--spacer) * 16);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .top-8-xs {
     top: calc(var(--spacer) * 8);
   }
@@ -458,14 +456,15 @@ pre {
   font-size: var(--fs-5);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 960px) {
   .content h2 {
     font-size: var(--fs-2);
-    line-height: 4.8rem;
+    line-height: calc(var(--spacer) * 6);
   }
-  .content h3 {
+  .content h3,
+  .content .fs-3 p {
     font-size: var(--fs-3);
-    line-height: 3.2rem;
+    line-height: calc(var(--spacer) * 5);
   }
   .content h4,
   .content h5 {
@@ -491,7 +490,7 @@ pre {
     line-height: var(lh-base);
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .content h1 {
     line-height: 3.2rem;
   }
@@ -517,7 +516,7 @@ pre {
   width: calc(100% / var(--grid-columns) * 7);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 960px) {
   .content-single blockquote p {
     margin-left: calc(100% / var(--grid-columns) * 2);
     width: calc(100% / var(--grid-columns) * 10);
@@ -550,7 +549,7 @@ pre {
   margin-left: calc(100% / var(--grid-columns) * 2 + var(--spacer) * 2);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 960px) {
   .content-single h1,
   .content-single h2,
   .content-single h3,
@@ -618,7 +617,7 @@ pre {
   visibility: hidden;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .hamburger {
     transform: scale(0.75);
   }
@@ -651,7 +650,7 @@ pre {
   transform: translateY(calc(var(--spacer) * -8));
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .js-end-zone-helper-transition-active {
     transform: translateY(calc(var(--spacer) * -15));
   }
@@ -665,7 +664,7 @@ pre {
   height: calc(100vh - var(--spacer) * 16);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
   .nav-md-active,
   .nav-md-active .nav-md-inner {
     height: calc(100vh - var(--spacer) * 14);
