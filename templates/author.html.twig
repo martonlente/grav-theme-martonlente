@@ -8,12 +8,12 @@
           <h2>{{ page.header.heading|e }}</h2>
         </div>
       </div>
-      <div class="flex-column-reverse-sm flex-row-reverse-md row">
+      <div class="flex-column-reverse-xs flex-row-reverse-sm row">
         <div class="col-1"></div>
-        <div class="align-items-center col-8 col-10-md col-12-sm content d-flex fs-5 pb-0">
+        <div class="align-items-center col-8 col-10-sm col-12-xs content d-flex fs-5 pb-0">
           {{ page.content|raw }}
         </div>
-        <div class="col-2 col-2-md col-12-sm">
+        <div class="col-2 col-2-sm col-12-xs pb-1-sm">
           <img alt="{{ page.header.description|e }}" class="d-block h-12-sm rounded-circle w-100 w-auto-sm" src="{% if images_first.width >= 1520 %}{{ images_first.resize(1520).url|e }}{% else %}{{ images_first.url|e }}{% endif %}">
         </div>
         <div class="col-1"></div>

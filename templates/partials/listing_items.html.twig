@@ -20,7 +20,7 @@
     <div class="js-isotope-grid">
       {% for p in page.collection %}
         {% set loop_index = loop.index|e %}
-        <div class="flex-column-reverse-md js-isotope-grid-item mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %} {% if p.taxonomy.category %}{% for category in p.taxonomy.category %}{{ category|e|replace(' ', '-') }} {% endfor %}{% endif %}">
+        <div class="flex-column-reverse-sm js-isotope-grid-item mb-6 row {% if loop_index is even %}flex-row-reverse{% endif %} {% if p.taxonomy.category %}{% for category in p.taxonomy.category %}{{ category|e|replace(' ', '-') }} {% endfor %}{% endif %}">
           <a class="col-7" href="{{ p.url|e }}">
             <div class="js-listing-gallery mb-3 position-relative {{ p.header.image_ratio|e }}">
               {% for image in p.media.images %}
@@ -42,7 +42,7 @@
             </div>
           </a>
           <div class="col-5 mb-1-5-md pt-0-md pt-3">
-            <div class="font-sans-serif-2 fs-7 grey-60 letter-spacing-lg text-uppercase {% if loop_index is even %}text-end{% else %}text-end-md{% endif %}">
+            <div class="font-sans-serif-2 fs-7 grey-60 letter-spacing-lg text-uppercase {% if loop_index is even %}text-end{% else %}text-end-sm{% endif %}">
               {% if p.parent.slug == 'blog' %}
                 {{ p.date|date("Y. m. d.")|e }}
               {% else %}
