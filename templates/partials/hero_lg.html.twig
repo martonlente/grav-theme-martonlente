@@ -1,0 +1,14 @@
+<section class="border-bottom pb-9 pt-9">
+  <div class="d-none-xs h-6"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="fs-1-sm fs-lg text-uppercase">
+          {# TODO: add style link text underline #}
+          {{ page.header.hero_text|markdown|striptags(['a', '<strong>'])|raw }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="d-none-xs h-5"></div>
+</section>
