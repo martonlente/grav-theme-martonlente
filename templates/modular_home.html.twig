@@ -1,0 +1,10 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block hero %}
+  {% include 'partials/hero_lg.html.twig' %}
+{% endblock %}
+{% block content %}
+  {% for module in page.collection() %}
+    {{ module.content|raw }}
+  {% endfor %}
+{% endblock %}
