@@ -1,0 +1,17 @@
+title: Intro image
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              header.heading:
+                label: Heading
+                type: text
