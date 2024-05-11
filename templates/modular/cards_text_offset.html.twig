@@ -1,0 +1,19 @@
+<section class="border-bottom pb-9">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h3 class="fs-1 mb-2">{{ page.header.fieldset.header|e }}</h3>
+        <p class="fs-3">
+          {{ page.header.fieldset.text|markdown(false) }}
+        </p>
+      </div>
+      <div class="col-6 pt-9">
+        <h3 class="fs-1 mb-2">{{ page.header.fieldset.header_2|e }}</h3>
+        <p class="fs-3">
+          {{ page.header.fieldset.text_2|markdown(false) }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="h-2"></div>
+</section>

@@ -1,0 +1,38 @@
+title: Cards text offset
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              content:
+                unset@: true
+              header.fieldset:
+                help: Cards text offset.
+                collapsed: false
+                collapsible: false
+                icon: th
+                info: Cards text offset
+                title: Cards text offset
+                type: fieldset
+                text: Cards text offset content
+                fields:
+                  header.fieldset.header:
+                    label: Header
+                    type: text
+                  header.fieldset.text:
+                    label: Text
+                    type: textarea
+                  header.fieldset.header_2:
+                    label: Header
+                    type: text
+                  header.fieldset.text_2:
+                    label: Text
+                    type: textarea
