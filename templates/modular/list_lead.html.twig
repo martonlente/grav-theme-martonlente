@@ -1,0 +1,10 @@
+<div class="row pb-9 pt-9">
+  <div class="col-12">
+    <ul>
+      {% for list_item in page.header.list %}
+        <li class="d-inline fs-3 text-delimiter text-uppercase">{{ list_item.text|e }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="h-3"></div>
+</div>

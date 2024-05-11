@@ -1,0 +1,25 @@
+title: List lead
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              content:
+                unset@: true
+              header.list:
+                name: list
+                type: list
+                label: List
+
+                fields:
+                  .text:
+                    label: Text
+                    type: text
