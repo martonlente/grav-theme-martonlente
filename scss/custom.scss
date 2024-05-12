@@ -544,6 +544,10 @@ pre {
   margin-left: calc(var(--spacer) * 2);
 }
 
+.content-modular a {
+  border-bottom: 0.1rem solid var(--primary);
+}
+
 .content-single blockquote {
   color: var(--grey-60);
   font-family: var(--font-sans-serif-2);
