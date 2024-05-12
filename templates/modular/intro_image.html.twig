@@ -1,6 +1,7 @@
+{% set divider = page.header.divider %}
 {% set images_first = page.media.images|first %}
 {% block content %}
-  <section class="border-bottom pb-9 pt-9">
+  <section class="pt-9 {% if divider == 1 %}border-bottom pb-9{% else %}pb-7{% endif %}">
     <div class="h-3"></div>
     <div class="container">
       <div class="row">

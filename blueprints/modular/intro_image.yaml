@@ -12,6 +12,14 @@ form:
       fields:
         content:
             fields:
+              header.divider:
+                default: 0
+                label: Divider
+                highlight: 1
+                options:
+                  0: No
+                  1: Yes
+                type: toggle
               header.heading:
                 label: Heading
                 type: text
