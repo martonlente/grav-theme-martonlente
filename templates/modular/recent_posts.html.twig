@@ -1,27 +1,16 @@
-<div>
-  <div class="container pb-9">
+<div class="border-bottom pb-9">
+  <div class="container">
     <div class="row">
-      <div class="col-2"></div>
-      <div class="col-8">
+      <div class="col-1"></div>
+      <div class="col-11">
         <ul>
           {% for p in page.collection({ items: {'@page.children': '/blog'}, 'limit': 3, 'order': {'by': 'date', 'dir': 'desc'} }) %}
-            <li class="list-style-none mb-3">
-              <a class="d-block fs-3 fs-4-xs font-sans-serif-bold grey-60" href="{{ p.url|e }}">
-                <span class="align-top me-1">{{ p.title|e }}</span><span class="align-items-center d-inline-flex h-4"><img alt="" class="fill-grey-60 h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}"></span>
-              </a>
+            <li class="d-block mb-2">
+              <a class="fs-3 text-decoration-underline" href="{{ p.url|e }}">{{ p.title|e }} ></a>
             </li>
           {% endfor %}
-          <li class="list-style-none mb-3">
-            <a class="d-flex font-sans-serif-bold fs-3 fs-4-xs fw-bold grey-60 secondary" href="/blog">
-              <div class="me-1">Read more</div>
-              <div class="align-items-center d-flex h-4">
-                <img alt="" class="fill-secondary h-3 js-svg-injector-item mb-0" src="{{ url('theme://images/ic_fluent_arrow_right_24_filled.svg')|e }}">
-              </div>
-            </a>
-          </li>
         </ul>
       </div>
-      <div class="col-2"></div>
     </div>
   </div>
 </div>
