@@ -1,31 +1,20 @@
 {% block content %}
-  <section>
-    <div class="container pb-6">
-      <div class="pb-5 row">
-        <div class="col-1"></div>
-        <div class="col-10">
-          <h3>{{ page.header.header|e }}</h3>
-        </div>
-        <div class="col-1"></div>
-      </div>
+  <div class="border-bottom pb-8">
+    <div class="container">
       <div class="align-items-end row">
         {% for card in page.header.cards %}
-          <a class="col-6 pb-5" href="{{ card.link|e }}">
-            <div class="mb-3 row">
-              <div class="col-10">
-                <div class="bg-center bg-cover {{ card.image_ratio|e }}" style="background-image: url('{{ page.media[card.image].url|e }}');"></div>
-              </div>
-              <div class="col-2"></div>
-            </div>
+          <a class="col-6 pb-4" href="{{ card.link|e }}">
             <div class="row">
-              <div class="col-2"></div>
-              <div class="col-8 mh-0-md mh-21">
-                <h4 class="fs-3 mb-2" {% if card.header_colour %} style="color: {{ card.header_colour|e }};" {% endif %}>{{ card.header|e }}</h4>
-                <ul>
-                  {% for service in card.services %}
-                    <li class="d-inline-block grey-60 text-delimiter text-nowrap">{{ service.text|e }}</li>
-                  {% endfor %}
-                </ul>
+              <div class="col-10">
+                <div class="bg-center bg-cover mb-2 {{ card.image_ratio|e }}" style="background-image: url('{{ page.media[card.image].url|e }}');"></div>
+                <div class="mh-0-md mh-25 ps-0-sm ps-4">
+                  <h4 class="fs-3 mb-2" {% if card.header_colour %} style="color: {{ card.header_colour|e }};" {% endif %}>{{ card.header|e }}</h4>
+                  <ul>
+                    {% for service in card.services %}
+                      <li class="d-inline-block text-delimiter text-nowrap">{{ service.text|e }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
               </div>
               <div class="col-2"></div>
             </div>
@@ -33,5 +22,5 @@
         {% endfor %}
       </div>
     </div>
-  </section>
+  </div>
 {% endblock %}

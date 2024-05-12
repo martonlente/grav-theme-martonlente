@@ -14,9 +14,6 @@ form:
             fields:
               content:
                 unset@: true
-              header.header:
-                label: Header
-                type: text
               header.cards:
                 name: cards
                 type: list
