@@ -1,0 +1,19 @@
+title: Header
+extends@:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+            fields:
+              content:
+                unset@: true
+              header.notification_bar_text:
+                label: Notification bar text
+                type: text

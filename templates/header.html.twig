@@ -1,0 +1,46 @@
+<header class="backdrop-filter-blur js-header position-fixed start-0 top-0 w-100 z-index-10000" style="background-image: url('{{ url('theme://images/asset-bg-noise-2x-opacity-10.png')|e }}');">
+  {% set notification_bar_text = page.header.notification_bar_text %}
+  {% if notification_bar_text %}
+    <div class="bg-secondary pt-1">
+      <div class="row">
+        <div class="col-12">
+          <p class="grey-98">
+            {{ notification_bar_text }}
+          </p>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  <div class="container position-relative">
+  <div class="h-8-xs h-10-lg h-12 row">
+    <div class="align-items-center col-4 col-8-md d-flex">
+      <a class="lh-1" href="{{ home_url|e }}">
+        <img class="d-block h-4-xs h-5-lg h-7 js-img-logo mb-0 position-absolute" src="{{ url('theme://images/marton-lente-logo-2022-v0-1-0.svg')|e }}" alt="Márton Lente logo primary">
+        <img class="d-block h-4-xs h-5-lg h-7 mb-0" src="{{ url('theme://images/marton-lente-logo-primary-m-period.svg')|e }}" alt="Márton Lente logo primary M period">
+      </a>
+    </div>
+    <div class="col-4-md col-8 d-flex flex-column justify-content-center">
+      <div class="d-flex flex-column h-4-xs h-5-lg h-7 h-auto-md justify-content-end">
+        {% block header_navigation %}
+          <nav class="d-none-md">
+            {% include 'partials/navigation.html.twig' %}
+          </nav>
+        {% endblock %}
+        <div class="d-flex justify-content-end">
+          <button class="d-flex-md d-none hamburger hamburger--spin js-btn-nav-md pb-0 pe-0 ps-0 pt-0" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+<div class="bg-white d-flex-md d-none h-0 js-nav-md nav-md opacity-0 overflow-y-hidden position-fixed start-0 w-100 z-index-10000   {% if notification_bar_text %}nav-md-active-helper-offset top-13-xs top-16{% else %}top-8-xs top-10{% endif %}">
+  <div class="mix-blend-mode-multiply opacity-10 w-100"  style="background-image: url('{{ url('theme://images/asset-bg-noise-2x.png')|e }}');"></div>
+  <nav class="d-flex flex-column justify-content-center nav-md-inner position-absolute start-0 top-0 w-100">
+    {% include 'partials/navigation_md.html.twig' %}
+  </nav>
+</div>

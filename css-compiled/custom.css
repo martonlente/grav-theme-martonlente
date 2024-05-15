@@ -677,12 +677,23 @@ pre {
 
 .nav-md-active,
 .nav-md-active .nav-md-inner {
-  height: calc(100vh - var(--spacer) * 16);
+  height: calc(100vh - var(--spacer) * 10);
 }
 
 @media (max-width: 600px) {
   .nav-md-active,
   .nav-md-active .nav-md-inner {
+    height: calc(100vh - var(--spacer) * 8);
+  }
+}
+.nav-md-active-helper-offset .nav-md-active,
+.nav-md-active-helper-offset .nav-md-active .nav-md-inner {
+  height: calc(100vh - var(--spacer) * 16);
+}
+
+@media (max-width: 600px) {
+  .nav-md-active-helper-offset .nav-md-active,
+  .nav-md-active-helper-offset .nav-md-active .nav-md-inner {
     height: calc(100vh - var(--spacer) * 13);
   }
 }
