@@ -3,4 +3,5 @@
     {% set current_page = (page.active or page.activeChild) ? 'border-bottom' : '' %}
     <li class="fs-7-lg lh-1 list-style-none ms-3 text-uppercase"><a class="primary {{ current_page|e }}" href="{{ page.url|e }}">{{ page.menu|e }}</a></li>
   {% endfor %}
+  {% include 'partials/langswitcher.html.twig' %}
 </ul>

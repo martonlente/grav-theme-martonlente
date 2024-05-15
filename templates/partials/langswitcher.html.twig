@@ -1,0 +1,13 @@
+{% extends 'partials/langswitcher-logic.html.twig' %}
+
+{% block language_block_start %}{% endblock %}
+
+{% block language_block_end %}{% endblock %}
+
+{% block language_item %}
+  {% if show_language %}
+    <li class="fs-7-lg languageswitcher-item lh-1 list-style-none ms-3 text-uppercase {{ active_class }}">
+      <a class="primary" href="{{ lang_url ~ uri.params ~ (uri.query|length > 1 ? '?' ~ uri.query) }}">{% include 'partials/langswitcher-' ~ display_format ~ '.html.twig' %}</a>
+    </li>
+  {% endif %}
+{% endblock %}

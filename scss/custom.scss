@@ -710,6 +710,19 @@ pre {
   transform: translateY(0);
 }
 
+// TOOD: hide languageswitcher-item if is not translation
+.languageswitcher-item {
+  display: none
+}
+
+.is-home .languageswitcher-item {
+  display: block
+}
+
+.is-home .languageswitcher-item.active {
+  display: none;
+}
+
 .nav-md-active,
 .nav-md-active .nav-md-inner {
   height: calc(100vh - var(--spacer) * 16);
