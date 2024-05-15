@@ -3,4 +3,5 @@
     {% set current_page = (page.active or page.activeChild) ? 'secondary' : '' %}
     <li class="list-style-none mb-3 text-center"><a class="fs-3 primary {{ current_page|e }}" href="{{ page.url|e }}">{{ page.menu|e }}</a></li>
   {% endfor %}
+  {% include 'partials/langswitcher_md.html.twig' %}
 </ul>
